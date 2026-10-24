@@ -1381,6 +1381,41 @@
    "confidence": "high",
    "note": "45-minute piece by the junior company.",
    "region": "afield"
+  },
+  {
+   "title": "Phot'Aix – 26e édition",
+   "venue": "La Fontaine Obscure and venues across Aix",
+   "town": "Aix-en-Provence",
+   "category": "exhibition",
+   "start": "2026-10-08",
+   "end": "2026-11-27",
+   "url": "http://www.fontaine-obscure.com",
+   "confidence": "medium",
+   "note": "Photography festival across Aix (Fondation Vasarely, Hôtel de ville and others).",
+   "region": "afield"
+  },
+  {
+   "title": "Octobre Numérique – Faire Monde",
+   "venue": "Venues across Arles",
+   "town": "Arles",
+   "category": "festival",
+   "start": "2026-10-10",
+   "end": "2026-11-08",
+   "url": "https://octobre-numerique.fr/",
+   "confidence": "medium",
+   "note": "Digital-culture festival (games, real-time image, installations) with Actes Sud and Chroniques.",
+   "region": "afield"
+  },
+  {
+   "title": "Trafic #3 – salon de l'édition indépendante",
+   "venue": "Frac Sud",
+   "category": "festival",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "url": "https://fracsud.org",
+   "confidence": "medium",
+   "note": "Art-publishing fair: 130+ publishers, zines and art schools.",
+   "region": "marseille"
   }
  ],
  "changelog": [

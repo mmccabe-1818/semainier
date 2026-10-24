@@ -1,33 +1,832 @@
 {
-  "_comment": "Recurring festivals and their usual window. The weekly run searches for each one's current dates from 6 weeks before 'from' until 'to'. Add a line when a festival is missed.",
-  "festivals": [
-    {"name": "Avec le temps", "from": "03-01", "to": "03-31", "cats": ["music"], "url": "https://www.festival-avecletemps.com/"},
-    {"name": "Printemps de l'Art Contemporain (PAC)", "from": "05-01", "to": "06-15", "cats": ["exhibition"], "url": "https://p-a-c.fr/"},
-    {"name": "Les Musicales de Marseille", "from": "05-15", "to": "06-30", "cats": ["classical"], "url": ""},
-    {"name": "Marsatac", "from": "06-01", "to": "06-30", "cats": ["music"], "url": "https://www.marsatac.com/"},
-    {"name": "Festival de Marseille", "from": "06-10", "to": "07-10", "cats": ["dance", "theatre"], "url": "https://www.festivaldemarseille.com/"},
-    {"name": "FIDMarseille", "from": "07-01", "to": "07-15", "cats": ["cinema"], "url": "https://fidmarseille.org/"},
-    {"name": "Marseille Jazz des cinq continents", "from": "07-10", "to": "07-31", "cats": ["music"], "url": "https://www.marseillejazz.com/"},
-    {"name": "Rencontres d'Arles (afield)", "from": "07-01", "to": "09-30", "cats": ["exhibition"], "url": "https://www.rencontres-arles.com/", "region": "afield"},
-    {"name": "Festival d'Aix-en-Provence (afield)", "from": "07-01", "to": "07-25", "cats": ["opera"], "url": "https://festival-aix.com/", "region": "afield"},
-    {"name": "Art-o-rama", "from": "08-25", "to": "09-05", "cats": ["exhibition"], "url": "https://art-o-rama.fr/"},
-    {"name": "Paréidolie", "from": "08-25", "to": "09-05", "cats": ["exhibition"], "url": "https://pareidolie.net/"},
-    {"name": "Actoral", "from": "09-20", "to": "10-15", "cats": ["theatre", "dance", "talk"], "url": "https://www.actoral.org/"},
-    {"name": "Fiesta des Suds", "from": "10-01", "to": "10-20", "cats": ["music"], "url": "https://www.dock-des-suds.org/"},
-    {"name": "Festival En Ribambelle", "from": "10-05", "to": "11-15", "cats": ["family"], "url": "https://www.festivalenribambelle.com/"},
-    {"name": "Les Instants Vidéo", "from": "10-20", "to": "11-15", "cats": ["cinema", "exhibition"], "url": "https://www.instantsvideo.com/"},
-    {"name": "Chroniques – Biennale des Imaginaires Numériques (even years)", "from": "10-20", "to": "12-15", "cats": ["exhibition", "festival"], "url": "https://chroniques-biennale.org/"},
-    {"name": "Rencontres d'Averroès", "from": "10-25", "to": "11-05", "cats": ["talk"], "url": "https://www.rencontresaverroes.com/"},
-    {"name": "Jazz sur la Ville", "from": "11-01", "to": "12-10", "cats": ["music"], "url": "https://www.jazzsurlaville.org/"},
-    {"name": "Films Femmes Méditerranée", "from": "11-01", "to": "11-20", "cats": ["cinema"], "url": "https://www.films-femmes-med.org/"},
-    {"name": "CinéHorizontes", "from": "11-05", "to": "11-25", "cats": ["cinema"], "url": "https://www.cinehorizontes.com/"},
-    {"name": "Dansem", "from": "11-10", "to": "12-15", "cats": ["dance"], "url": "https://www.dansem.org/"},
-    {"name": "Les Rencontres à l'échelle", "from": "11-10", "to": "12-10", "cats": ["theatre", "dance"], "url": "https://www.lesrencontresalechelle.com/"},
-    {"name": "Festival Tous Courts (Aix, afield)", "from": "11-25", "to": "12-10", "cats": ["cinema"], "url": "", "region": "afield"},
-    {"name": "Marseille Web Fest", "from": "10-01", "to": "10-31", "cats": ["cinema"], "url": ""},
-    {"name": "Image de Ville", "from": "11-01", "to": "11-30", "cats": ["cinema", "talk"], "url": "https://www.imagedeville.org/"},
-    {"name": "Phonurgia Nova", "from": "11-05", "to": "11-20", "cats": ["festival"], "url": "https://gmem.org/"},
-    {"name": "Les Nuits de l'Alcazar / Marseille lit", "from": "11-15", "to": "12-15", "cats": ["talk"], "url": ""},
-    {"name": "Oh les beaux jours !", "from": "05-20", "to": "06-05", "cats": ["talk"], "url": "https://ohlesbeauxjours.fr/"}
-  ]
+ "_comment": "Recurring festivals and their usual window. The weekly run searches for each one's current dates from 6 weeks before 'from' until 'to'. Add a line when a festival is missed.",
+ "festivals": [
+  {
+   "name": "BIAC – Biennale internationale des arts du cirque (odd years)",
+   "from": "01-04",
+   "to": "02-28",
+   "cats": [
+    "theatre",
+    "dance",
+    "family",
+    "festival"
+   ],
+   "url": "https://www.biennale-cirque.com",
+   "region": "marseille",
+   "note": "Contemporary circus across the region; next 4 Jan–28 Feb 2027"
+  },
+  {
+   "name": "Lecture par Nature",
+   "from": "01-13",
+   "to": "02-21",
+   "cats": [
+    "talk",
+    "family",
+    "festival"
+   ],
+   "url": "https://ampmetropole.lectureparnature.fr/",
+   "region": "marseille",
+   "note": "Métropole public-reading festival across ~70 libraries; 20 Jan–14 Feb 2026"
+  },
+  {
+   "name": "Nuits de la Lecture",
+   "from": "01-14",
+   "to": "02-01",
+   "cats": [
+    "talk",
+    "family"
+   ],
+   "url": "https://nuitsdelalecture.culture.gouv.fr",
+   "region": "marseille",
+   "note": "National late-night reading events; 21–25 Jan 2026"
+  },
+  {
+   "name": "Festival Parallèle",
+   "from": "01-21",
+   "to": "02-14",
+   "cats": [
+    "theatre",
+    "dance",
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.plateformeparallele.com",
+   "region": "marseille",
+   "note": "Emerging international performance festival, Marseille and Aix; Parallèle 16 ran 28 Jan–7 Feb 2026"
+  },
+  {
+   "name": "Les Élancées (Istres)",
+   "from": "01-27",
+   "to": "02-22",
+   "cats": [
+    "theatre",
+    "dance",
+    "family",
+    "festival"
+   ],
+   "url": "https://www.scenesetcines.fr",
+   "region": "afield",
+   "note": "Circus and movement arts; 3–15 Feb 2026"
+  },
+  {
+   "name": "Les Hivernales d'Avignon",
+   "from": "01-31",
+   "to": "03-06",
+   "cats": [
+    "dance",
+    "festival"
+   ],
+   "url": "https://www.hivernales-avignon.com",
+   "region": "afield",
+   "note": "CDCN contemporary dance festival; 7–27 Feb 2027"
+  },
+  {
+   "name": "Arles se livre",
+   "from": "02-13",
+   "to": "03-01",
+   "cats": [
+    "talk",
+    "festival"
+   ],
+   "url": "https://www.arles-se-livre.fr",
+   "region": "afield",
+   "note": "Book festival at Espace Van Gogh with ATLAS translators; 20–22 Feb 2026"
+  },
+  {
+   "name": "Mars en Baroque",
+   "from": "02-22",
+   "to": "04-03",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.marsenbaroque.com",
+   "region": "marseille",
+   "note": "Baroque music across Marseille venues; 1–27 Mar 2026"
+  },
+  {
+   "name": "Avec le temps",
+   "from": "03-01",
+   "to": "03-31",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.festival-avecletemps.com/"
+  },
+  {
+   "name": "Babel Minots",
+   "from": "03-02",
+   "to": "03-25",
+   "cats": [
+    "music",
+    "family",
+    "festival"
+   ],
+   "url": "https://www.babelminots.com",
+   "region": "marseille",
+   "note": "Young-audience music festival; 9–18 Mar 2026"
+  },
+  {
+   "name": "Printemps des Poètes (Marseille)",
+   "from": "03-07",
+   "to": "04-07",
+   "cats": [
+    "talk",
+    "festival"
+   ],
+   "url": "https://www.printempsdespoetes.com",
+   "region": "marseille",
+   "note": "Poetry fortnight: readings at La Criée, libraries, bookshops"
+  },
+  {
+   "name": "Babel Music XP",
+   "from": "03-12",
+   "to": "03-28",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.babelmusicxp.com",
+   "region": "marseille",
+   "note": "World music showcase and pro forum; 19–21 Mar 2026"
+  },
+  {
+   "name": "Festival Music & Cinema Marseille",
+   "from": "03-16",
+   "to": "04-04",
+   "cats": [
+    "cinema",
+    "music",
+    "festival"
+   ],
+   "url": "https://music-cinema.com",
+   "region": "marseille",
+   "note": "Former Aubagne film festival, now in Marseille; film music and first films; 23–28 Mar 2026"
+  },
+  {
+   "name": "Festival de Pâques d'Aix-en-Provence",
+   "from": "03-21",
+   "to": "04-19",
+   "cats": [
+    "classical",
+    "festival"
+   ],
+   "url": "https://www.festivalpaques.com",
+   "region": "afield",
+   "note": "Classical music at the Grand Théâtre de Provence; 28 Mar–12 Apr 2026"
+  },
+  {
+   "name": "Les Rencontres du 9e Art (Aix)",
+   "from": "04-04",
+   "to": "05-30",
+   "cats": [
+    "exhibition",
+    "family",
+    "festival"
+   ],
+   "url": "https://www.bd-aix.com",
+   "region": "afield",
+   "note": "Comics and graphic arts, exhibitions across Aix; 11 Apr–23 May 2026"
+  },
+  {
+   "name": "Festival du Dessin (Arles)",
+   "from": "04-11",
+   "to": "05-30",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.festivaldudessin.fr",
+   "region": "afield",
+   "note": "Citywide drawing festival; 2027: 24 Apr–23 May"
+  },
+  {
+   "name": "Propagations (GMEM)",
+   "from": "04-25",
+   "to": "05-17",
+   "cats": [
+    "music",
+    "dance",
+    "festival"
+   ],
+   "url": "https://gmem.org",
+   "region": "marseille",
+   "note": "GMEM's festival of sound creation (successor to Les Musiques); 2–10 May 2026"
+  },
+  {
+   "name": "AVIFF – Art Film Festival",
+   "from": "04-30",
+   "to": "05-17",
+   "cats": [
+    "cinema",
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.helloasso.com/associations/art-viff",
+   "region": "marseille",
+   "note": "Films by visual artists at the Vieille Charité and Les Variétés; 7–10 May 2026"
+  },
+  {
+   "name": "Les Arts Éphémères",
+   "from": "04-30",
+   "to": "05-29",
+   "cats": [
+    "exhibition",
+    "family",
+    "festival"
+   ],
+   "url": "https://arts-ephemeres.fr/",
+   "region": "marseille",
+   "note": "Contemporary art in the Parc de Maison Blanche (9e); May"
+  },
+  {
+   "name": "Printemps de l'Art Contemporain (PAC)",
+   "from": "05-01",
+   "to": "06-15",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://p-a-c.fr/"
+  },
+  {
+   "name": "Nuit européenne des musées",
+   "from": "05-09",
+   "to": "05-30",
+   "cats": [
+    "exhibition",
+    "family"
+   ],
+   "url": "https://nuitdesmusees.culture.gouv.fr",
+   "region": "marseille",
+   "note": "One-night free museum openings; Sat 23 May 2026"
+  },
+  {
+   "name": "Les Musicales de Marseille",
+   "from": "05-15",
+   "to": "06-30",
+   "cats": [
+    "classical"
+   ],
+   "url": ""
+  },
+  {
+   "name": "Le Bon Air",
+   "from": "05-15",
+   "to": "05-31",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.lebonairfestival.com",
+   "region": "marseille",
+   "note": "Electronic music on the Friche rooftop and Cabaret Aléatoire; 22–24 May 2026"
+  },
+  {
+   "name": "Oh les beaux jours !",
+   "from": "05-20",
+   "to": "06-05",
+   "cats": [
+    "talk"
+   ],
+   "url": "https://ohlesbeauxjours.fr/"
+  },
+  {
+   "name": "Festival Ciné-Palestine Marseille",
+   "from": "05-20",
+   "to": "06-07",
+   "cats": [
+    "cinema",
+    "talk",
+    "festival"
+   ],
+   "url": "https://www.helloasso.com/associations/festival-cine-palestine-marseille",
+   "region": "marseille",
+   "note": "Palestinian cinema across six Marseille cinemas; 27–31 May 2026"
+  },
+  {
+   "name": "Marsatac",
+   "from": "06-01",
+   "to": "06-30",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.marsatac.com/"
+  },
+  {
+   "name": "Festival de Marseille",
+   "from": "06-10",
+   "to": "07-10",
+   "cats": [
+    "dance",
+    "theatre"
+   ],
+   "url": "https://www.festivaldemarseille.com/"
+  },
+  {
+   "name": "Design Parade Hyères & Toulon",
+   "from": "06-18",
+   "to": "09-06",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://villanoailles.com",
+   "region": "afield",
+   "note": "Villa Noailles design festival with summer-long exhibitions; 25 Jun–30 Aug 2026"
+  },
+  {
+   "name": "Ciné plein air Marseille",
+   "from": "06-23",
+   "to": "10-02",
+   "cats": [
+    "cinema",
+    "family",
+    "festival"
+   ],
+   "url": "https://seances-speciales.fr",
+   "region": "marseille",
+   "note": "Free open-air screenings across ~26 sites all summer; 30 Jun–25 Sep 2026"
+  },
+  {
+   "name": "Les Nuits Flamencas (Aubagne)",
+   "from": "06-24",
+   "to": "07-12",
+   "cats": [
+    "music",
+    "dance",
+    "festival"
+   ],
+   "url": "https://en.tourisme-paysdaubagne.fr/",
+   "region": "afield",
+   "note": "Free flamenco festival in central Aubagne; 1–5 Jul 2026"
+  },
+  {
+   "name": "Festival Off d'Avignon",
+   "from": "06-27",
+   "to": "08-01",
+   "cats": [
+    "theatre",
+    "dance",
+    "music",
+    "festival"
+   ],
+   "url": "https://www.festivaloffavignon.com",
+   "region": "afield",
+   "note": "The fringe, 1,500+ shows; 4–25 Jul 2026"
+  },
+  {
+   "name": "Festival OFF d'Arles",
+   "from": "06-30",
+   "to": "10-12",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://festivaloffarles.com",
+   "region": "afield",
+   "note": "Emerging photography fringe to the Rencontres (successor to Voies Off); July–early Oct"
+  },
+  {
+   "name": "FIDMarseille",
+   "from": "07-01",
+   "to": "07-15",
+   "cats": [
+    "cinema"
+   ],
+   "url": "https://fidmarseille.org/"
+  },
+  {
+   "name": "Rencontres d'Arles (afield)",
+   "from": "07-01",
+   "to": "09-30",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://www.rencontres-arles.com/",
+   "region": "afield"
+  },
+  {
+   "name": "Festival d'Aix-en-Provence (afield)",
+   "from": "07-01",
+   "to": "07-25",
+   "cats": [
+    "opera"
+   ],
+   "url": "https://festival-aix.com/",
+   "region": "afield"
+  },
+  {
+   "name": "Les Suds, à Arles",
+   "from": "07-06",
+   "to": "07-26",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.suds-arles.com",
+   "region": "afield",
+   "note": "World music in the Théâtre Antique; 13–19 Jul 2026"
+  },
+  {
+   "name": "Festival de piano de La Roque d'Anthéron",
+   "from": "07-09",
+   "to": "08-23",
+   "cats": [
+    "classical",
+    "festival"
+   ],
+   "url": "https://www.festival-piano.com",
+   "region": "afield",
+   "note": "Open-air piano festival in the Château de Florans park; 16 Jul–16 Aug 2026"
+  },
+  {
+   "name": "Marseille Jazz des cinq continents",
+   "from": "07-10",
+   "to": "07-31",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.marseillejazz.com/"
+  },
+  {
+   "name": "Festival MIMI",
+   "from": "08-12",
+   "to": "09-05",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.amicentre.biz",
+   "region": "marseille",
+   "note": "AMI's experimental music festival at the Hôpital Caroline (Frioul) and Friche; late August"
+  },
+  {
+   "name": "Rencontres internationales de Lure",
+   "from": "08-15",
+   "to": "09-03",
+   "cats": [
+    "talk",
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://delure.org",
+   "region": "afield",
+   "note": "Typography and graphic design summer school in Lurs; 22–27 Aug 2026"
+  },
+  {
+   "name": "Agir pour le Vivant (Arles)",
+   "from": "08-16",
+   "to": "09-03",
+   "cats": [
+    "talk",
+    "festival"
+   ],
+   "url": "https://www.agirpourlevivant.fr",
+   "region": "afield",
+   "note": "Actes Sud's festival of ideas on ecology; late August"
+  },
+  {
+   "name": "Art-o-rama",
+   "from": "08-25",
+   "to": "09-05",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://art-o-rama.fr/"
+  },
+  {
+   "name": "Paréidolie",
+   "from": "08-25",
+   "to": "09-05",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://pareidolie.net/"
+  },
+  {
+   "name": "Journées européennes du patrimoine",
+   "from": "09-12",
+   "to": "09-27",
+   "cats": [
+    "exhibition",
+    "family",
+    "talk"
+   ],
+   "url": "https://journeesdupatrimoine.culture.gouv.fr",
+   "region": "marseille",
+   "note": "Heritage open weekend, third weekend of September"
+  },
+  {
+   "name": "Jours [et nuits] de cirque(s) (Aix)",
+   "from": "09-12",
+   "to": "10-04",
+   "cats": [
+    "theatre",
+    "family",
+    "festival"
+   ],
+   "url": "https://www.ciam-aix.com",
+   "region": "afield",
+   "note": "CIAM's contemporary circus festival under big tops; 19–27 Sep 2026"
+  },
+  {
+   "name": "Allez Savoir – festival des sciences sociales",
+   "from": "09-17",
+   "to": "10-03",
+   "cats": [
+    "talk",
+    "festival"
+   ],
+   "url": "https://allez-savoir.fr",
+   "region": "marseille",
+   "note": "EHESS / City festival of ideas across Vieille Charité, Alcazar, museums; 24–26 Sep 2026"
+  },
+  {
+   "name": "La Nuit de l'Instant",
+   "from": "09-18",
+   "to": "10-04",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.centrephotomarseille.fr",
+   "region": "marseille",
+   "note": "Centre Photographique's photo trail through unexpected venues of the 2e; 25–27 Sep 2026"
+  },
+  {
+   "name": "OAA – Ouvertures d'Ateliers d'Artistes",
+   "from": "09-18",
+   "to": "10-04",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.chateaudeservieres.org",
+   "region": "marseille",
+   "note": "Marseille open-studios weekend run by Château de Servières; 25–27 Sep 2026"
+  },
+  {
+   "name": "Festival Musiques Interdites",
+   "from": "09-18",
+   "to": "10-04",
+   "cats": [
+    "classical",
+    "festival"
+   ],
+   "url": "https://www.musiques-interdites.eu",
+   "region": "marseille",
+   "note": "Music by banned and persecuted composers; 25–27 Sep 2026"
+  },
+  {
+   "name": "Actoral",
+   "from": "09-20",
+   "to": "10-15",
+   "cats": [
+    "theatre",
+    "dance",
+    "talk"
+   ],
+   "url": "https://www.actoral.org/"
+  },
+  {
+   "name": "Fiesta des Suds",
+   "from": "10-01",
+   "to": "10-20",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.dock-des-suds.org/"
+  },
+  {
+   "name": "Marseille Web Fest",
+   "from": "10-01",
+   "to": "10-31",
+   "cats": [
+    "cinema"
+   ],
+   "url": ""
+  },
+  {
+   "name": "Phot'Aix",
+   "from": "10-01",
+   "to": "12-04",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "http://www.fontaine-obscure.com",
+   "region": "afield",
+   "note": "La Fontaine Obscure's photography festival across Aix; 8 Oct–27 Nov 2026"
+  },
+  {
+   "name": "Aflam – Rencontres internationales des cinémas arabes",
+   "from": "10-03",
+   "to": "10-25",
+   "cats": [
+    "cinema",
+    "talk",
+    "festival"
+   ],
+   "url": "https://www.aflam.fr",
+   "region": "marseille",
+   "note": "Arab cinema at Les Variétés, Mucem, La Baleine; 10–18 Oct 2026"
+  },
+  {
+   "name": "Octobre Numérique – Faire Monde (Arles)",
+   "from": "10-03",
+   "to": "11-15",
+   "cats": [
+    "exhibition",
+    "talk",
+    "festival"
+   ],
+   "url": "https://octobre-numerique.fr/",
+   "region": "afield",
+   "note": "Digital-culture festival with Actes Sud and Chroniques; 10 Oct–8 Nov 2026"
+  },
+  {
+   "name": "Festival En Ribambelle",
+   "from": "10-05",
+   "to": "11-15",
+   "cats": [
+    "family"
+   ],
+   "url": "https://www.festivalenribambelle.com/"
+  },
+  {
+   "name": "Journées nationales de l'architecture",
+   "from": "10-08",
+   "to": "10-25",
+   "cats": [
+    "talk",
+    "exhibition"
+   ],
+   "url": "https://journeesarchitecture.culture.gouv.fr",
+   "region": "marseille",
+   "note": "Architecture open days with visits and talks; 15–18 Oct 2026"
+  },
+  {
+   "name": "Salon du livre métropolitain",
+   "from": "10-10",
+   "to": "10-26",
+   "cats": [
+    "talk",
+    "family",
+    "festival"
+   ],
+   "url": "https://ampmetropole.fr",
+   "region": "marseille",
+   "note": "Métropole book fair at La Citadelle with a guest country; mid-October"
+  },
+  {
+   "name": "Semaine de la Pop Philosophie",
+   "from": "10-10",
+   "to": "10-31",
+   "cats": [
+    "talk",
+    "festival"
+   ],
+   "url": "http://www.semainedelapopphilosophie.fr",
+   "region": "marseille",
+   "note": "Philosophy meets pop culture at La Criée, Mucem, Vieille Charité; late October"
+  },
+  {
+   "name": "Les Instants Vidéo",
+   "from": "10-20",
+   "to": "11-15",
+   "cats": [
+    "cinema",
+    "exhibition"
+   ],
+   "url": "https://www.instantsvideo.com/"
+  },
+  {
+   "name": "Chroniques – Biennale des Imaginaires Numériques (even years)",
+   "from": "10-20",
+   "to": "12-15",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://chroniques-biennale.org/"
+  },
+  {
+   "name": "Rencontres d'Averroès",
+   "from": "10-25",
+   "to": "11-05",
+   "cats": [
+    "talk"
+   ],
+   "url": "https://www.rencontresaverroes.com/"
+  },
+  {
+   "name": "Jazz sur la Ville",
+   "from": "11-01",
+   "to": "12-10",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.jazzsurlaville.org/"
+  },
+  {
+   "name": "Films Femmes Méditerranée",
+   "from": "11-01",
+   "to": "11-20",
+   "cats": [
+    "cinema"
+   ],
+   "url": "https://www.films-femmes-med.org/"
+  },
+  {
+   "name": "Image de Ville",
+   "from": "11-01",
+   "to": "11-30",
+   "cats": [
+    "cinema",
+    "talk"
+   ],
+   "url": "https://www.imagedeville.org/"
+  },
+  {
+   "name": "CinéHorizontes",
+   "from": "11-05",
+   "to": "11-25",
+   "cats": [
+    "cinema"
+   ],
+   "url": "https://www.cinehorizontes.com/"
+  },
+  {
+   "name": "Phonurgia Nova",
+   "from": "11-05",
+   "to": "11-20",
+   "cats": [
+    "festival"
+   ],
+   "url": "https://gmem.org/"
+  },
+  {
+   "name": "Dansem",
+   "from": "11-10",
+   "to": "12-15",
+   "cats": [
+    "dance"
+   ],
+   "url": "https://www.dansem.org/"
+  },
+  {
+   "name": "Les Rencontres à l'échelle",
+   "from": "11-10",
+   "to": "12-10",
+   "cats": [
+    "theatre",
+    "dance"
+   ],
+   "url": "https://www.lesrencontresalechelle.com/"
+  },
+  {
+   "name": "Les Nuits de l'Alcazar / Marseille lit",
+   "from": "11-15",
+   "to": "12-15",
+   "cats": [
+    "talk"
+   ],
+   "url": ""
+  },
+  {
+   "name": "PriMed – Festival de la Méditerranée en images",
+   "from": "11-22",
+   "to": "12-13",
+   "cats": [
+    "cinema",
+    "talk",
+    "festival"
+   ],
+   "url": "https://primed.tv/",
+   "region": "marseille",
+   "note": "Free Mediterranean documentary festival at Alcazar, Mucem, Artplexe; late Nov–early Dec"
+  },
+  {
+   "name": "Festival Tous Courts (Aix, afield)",
+   "from": "11-25",
+   "to": "12-10",
+   "cats": [
+    "cinema"
+   ],
+   "url": "",
+   "region": "afield"
+  },
+  {
+   "name": "Trafic – salon de l'édition indépendante",
+   "from": "11-27",
+   "to": "12-13",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://fracsud.org",
+   "region": "marseille",
+   "note": "Art-publishing fair, 130+ publishers, zines and art schools at Frac Sud; Trafic #3 4–6 Dec 2026"
+  }
+ ]
 }
