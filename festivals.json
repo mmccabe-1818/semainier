@@ -1,0 +1,33 @@
+{
+  "_comment": "Recurring festivals and their usual window. The weekly run searches for each one's current dates from 6 weeks before 'from' until 'to'. Add a line when a festival is missed.",
+  "festivals": [
+    {"name": "Avec le temps", "from": "03-01", "to": "03-31", "cats": ["music"], "url": "https://www.festival-avecletemps.com/"},
+    {"name": "Printemps de l'Art Contemporain (PAC)", "from": "05-01", "to": "06-15", "cats": ["exhibition"], "url": "https://p-a-c.fr/"},
+    {"name": "Les Musicales de Marseille", "from": "05-15", "to": "06-30", "cats": ["classical"], "url": ""},
+    {"name": "Marsatac", "from": "06-01", "to": "06-30", "cats": ["music"], "url": "https://www.marsatac.com/"},
+    {"name": "Festival de Marseille", "from": "06-10", "to": "07-10", "cats": ["dance", "theatre"], "url": "https://www.festivaldemarseille.com/"},
+    {"name": "FIDMarseille", "from": "07-01", "to": "07-15", "cats": ["cinema"], "url": "https://fidmarseille.org/"},
+    {"name": "Marseille Jazz des cinq continents", "from": "07-10", "to": "07-31", "cats": ["music"], "url": "https://www.marseillejazz.com/"},
+    {"name": "Rencontres d'Arles (afield)", "from": "07-01", "to": "09-30", "cats": ["exhibition"], "url": "https://www.rencontres-arles.com/", "region": "afield"},
+    {"name": "Festival d'Aix-en-Provence (afield)", "from": "07-01", "to": "07-25", "cats": ["opera"], "url": "https://festival-aix.com/", "region": "afield"},
+    {"name": "Art-o-rama", "from": "08-25", "to": "09-05", "cats": ["exhibition"], "url": "https://art-o-rama.fr/"},
+    {"name": "Paréidolie", "from": "08-25", "to": "09-05", "cats": ["exhibition"], "url": "https://pareidolie.net/"},
+    {"name": "Actoral", "from": "09-20", "to": "10-15", "cats": ["theatre", "dance", "talk"], "url": "https://www.actoral.org/"},
+    {"name": "Fiesta des Suds", "from": "10-01", "to": "10-20", "cats": ["music"], "url": "https://www.dock-des-suds.org/"},
+    {"name": "Festival En Ribambelle", "from": "10-05", "to": "11-15", "cats": ["family"], "url": "https://www.festivalenribambelle.com/"},
+    {"name": "Les Instants Vidéo", "from": "10-20", "to": "11-15", "cats": ["cinema", "exhibition"], "url": "https://www.instantsvideo.com/"},
+    {"name": "Chroniques – Biennale des Imaginaires Numériques (even years)", "from": "10-20", "to": "12-15", "cats": ["exhibition", "festival"], "url": "https://chroniques-biennale.org/"},
+    {"name": "Rencontres d'Averroès", "from": "10-25", "to": "11-05", "cats": ["talk"], "url": "https://www.rencontresaverroes.com/"},
+    {"name": "Jazz sur la Ville", "from": "11-01", "to": "12-10", "cats": ["music"], "url": "https://www.jazzsurlaville.org/"},
+    {"name": "Films Femmes Méditerranée", "from": "11-01", "to": "11-20", "cats": ["cinema"], "url": "https://www.films-femmes-med.org/"},
+    {"name": "CinéHorizontes", "from": "11-05", "to": "11-25", "cats": ["cinema"], "url": "https://www.cinehorizontes.com/"},
+    {"name": "Dansem", "from": "11-10", "to": "12-15", "cats": ["dance"], "url": "https://www.dansem.org/"},
+    {"name": "Les Rencontres à l'échelle", "from": "11-10", "to": "12-10", "cats": ["theatre", "dance"], "url": "https://www.lesrencontresalechelle.com/"},
+    {"name": "Festival Tous Courts (Aix, afield)", "from": "11-25", "to": "12-10", "cats": ["cinema"], "url": "", "region": "afield"},
+    {"name": "Marseille Web Fest", "from": "10-01", "to": "10-31", "cats": ["cinema"], "url": ""},
+    {"name": "Image de Ville", "from": "11-01", "to": "11-30", "cats": ["cinema", "talk"], "url": "https://www.imagedeville.org/"},
+    {"name": "Phonurgia Nova", "from": "11-05", "to": "11-20", "cats": ["festival"], "url": "https://gmem.org/"},
+    {"name": "Les Nuits de l'Alcazar / Marseille lit", "from": "11-15", "to": "12-15", "cats": ["talk"], "url": ""},
+    {"name": "Oh les beaux jours !", "from": "05-20", "to": "06-05", "cats": ["talk"], "url": "https://ohlesbeauxjours.fr/"}
+  ]
+}

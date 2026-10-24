@@ -1,0 +1,175 @@
+<title>Semainier</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400;75..125,500;75..125,700;75..125,800&display=swap">
+<style>
+/* Layout: one reading column, date-led rows. Affiche look: grotesk, heavy rules, cobalt accent. */
+:root{
+  --bg:#FFFFFF; --fg:#0A0A0A; --muted:#5C5C5C; --rule:#0A0A0A; --accent:#2436E0; --accent-fg:#FFFFFF; --soft:#F1F1F1;
+  --f-display:'Archivo','Helvetica Neue',Arial,sans-serif; --f-body:'Archivo','Helvetica Neue',Arial,sans-serif; --f-ui:'Archivo',Arial,sans-serif;
+  --size:16px; --lh:1.4; --measure:46rem; --rule-w:2px; --title-size:1.15rem; --mast-size:3.4rem; --radius:0; --when-w:7rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B0B0C;--fg:#F3F3F1;--muted:#9A9A98;--rule:#F3F3F1;--accent:#6B7BFF;--accent-fg:#0B0B0C;--soft:#18181A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B0B0C;--fg:#F3F3F1;--muted:#9A9A98;--rule:#F3F3F1;--accent:#6B7BFF;--accent-fg:#0B0B0C;--soft:#18181A;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:var(--size);line-height:var(--lh);margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 4rem;
+  -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:var(--measure);margin:0 auto}
+
+/* Masthead */
+.mast{padding-block:1.6rem 1rem;border-bottom:var(--rule-w) solid var(--rule);display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.2rem}
+.mast h1{font-family:var(--f-display);font-size:var(--mast-size);font-weight:800;letter-spacing:-.04em;font-variation-settings:'wdth' 90;text-transform:uppercase;margin:0;line-height:1;text-wrap:balance}
+.mast .range{color:var(--muted);font-family:var(--f-ui);font-size:.9em}
+.mast .city{margin-left:auto;color:var(--muted);font-family:var(--f-ui);font-size:.85em;letter-spacing:.06em;text-transform:uppercase}
+
+/* Controls */
+.controls{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;align-items:center;padding-block:.8rem;border-bottom:var(--rule-w) solid var(--rule);font-family:var(--f-ui);font-size:.82em}
+.chips{display:flex;flex-wrap:wrap;gap:.25rem .7rem}
+.chips button{background:none;border:0;padding:.15rem 0;color:var(--muted);font:inherit;cursor:pointer;letter-spacing:.02em}
+.chips button[aria-pressed="true"]{color:var(--accent-fg);background:var(--accent);padding:.15rem .45rem}
+
+/* Sections */
+section{padding-block:1.8rem 0}
+section h2{font-family:var(--f-display);font-size:1.6rem;font-weight:800;letter-spacing:-.03em;text-transform:uppercase;font-variation-settings:'wdth' 85;margin:0 0 .9rem;display:flex;align-items:baseline;gap:.8rem}
+section h2 small{font-family:var(--f-ui);font-weight:400;color:var(--muted);font-size:.78em;letter-spacing:.03em}
+
+.day{font-family:var(--f-ui);color:var(--fg);font-weight:700;font-size:.9em;letter-spacing:.06em;text-transform:uppercase;padding-block:.9rem .3rem;border-top:var(--rule-w) solid var(--rule)}
+.day:first-of-type{border-top:0;padding-top:0}
+
+.ev{display:grid;grid-template-columns:var(--when-w) 1fr;gap:.2rem 1rem;padding-block:.55rem;border-top:1px solid var(--rule)}
+.day + .ev{border-top:0}
+.ev .when{font-family:var(--f-ui);color:var(--muted);font-size:.85em;letter-spacing:.01em;padding-top:.15em;min-width:0}
+.ev .what{min-width:0}
+.ev .title{font-family:var(--f-display);font-size:var(--title-size);font-weight:700;letter-spacing:-.01em;line-height:1.25;text-wrap:balance}
+.ev .meta{font-family:var(--f-ui);color:var(--muted);font-size:.82em;margin-top:.15rem;letter-spacing:.01em}
+.ev .meta .cat{color:var(--accent)}
+.ev .note{margin:.25rem 0 0;color:var(--fg);opacity:.85;font-size:.92em;max-width:38rem}
+.tag{display:inline-block;font-family:var(--f-ui);font-size:.72em;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid currentColor;padding:0 .35em;margin-left:.5em;vertical-align:middle;border-radius:var(--radius)}
+.tag.low{color:var(--muted)}
+.empty{color:var(--muted);font-style:italic;padding-block:.4rem}
+
+/* Footer */
+footer{margin-top:3rem;padding-top:1rem;border-top:var(--rule-w) solid var(--rule);font-family:var(--f-ui);font-size:.8em;color:var(--muted);line-height:1.6}
+footer ul{margin:.3rem 0 0;padding-left:1.1em}
+footer details summary{cursor:pointer;color:var(--fg)}
+footer a{text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:.2em}
+
+@media (max-width:560px){
+  .ev{grid-template-columns:1fr;gap:0}
+  .ev .when{padding-top:0}
+  .mast .city{margin-left:0;width:100%}
+  :root{--mast-size:2.6rem}
+  :root{--mast-size:2.6rem}
+}
+@media (prefers-reduced-motion:no-preference){a,button{transition:color .15s}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <h1 id="site-name">Semainier</h1>
+    <div class="range" id="range"></div>
+    <div class="city">Marseille</div>
+  </header>
+
+  <div class="controls">
+    <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+  </div>
+
+  <section id="s-week"><h2>This week <small id="week-count"></small></h2><div id="week"></div></section>
+  <section id="s-coming"><h2>Coming up <small>next five weeks</small></h2><div id="coming"></div></section>
+  <section id="s-now"><h2>On now <small>art and long runs, by closing date</small></h2><div id="now"></div></section>
+  <section id="s-afield"><h2>Further afield <small>Aix · Arles · Avignon · the coast</small></h2><div id="afield"></div></section>
+
+  <footer>
+    <div id="updated"></div>
+    <details><summary id="changelog-summary">What changed this week</summary><ul id="changelog"></ul></details>
+    <details><summary>Sources</summary><ul id="sources"></ul></details>
+    <div style="margin-top:.6rem">Dates come from venue and aggregator pages and can slip. <span class="tag low" style="margin:0">check</span> marks entries where the source was unclear. Confirm before you go.</div>
+  </footer>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var CATS = {exhibition:'Art',theatre:'Theatre',dance:'Dance',music:'Music',opera:'Music',classical:'Music',cinema:'Cinema',talk:'Talks',festival:'Festivals',family:'Family'};
+  var CAT_ORDER = ['Art','Theatre','Dance','Music','Cinema','Talks','Festivals','Family'];
+  var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'], DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  function p(s){ var a=s.split('-'); return new Date(+a[0],+a[1]-1,+a[2]); }
+  function dayDiff(a,b){ return Math.round((b-a)/864e5); }
+  function iso(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+  function fmtD(d,withDay){ return (withDay?DAYS[d.getDay()]+' ':'')+d.getDate()+' '+MONTHS[d.getMonth()]; }
+  function fmtRange(s,e,withDay){ var a=p(s),b=p(e); if(s===e) return fmtD(a,withDay);
+    if(a.getMonth()===b.getMonth()) return (withDay?DAYS[a.getDay()]+' ':'')+a.getDate()+'–'+b.getDate()+' '+MONTHS[a.getMonth()];
+    return fmtD(a,withDay)+' – '+fmtD(b,withDay); }
+  function esc(s){ return String(s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  var now = new Date(); var today = new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  var weekEnd = new Date(today); weekEnd.setDate(today.getDate()+6);
+  var comingEnd = new Date(today); comingEnd.setDate(today.getDate()+41);
+  document.getElementById('range').textContent = fmtD(today,true)+' – '+fmtD(weekEnd,true)+' '+today.getFullYear();
+
+  // Classify
+  var ev = D.events.map(function(e){ e._s=p(e.start); e._e=p(e.end||e.start); e._cat=CATS[e.category]||'Other'; e._len=dayDiff(e._s,e._e); return e; })
+    .filter(function(e){ return e._e>=today; });
+  var afield = ev.filter(function(e){return e.region==='afield';});
+  var local = ev.filter(function(e){return e.region!=='afield';});
+  var longRun = function(e){ return e._len>=21; };
+  var onNow = local.filter(function(e){ return longRun(e) && e._s<=weekEnd; }).sort(function(a,b){return a._e-b._e;});
+  // Long runs appear in This week only on the week they open or the week they close.
+  var opening = local.filter(function(e){ return longRun(e) && e._s>=today && e._s<=weekEnd; }).map(function(e){ var c=Object.create(e); c._mode='opens'; return c; });
+  var closing = local.filter(function(e){ return longRun(e) && e._s<today && e._e<=weekEnd; }).map(function(e){ var c=Object.create(e); c._mode='last'; c._s=e._e; return c; });
+  var week = local.filter(function(e){ return !longRun(e) && e._s<=weekEnd; }).concat(opening,closing)
+    .sort(function(a,b){ return (a._s<today?today:a._s)-(b._s<today?today:b._s) || (a.time||'').localeCompare(b.time||''); });
+  var coming = local.filter(function(e){ return e._s>weekEnd && e._s<=comingEnd; }).sort(function(a,b){return a._s-b._s;});
+
+  var activeCat = 'All';
+  function row(e,opts){ opts=opts||{};
+    var when;
+    if(opts.mode==='now'){ var left=dayDiff(today,e._e); when='until '+fmtD(e._e)+(left<=14?' <span class="tag">closes soon</span>':''); }
+    else if(opts.mode==='week'){ var st=e._s<today?today:e._s;
+      if(e._mode==='opens') when='<span class="tag" style="margin:0 .4em 0 0">opens</span>'+fmtD(e._s,true)+' · until '+fmtD(e._e)+(e.time?' · '+e.time:'');
+      else if(e._mode==='last') when='<span class="tag" style="margin:0 .4em 0 0">last day</span>'+fmtD(e._e,true);
+      else if(e._len===0) when=fmtD(e._s,true)+(e.time?' · '+e.time:'');
+      else if(e._e<=weekEnd) when=fmtRange(iso(st),e.end,true)+(e.time?' · '+e.time:'');
+      else when='from '+fmtD(st,true)+' · until '+fmtD(e._e)+(e.time?' · '+e.time:''); }
+    else { when = fmtRange(e.start,e.end,true)+(e.time&&e._len===0?' · '+e.time:''); }
+    var where = esc(e.venue)+(e.town?', '+esc(e.town):'');
+    return '<article class="ev" data-cat="'+e._cat+'"><div class="when">'+when+'</div><div class="what">'
+      +'<div class="title"><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a>'+(e.confidence==='low'?'<span class="tag low">check</span>':'')+'</div>'
+      +'<div class="meta">'+where+' · <span class="cat">'+e._cat+'</span></div>'
+      +(e.note?'<p class="note">'+esc(e.note)+'</p>':'')+'</div></article>';
+  }
+  function render(){
+    var f=function(e){ return activeCat==='All'||e._cat===activeCat; };
+    // This week grouped by day
+    var w=week.filter(f), html='', lastDay='';
+    w.forEach(function(e){ var st=e._s<today?today:e._s; var key=st.toDateString(); if(key!==lastDay){ html+='<div class="day">'+fmtD(st,true)+(dayDiff(today,st)===0?' · today':dayDiff(today,st)===1?' · tomorrow':'')+'</div>'; lastDay=key; } html+=row(e,{mode:'week'}); });
+    document.getElementById('week').innerHTML = html||'<div class="empty">Nothing in this category this week.</div>';
+    document.getElementById('week-count').textContent = w.length? w.length+' listed':'';
+    var c=coming.filter(f).map(function(e){return row(e,{mode:'coming'});}).join('');
+    document.getElementById('coming').innerHTML = c||'<div class="empty">Nothing announced yet.</div>';
+    var n=onNow.filter(f).map(function(e){return row(e,{mode:'now'});}).join('');
+    document.getElementById('now').innerHTML = n||'<div class="empty">No exhibitions in this category.</div>';
+    var a=afield.filter(f).sort(function(x,y){return (x._s<today?today:x._s)-(y._s<today?today:y._s);}).map(function(e){return row(e,{mode:e._len>=21&&e._s<=today?'now':'coming'});}).join('');
+    document.getElementById('afield').innerHTML = a||'<div class="empty">Nothing in this category further afield.</div>';
+  }
+  // Chips
+  var present = {}; ev.forEach(function(e){present[e._cat]=1;});
+  var chips=document.getElementById('chips');
+  ['All'].concat(CAT_ORDER.filter(function(c){return present[c];})).forEach(function(c){
+    var b=document.createElement('button'); b.type='button'; b.textContent=c; b.id='chip-'+c.toLowerCase(); b.setAttribute('aria-pressed',c===activeCat);
+    b.addEventListener('click',function(){ activeCat=c; Array.prototype.forEach.call(chips.children,function(x){x.setAttribute('aria-pressed',x.textContent===c);}); render(); });
+    chips.appendChild(b);
+  });
+  // Footer
+  document.getElementById('updated').textContent = 'Updated '+D.updated+' · '+D.events.length+' entries · next update '+D.next_update;
+  document.getElementById('changelog').innerHTML = (D.changelog||[]).map(function(s){return '<li>'+esc(s)+'</li>';}).join('')||'<li>First edition.</li>';
+  document.getElementById('sources').innerHTML = (D.sources||[]).map(function(s){return '<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a></li>';}).join('');
+  render();
+})();
+</script>
