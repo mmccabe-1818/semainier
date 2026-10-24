@@ -1,60 +1,696 @@
 {
-  "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed.",
-  "sources": [
-    {"name": "Mucem – programme", "url": "https://www.mucem.org/programme", "type": "venue", "cats": ["exhibition", "talk", "cinema", "music"]},
-    {"name": "Mucem – expositions", "url": "https://www.mucem.org/programme/exposition", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Musées de Marseille – expositions", "url": "https://musees.marseille.fr/expositions", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Musées de Marseille – agenda", "url": "https://musees.marseille.fr/agenda", "type": "venue", "cats": ["exhibition", "talk", "family"]},
-    {"name": "Ville de Marseille – expositions", "url": "https://www.marseille.fr/culture/actualites/expositions", "type": "aggregator", "cats": ["exhibition"]},
-    {"name": "Friche la Belle de Mai – agenda", "url": "https://www.lafriche.org/agenda/", "type": "venue", "cats": ["exhibition", "music", "theatre", "dance", "festival", "talk"]},
-    {"name": "Frac Sud", "url": "https://www.fracsud.org/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Marseille Expos / PAC – agenda du réseau", "url": "https://p-a-c.fr/agenda", "type": "aggregator", "cats": ["exhibition"]},
-    {"name": "Triangle-Astérides", "url": "https://www.trianglefrance.org/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Château de Servières", "url": "https://www.chateaudeservieres.org/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Fotokino", "url": "https://www.fotokino.org/", "type": "venue", "cats": ["exhibition", "family"]},
-    {"name": "La Compagnie", "url": "https://www.la-compagnie.org/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Vidéochroniques", "url": "https://www.videochroniques.org/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Centre Photographique Marseille", "url": "https://centrephotographiquemarseille.fr/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Art-cade / Medusa", "url": "https://www.art-cade.net/", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Musée Regards de Provence", "url": "https://www.museeregardsdeprovence.com/expositions", "type": "venue", "cats": ["exhibition"]},
-    {"name": "Théâtre National de La Criée", "url": "https://theatre-lacriee.com/programmation", "type": "venue", "cats": ["theatre", "dance", "family"]},
-    {"name": "Les Théâtres – Gymnase, Bernardines, GTP", "url": "https://www.lestheatres.net/fr/saison", "type": "venue", "cats": ["theatre", "dance", "classical"]},
-    {"name": "ZEF – scène nationale", "url": "https://www.lezef.org/", "type": "venue", "cats": ["theatre", "dance", "family"]},
-    {"name": "Théâtre Joliette", "url": "https://www.theatrejoliette.fr/programmation", "type": "venue", "cats": ["theatre"]},
-    {"name": "Théâtre de l'Œuvre", "url": "https://www.theatre-oeuvre.com/", "type": "venue", "cats": ["theatre"]},
-    {"name": "KLAP Maison pour la danse", "url": "https://www.kelemenis.fr/fr/les-spectacles", "type": "venue", "cats": ["dance"]},
-    {"name": "Ballet National de Marseille", "url": "https://www.ballet-de-marseille.com/", "type": "venue", "cats": ["dance"]},
-    {"name": "Opéra de Marseille / Odéon", "url": "https://opera-odeon.marseille.fr/programmation", "type": "venue", "cats": ["opera", "classical"]},
-    {"name": "GMEM", "url": "https://gmem.org/saison", "type": "venue", "cats": ["classical", "music"]},
-    {"name": "Montévidéo", "url": "https://montevideo-marseille.com/", "type": "venue", "cats": ["theatre", "music"]},
-    {"name": "Cité de la Musique de Marseille", "url": "https://www.citemusique-marseille.com/agenda/", "type": "venue", "cats": ["music", "talk"]},
-    {"name": "Cabaret Aléatoire", "url": "https://cabaret-aleatoire.com/", "type": "venue", "cats": ["music"]},
-    {"name": "Le Molotov", "url": "https://lemolotov.com/agenda/", "type": "venue", "cats": ["music"]},
-    {"name": "Espace Julien / Makeda", "url": "https://espace-julien.com/agenda", "type": "venue", "cats": ["music", "talk"]},
-    {"name": "Le Silo", "url": "https://www.silo-marseille.fr/", "type": "venue", "cats": ["music"]},
-    {"name": "Vidéodrome 2", "url": "https://www.videodrome2.fr/", "type": "venue", "cats": ["cinema"]},
-    {"name": "Cinéma Les Variétés", "url": "https://www.cinemetroart.com/", "type": "venue", "cats": ["cinema"]},
-    {"name": "Le Gyptis", "url": "https://www.lafriche.org/lieux/le-gyptis/", "type": "venue", "cats": ["cinema"]},
-    {"name": "Alhambra Cinémarseille", "url": "https://www.alhambracine.com/", "type": "venue", "cats": ["cinema"]},
-    {"name": "FIDMarseille – agenda", "url": "https://fidmarseille.org/agenda", "type": "venue", "cats": ["cinema"]},
-    {"name": "Bibliothèque de l'Alcazar – agenda", "url": "https://www.bmvr.marseille.fr/", "type": "venue", "cats": ["talk"]},
-    {"name": "Jazz sur la Ville", "url": "https://www.jazzsurlaville.org/", "type": "aggregator", "cats": ["music"]},
-    {"name": "Marseille Tourisme – agenda", "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/", "type": "aggregator", "cats": ["all"]},
-    {"name": "Agenda culturel 13 – Marseille", "url": "https://13.agendaculturel.fr/marseille/", "type": "aggregator", "cats": ["all"]},
-    {"name": "Ventilo – journal et agenda", "url": "https://www.journalventilo.fr/", "type": "aggregator", "cats": ["all"]},
-    {"name": "Zibeline", "url": "https://www.journalzibeline.fr/", "type": "aggregator", "cats": ["all"]},
-    {"name": "Lupop – expositions 13", "url": "https://lupop.fr/sortir/departement/bouches-du-rhone", "type": "aggregator", "cats": ["exhibition"]},
-    {"name": "LUMA Arles", "url": "https://www.luma.org/en/arles/whats-on", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Fondation Vincent van Gogh Arles", "url": "https://www.fondation-vincentvangogh-arles.org/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Musée Granet", "url": "https://www.museegranet-aixenprovence.fr/expositions/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Caumont Centre d'Art", "url": "https://www.caumont-centredart.com/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Fondation Vasarely", "url": "https://www.fondationvasarely.org/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Pavillon Noir / Ballet Preljocaj", "url": "https://preljocaj.org/spectacles/", "type": "venue", "cats": ["dance"], "region": "afield"},
-    {"name": "Collection Lambert", "url": "https://collectionlambert.com/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Château La Coste", "url": "https://chateau-la-coste.com/fr/art-architecture/expositions.html", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Villa Noailles", "url": "https://villanoailles.com/", "type": "venue", "cats": ["exhibition", "festival"], "region": "afield"},
-    {"name": "Carré d'Art Nîmes", "url": "https://www.carreartmusee.com/fr/expositions/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "MO.CO Montpellier", "url": "https://www.moco.art/", "type": "venue", "cats": ["exhibition"], "region": "afield"},
-    {"name": "Fondation Carmignac", "url": "https://www.fondationcarmignac.com/", "type": "venue", "cats": ["exhibition"], "region": "afield"}
-  ]
+ "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed. Galleries: the PAC agenda search page lists every member event; fetch it first, then the gallery pages for vernissage dates and next shows.",
+ "sources": [
+  {
+   "name": "Mucem – programme",
+   "url": "https://www.mucem.org/programme",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "talk",
+    "cinema",
+    "music"
+   ]
+  },
+  {
+   "name": "Mucem – expositions",
+   "url": "https://www.mucem.org/programme/exposition",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Musées de Marseille – expositions",
+   "url": "https://musees.marseille.fr/expositions",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Musées de Marseille – agenda",
+   "url": "https://musees.marseille.fr/agenda",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "talk",
+    "family"
+   ]
+  },
+  {
+   "name": "Ville de Marseille – expositions",
+   "url": "https://www.marseille.fr/culture/actualites/expositions",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Friche la Belle de Mai – agenda",
+   "url": "https://www.lafriche.org/agenda/",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "music",
+    "theatre",
+    "dance",
+    "festival",
+    "talk"
+   ]
+  },
+  {
+   "name": "Frac Sud",
+   "url": "https://www.fracsud.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Marseille Expos / PAC – agenda du réseau",
+   "url": "https://p-a-c.fr/agenda",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Triangle-Astérides",
+   "url": "https://www.trianglefrance.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Château de Servières",
+   "url": "https://www.chateaudeservieres.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Fotokino",
+   "url": "https://www.fotokino.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "family"
+   ]
+  },
+  {
+   "name": "La Compagnie",
+   "url": "https://www.la-compagnie.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Vidéochroniques",
+   "url": "https://www.videochroniques.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Centre Photographique Marseille",
+   "url": "https://centrephotographiquemarseille.fr/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Art-cade / Medusa",
+   "url": "https://www.art-cade.net/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Musée Regards de Provence",
+   "url": "https://www.museeregardsdeprovence.com/expositions",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Théâtre National de La Criée",
+   "url": "https://theatre-lacriee.com/programmation",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "dance",
+    "family"
+   ]
+  },
+  {
+   "name": "Les Théâtres – Gymnase, Bernardines, GTP",
+   "url": "https://www.lestheatres.net/fr/saison",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "dance",
+    "classical"
+   ]
+  },
+  {
+   "name": "ZEF – scène nationale",
+   "url": "https://www.lezef.org/",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "dance",
+    "family"
+   ]
+  },
+  {
+   "name": "Théâtre Joliette",
+   "url": "https://www.theatrejoliette.fr/programmation",
+   "type": "venue",
+   "cats": [
+    "theatre"
+   ]
+  },
+  {
+   "name": "Théâtre de l'Œuvre",
+   "url": "https://www.theatre-oeuvre.com/",
+   "type": "venue",
+   "cats": [
+    "theatre"
+   ]
+  },
+  {
+   "name": "KLAP Maison pour la danse",
+   "url": "https://www.kelemenis.fr/fr/les-spectacles",
+   "type": "venue",
+   "cats": [
+    "dance"
+   ]
+  },
+  {
+   "name": "Ballet National de Marseille",
+   "url": "https://www.ballet-de-marseille.com/",
+   "type": "venue",
+   "cats": [
+    "dance"
+   ]
+  },
+  {
+   "name": "Opéra de Marseille / Odéon",
+   "url": "https://opera-odeon.marseille.fr/programmation",
+   "type": "venue",
+   "cats": [
+    "opera",
+    "classical"
+   ]
+  },
+  {
+   "name": "GMEM",
+   "url": "https://gmem.org/saison",
+   "type": "venue",
+   "cats": [
+    "classical",
+    "music"
+   ]
+  },
+  {
+   "name": "Montévidéo",
+   "url": "https://montevideo-marseille.com/",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "music"
+   ]
+  },
+  {
+   "name": "Cité de la Musique de Marseille",
+   "url": "https://www.citemusique-marseille.com/agenda/",
+   "type": "venue",
+   "cats": [
+    "music",
+    "talk"
+   ]
+  },
+  {
+   "name": "Cabaret Aléatoire",
+   "url": "https://cabaret-aleatoire.com/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "name": "Le Molotov",
+   "url": "https://lemolotov.com/agenda/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "name": "Espace Julien / Makeda",
+   "url": "https://espace-julien.com/agenda",
+   "type": "venue",
+   "cats": [
+    "music",
+    "talk"
+   ]
+  },
+  {
+   "name": "Le Silo",
+   "url": "https://www.silo-marseille.fr/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "name": "Vidéodrome 2",
+   "url": "https://www.videodrome2.fr/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Cinéma Les Variétés",
+   "url": "https://www.cinemetroart.com/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Le Gyptis",
+   "url": "https://www.lafriche.org/lieux/le-gyptis/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Alhambra Cinémarseille",
+   "url": "https://www.alhambracine.com/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "FIDMarseille – agenda",
+   "url": "https://fidmarseille.org/agenda",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Bibliothèque de l'Alcazar – agenda",
+   "url": "https://www.bmvr.marseille.fr/",
+   "type": "venue",
+   "cats": [
+    "talk"
+   ]
+  },
+  {
+   "name": "Jazz sur la Ville",
+   "url": "https://www.jazzsurlaville.org/",
+   "type": "aggregator",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "name": "Marseille Tourisme – agenda",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/",
+   "type": "aggregator",
+   "cats": [
+    "all"
+   ]
+  },
+  {
+   "name": "Agenda culturel 13 – Marseille",
+   "url": "https://13.agendaculturel.fr/marseille/",
+   "type": "aggregator",
+   "cats": [
+    "all"
+   ]
+  },
+  {
+   "name": "Ventilo – journal et agenda",
+   "url": "https://www.journalventilo.fr/",
+   "type": "aggregator",
+   "cats": [
+    "all"
+   ]
+  },
+  {
+   "name": "Zibeline",
+   "url": "https://www.journalzibeline.fr/",
+   "type": "aggregator",
+   "cats": [
+    "all"
+   ]
+  },
+  {
+   "name": "Lupop – expositions 13",
+   "url": "https://lupop.fr/sortir/departement/bouches-du-rhone",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ]
+  },
+  {
+   "name": "LUMA Arles",
+   "url": "https://www.luma.org/en/arles/whats-on",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Fondation Vincent van Gogh Arles",
+   "url": "https://www.fondation-vincentvangogh-arles.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Musée Granet",
+   "url": "https://www.museegranet-aixenprovence.fr/expositions/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Caumont Centre d'Art",
+   "url": "https://www.caumont-centredart.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Fondation Vasarely",
+   "url": "https://www.fondationvasarely.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Pavillon Noir / Ballet Preljocaj",
+   "url": "https://preljocaj.org/spectacles/",
+   "type": "venue",
+   "cats": [
+    "dance"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Collection Lambert",
+   "url": "https://collectionlambert.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Château La Coste",
+   "url": "https://chateau-la-coste.com/fr/art-architecture/expositions.html",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Villa Noailles",
+   "url": "https://villanoailles.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Carré d'Art Nîmes",
+   "url": "https://www.carreartmusee.com/fr/expositions/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "MO.CO Montpellier",
+   "url": "https://www.moco.art/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "Fondation Carmignac",
+   "url": "https://www.fondationcarmignac.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield"
+  },
+  {
+   "name": "PAC – agenda search (all member events)",
+   "url": "https://p-a-c.fr/agenda/recherche",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie Béa-Ba",
+   "url": "https://www.galeriebeaba.com/en-cours",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Double V Gallery",
+   "url": "https://www.double-v-gallery.com/current-shows",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "sissi club",
+   "url": "https://sissi-club.com/en/expositions/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie Territoires Partagés",
+   "url": "https://territoirespartages.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Medusa (art-cade)",
+   "url": "https://p-a-c.fr/les-membres/medusa-artcade",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie La Nave Va",
+   "url": "https://p-a-c.fr/les-membres/galerie-la-nave-va",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "American Gallery",
+   "url": "https://p-a-c.fr/les-membres/american-gallery",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Le 33 (fonds Carta)",
+   "url": "https://p-a-c.fr/les-membres/le-33",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Digitale Zone",
+   "url": "https://p-a-c.fr/les-membres/digitale-zone",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Atelier-galerie Zemma",
+   "url": "https://p-a-c.fr/les-membres/zemma",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie-Librairie Zoème",
+   "url": "https://zoeme.net/galerie-zoeme/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "MadmaX",
+   "url": "https://madmax.art/exhibitions",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Apartamento Contemporary Art",
+   "url": "https://apartamento.fr/exhibitions-summary.html",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie du Tableau",
+   "url": "http://www.galeriedutableau.org/expositions/expositions/en_cours.html",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie Béatrice Soulié",
+   "url": "https://www.galeriebeatricesoulie.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Maupetit, côté Galerie",
+   "url": "https://www.maupetitlibraire.fr",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "SOMA",
+   "url": "https://soma-art.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "TANK Art Space",
+   "url": "https://www.artspace-tank.com/expositions/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Galerie Objets Inanimés",
+   "url": "https://objets-inanimes.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "La Traverse",
+   "url": "https://latraversemarseille.fr/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Tchikebe",
+   "url": "https://tchikebe.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Le Couvent",
+   "url": "https://le-couvent.org/",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  },
+  {
+   "name": "Art-o-rama – In Town (gallery shows around the fair)",
+   "url": "https://art-o-rama.fr/in-town-2/",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery"
+  }
+ ]
 }
