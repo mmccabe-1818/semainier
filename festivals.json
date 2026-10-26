@@ -304,6 +304,17 @@
    "note": "Palestinian cinema across six Marseille cinemas; 27–31 May 2026"
   },
   {
+   "name": "Les Rencontres à l'échelle",
+   "from": "05-20",
+   "to": "06-20",
+   "cats": [
+    "theatre",
+    "dance"
+   ],
+   "url": "https://www.lesrencontresalechelle.com/",
+   "note": "Les Bancs Publics' international festival; moved to June — 2–14 June 2026. No autumn edition found in 2026."
+  },
+  {
    "name": "Marsatac",
    "from": "06-01",
    "to": "06-30",
@@ -619,6 +630,16 @@
    "note": "La Fontaine Obscure's photography festival across Aix; 8 Oct–27 Nov 2026"
   },
   {
+   "name": "CinéHorizontes",
+   "from": "10-01",
+   "to": "10-20",
+   "cats": [
+    "cinema"
+   ],
+   "url": "https://www.cinehorizontes.com/",
+   "note": "Spanish cinema festival at Les Variétés and partner cinemas; ran 8–16 Oct 2026."
+  },
+  {
    "name": "Aflam – Rencontres internationales des cinémas arabes",
    "from": "10-03",
    "to": "10-25",
@@ -720,6 +741,18 @@
    "url": "https://www.rencontresaverroes.com/"
   },
   {
+   "name": "Festival Tamazgha (Cité de la Musique)",
+   "from": "10-25",
+   "to": "11-20",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.citemusique-marseille.com/agenda/",
+   "region": "marseille",
+   "note": "Amazigh/Berber music festival, 21st edition 7 Nov 2026."
+  },
+  {
    "name": "Jazz sur la Ville",
    "from": "11-01",
    "to": "12-10",
@@ -748,13 +781,28 @@
    "url": "https://www.imagedeville.org/"
   },
   {
-   "name": "CinéHorizontes",
-   "from": "11-05",
-   "to": "11-25",
+   "name": "Festival JEST – Jamais d'Eux Sans Toi",
+   "from": "11-01",
+   "to": "11-30",
    "cats": [
-    "cinema"
+    "music",
+    "festival"
    ],
-   "url": "https://www.cinehorizontes.com/"
+   "url": "https://www.lafriche.org/agenda/",
+   "region": "marseille",
+   "note": "Friche / Cité de la Musique music festival; Cité de la Musique night 21 Nov 2026; agendaculturel gives the Friche run to 28 Nov."
+  },
+  {
+   "name": "Dreamachine Festival",
+   "from": "11-01",
+   "to": "11-20",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://13.agendaculturel.fr/festival/dreamachine-festival.html",
+   "region": "marseille",
+   "note": "New Marseille music festival (La Cômerie, Le Dodu…); 1st edition 12–14 Nov 2026."
   },
   {
    "name": "Phonurgia Nova",
@@ -772,17 +820,8 @@
    "cats": [
     "dance"
    ],
-   "url": "https://www.dansem.org/"
-  },
-  {
-   "name": "Les Rencontres à l'échelle",
-   "from": "11-10",
-   "to": "12-10",
-   "cats": [
-    "theatre",
-    "dance"
-   ],
-   "url": "https://www.lesrencontresalechelle.com/"
+   "url": "https://www.dansem.org/",
+   "note": "Officina's contemporary dance festival; no 2026 programme found by 26 Oct — check dansem.org."
   },
   {
    "name": "Les Nuits de l'Alcazar / Marseille lit",
@@ -792,6 +831,30 @@
     "talk"
    ],
    "url": ""
+  },
+  {
+   "name": "Festival d'Histoire de Marseille",
+   "from": "11-15",
+   "to": "12-10",
+   "cats": [
+    "exhibition",
+    "talk",
+    "festival"
+   ],
+   "url": "https://musees.marseille.fr/",
+   "region": "marseille",
+   "note": "First edition opens 27 Nov 2026 at the Musée d'Histoire with two photography shows (Marseille, porte du monde ?; Nous, Marseillais de Bassens 2)."
+  },
+  {
+   "name": "art3f Marseille",
+   "from": "11-20",
+   "to": "12-10",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://www.art3f.fr/",
+   "region": "marseille",
+   "note": "Commercial contemporary-art fair at Parc Chanot; 4–6 Dec 2026."
   },
   {
    "name": "PriMed – Festival de la Méditerranée en images",
@@ -804,7 +867,7 @@
    ],
    "url": "https://primed.tv/",
    "region": "marseille",
-   "note": "Free Mediterranean documentary festival at Alcazar, Mucem, Artplexe; late Nov–early Dec"
+   "note": "Free Mediterranean documentary festival at Alcazar, Mucem, Artplexe; 2025 ran 29 Nov–6 Dec; 2026 dates not announced by 26 Oct — check primed.tv."
   },
   {
    "name": "Festival Tous Courts (Aix, afield)",
@@ -813,8 +876,9 @@
    "cats": [
     "cinema"
    ],
-   "url": "",
-   "region": "afield"
+   "url": "https://festivaltouscourts.com/",
+   "region": "afield",
+   "note": "Aix short-film festival; 44th edition 1–5 Dec 2026."
   },
   {
    "name": "Trafic – salon de l'édition indépendante",

@@ -1,5 +1,5 @@
 {
- "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed. Galleries: the PAC agenda search page lists every member event; fetch it first, then the gallery pages for vernissage dates and next shows.",
+ "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed. Galleries: the PAC agenda search page lists every member event; fetch it first, then the gallery pages for vernissage dates and next shows. NOTE (2026-10-26): WebFetch only accepts URLs that a WebSearch has surfaced in the same session; search '<venue> programme <mois> 2026' first, then fetch. musees.marseille.fr, unidivers.fr and lupop.fr refuse fetching.",
  "sources": [
   {
    "name": "Mucem – programme",
@@ -691,6 +691,81 @@
     "exhibition"
    ],
    "group": "gallery"
+  },
+  {
+   "name": "Théâtre Massalia",
+   "url": "https://www.theatremassalia.com/",
+   "type": "venue",
+   "cats": [
+    "family"
+   ]
+  },
+  {
+   "name": "Badaboum Théâtre",
+   "url": "https://www.badaboum-theatre.com/",
+   "type": "venue",
+   "cats": [
+    "family"
+   ]
+  },
+  {
+   "name": "Marseille Concerts",
+   "url": "https://www.marseilleconcerts.com/",
+   "type": "venue",
+   "cats": [
+    "classical"
+   ]
+  },
+  {
+   "name": "Le Dôme",
+   "url": "https://www.ledome-marseille.com/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ]
+  },
+  {
+   "name": "Cinéma La Baleine",
+   "url": "https://www.labaleinemarseille.com/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Artplexe Canebière",
+   "url": "https://www.artplexe.com/",
+   "type": "venue",
+   "cats": [
+    "cinema"
+   ]
+  },
+  {
+   "name": "Château de la Buzine",
+   "url": "https://www.labuzine.com/",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "cinema"
+   ]
+  },
+  {
+   "name": "Chroniques – Biennale des Imaginaires Numériques",
+   "url": "https://chroniques-biennale.org/",
+   "type": "aggregator",
+   "cats": [
+    "exhibition",
+    "festival"
+   ]
+  },
+  {
+   "name": "Théâtre Toursky",
+   "url": "https://www.toursky.fr/",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "music"
+   ]
   }
  ]
 }
