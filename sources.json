@@ -10,7 +10,8 @@
     "talk",
     "cinema",
     "music"
-   ]
+   ],
+   "note": "2026-11-02: /programme still returns a 2017 cache; mucem.org/en/agenda renders no listings; no Nov–Dec 2026 talks/cinema found by search either. Try the monthly programme PDF or WebSearch \"mucem <mois> 2026 rencontre\"."
   },
   {
    "name": "Mucem – expositions",
@@ -57,7 +58,8 @@
     "dance",
     "festival",
     "talk"
-   ]
+   ],
+   "note": "2026-11-02: ?page=3 and ?page=4 both return the same 2–16 Nov range; nothing after 16 Nov captured. Try the month filter or the venue sub-pages."
   },
   {
    "name": "Frac Sud",
@@ -168,7 +170,8 @@
     "theatre",
     "dance",
     "family"
-   ]
+   ],
+   "note": "2026-11-02: season page is JS-rendered (anchors only); use WebSearch \"Le ZEF <mois> 2026\" and the Marseille Tourisme agenda instead."
   },
   {
    "name": "Théâtre Joliette",
@@ -184,7 +187,8 @@
    "type": "venue",
    "cats": [
     "theatre"
-   ]
+   ],
+   "note": "2026-11-02: site shows only \"En travaux\" and an empty hors-les-murs agenda."
   },
   {
    "name": "KLAP Maison pour la danse",
@@ -357,7 +361,8 @@
    "type": "aggregator",
    "cats": [
     "all"
-   ]
+   ],
+   "note": "DEAD? (2026-11-02): journalzibeline.fr now serves a home/garden lifestyle site with no cultural content; skip until it returns."
   },
   {
    "name": "Lupop – expositions 13",
@@ -765,7 +770,52 @@
    "cats": [
     "theatre",
     "music"
-   ]
+   ],
+   "note": "DEAD (2026-11-02): homepage announces the association's liquidation (May 2025); season cancelled, agenda empty. Re-check once a season, otherwise skip."
+  },
+  {
+   "name": "Théâtre d'Arles",
+   "url": "https://www.theatre-arles.com/",
+   "type": "venue",
+   "region": "afield",
+   "cats": [
+    "theatre",
+    "dance"
+   ],
+   "note": "Added 2026-11-02: Nov–Dec 2026 season found only via a press article (objectifsud.fr); fetch the venue's own saison page."
+  },
+  {
+   "name": "Scènes et Cinés – L'Usine, Istres",
+   "url": "https://www.scenesetcines.fr/",
+   "type": "venue",
+   "region": "afield",
+   "cats": [
+    "music",
+    "theatre"
+   ],
+   "note": "Added 2026-11-02: concerts found via unidivers.fr listings; fetch the venue's agenda."
+  },
+  {
+   "name": "Le Dodu (via Le Molotov agenda)",
+   "url": "https://lemolotov.com/agenda/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "note": "Added 2026-11-02: Le Dodu concerts are listed in the Molotov agenda."
+  },
+  {
+   "name": "Les Théâtres – Aix (GTP, Jeu de Paume)",
+   "url": "https://www.lestheatres.net/fr/saison?page=2",
+   "type": "venue",
+   "region": "afield",
+   "cats": [
+    "theatre",
+    "dance",
+    "classical",
+    "opera"
+   ],
+   "note": "Added 2026-11-02: page 1 of the saison listing ran to 4 Dec; fetch ?page=2 onward for later dates."
   }
  ]
 }
