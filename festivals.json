@@ -261,15 +261,6 @@
    "note": "One-night free museum openings; Sat 23 May 2026"
   },
   {
-   "name": "Les Musicales de Marseille",
-   "from": "05-15",
-   "to": "06-30",
-   "cats": [
-    "classical"
-   ],
-   "url": ""
-  },
-  {
    "name": "Le Bon Air",
    "from": "05-15",
    "to": "05-31",
@@ -280,6 +271,15 @@
    "url": "https://www.lebonairfestival.com",
    "region": "marseille",
    "note": "Electronic music on the Friche rooftop and Cabaret Aléatoire; 22–24 May 2026"
+  },
+  {
+   "name": "Les Musicales de Marseille",
+   "from": "05-15",
+   "to": "06-30",
+   "cats": [
+    "classical"
+   ],
+   "url": ""
   },
   {
    "name": "Oh les beaux jours !",
@@ -407,16 +407,6 @@
    "url": "https://fidmarseille.org/"
   },
   {
-   "name": "Rencontres d'Arles (afield)",
-   "from": "07-01",
-   "to": "09-30",
-   "cats": [
-    "exhibition"
-   ],
-   "url": "https://www.rencontres-arles.com/",
-   "region": "afield"
-  },
-  {
    "name": "Festival d'Aix-en-Provence (afield)",
    "from": "07-01",
    "to": "07-25",
@@ -424,6 +414,16 @@
     "opera"
    ],
    "url": "https://festival-aix.com/",
+   "region": "afield"
+  },
+  {
+   "name": "Rencontres d'Arles (afield)",
+   "from": "07-01",
+   "to": "09-30",
+   "cats": [
+    "exhibition"
+   ],
+   "url": "https://www.rencontres-arles.com/",
    "region": "afield"
   },
   {
@@ -495,6 +495,18 @@
    "url": "https://www.agirpourlevivant.fr",
    "region": "afield",
    "note": "Actes Sud's festival of ideas on ecology; late August"
+  },
+  {
+   "name": "La Saison du Dessin",
+   "from": "08-20",
+   "to": "12-31",
+   "cats": [
+    "exhibition",
+    "festival"
+   ],
+   "url": "https://www.chateaudeservieres.org",
+   "region": "marseille",
+   "note": "Drawing season led by Château de Servières with partner venues (Paréidolie, ARTEUM, Polaris…); 28 Aug–31 Dec 2026 per the PAC agenda."
   },
   {
    "name": "Art-o-rama",
@@ -609,6 +621,16 @@
    "url": "https://www.dock-des-suds.org/"
   },
   {
+   "name": "CinéHorizontes",
+   "from": "10-01",
+   "to": "10-20",
+   "cats": [
+    "cinema"
+   ],
+   "url": "https://www.cinehorizontes.com/",
+   "note": "Spanish cinema festival at Les Variétés and partner cinemas; ran 8–16 Oct 2026."
+  },
+  {
    "name": "Marseille Web Fest",
    "from": "10-01",
    "to": "10-31",
@@ -627,17 +649,7 @@
    ],
    "url": "http://www.fontaine-obscure.com",
    "region": "afield",
-   "note": "La Fontaine Obscure's photography festival across Aix; 8 Oct–27 Nov 2026"
-  },
-  {
-   "name": "CinéHorizontes",
-   "from": "10-01",
-   "to": "10-20",
-   "cats": [
-    "cinema"
-   ],
-   "url": "https://www.cinehorizontes.com/",
-   "note": "Spanish cinema festival at Les Variétés and partner cinemas; ran 8–16 Oct 2026."
+   "note": "La Fontaine Obscure's photography festival across Aix; 26th edition 8 Oct–27 Nov 2026, guest country Hungary."
   },
   {
    "name": "Aflam – Rencontres internationales des cinémas arabes",
@@ -672,7 +684,8 @@
    "cats": [
     "family"
    ],
-   "url": "https://www.festivalenribambelle.com/"
+   "url": "https://www.festivalenribambelle.com/",
+   "note": "2026 edition 10 Oct–15 Nov."
   },
   {
    "name": "Journées nationales de l'architecture",
@@ -712,6 +725,18 @@
    "note": "Philosophy meets pop culture at La Criée, Mucem, Vieille Charité; late October"
   },
   {
+   "name": "Festival Voix des Suds",
+   "from": "10-10",
+   "to": "11-25",
+   "cats": [
+    "classical",
+    "festival"
+   ],
+   "url": "https://www.amisdesaintvictor.com",
+   "region": "marseille",
+   "note": "Les Amis de Saint-Victor's vocal-music series at the Abbaye Saint-Victor; 18 Oct–22 Nov 2026."
+  },
+  {
    "name": "Les Instants Vidéo",
    "from": "10-20",
    "to": "11-15",
@@ -720,7 +745,7 @@
     "exhibition"
    ],
    "url": "https://www.instantsvideo.com/",
-   "note": "39th edition ran 22–25 Oct 2026 at the Friche; exhibitions continue to 17 Jan 2027."
+   "note": "39th edition ran 22–25 Oct 2026 at the Friche; its exhibition 'Ce que nous voyons nous regarde' stays open in the afternoons (end date 17 Jan 2027 not re-verified)."
   },
   {
    "name": "Chroniques – Biennale des Imaginaires Numériques (even years)",
@@ -730,7 +755,8 @@
     "exhibition",
     "festival"
    ],
-   "url": "https://chroniques-biennale.org/"
+   "url": "https://chroniques-biennale.org/",
+   "note": "2026 edition 'Résistances' 24 Oct 2026–17 Jan 2027; Marseille exhibitions at the Friche and Vieille Charité close 13 Dec; closing night 16 Jan 2027 at Espace Julien."
   },
   {
    "name": "Rencontres d'Averroès",
@@ -755,45 +781,14 @@
    "note": "Amazigh/Berber music festival, 21st edition 7 Nov 2026."
   },
   {
-   "name": "Jazz sur la Ville",
-   "from": "11-01",
-   "to": "12-10",
-   "cats": [
-    "music"
-   ],
-   "url": "https://www.jazzsurlaville.org/"
-  },
-  {
    "name": "Films Femmes Méditerranée",
    "from": "11-01",
    "to": "11-20",
    "cats": [
     "cinema"
    ],
-   "url": "https://www.films-femmes-med.org/"
-  },
-  {
-   "name": "Image de Ville",
-   "from": "11-01",
-   "to": "11-30",
-   "cats": [
-    "cinema",
-    "talk"
-   ],
-   "url": "https://www.imagedeville.org/",
-   "note": "Aix/Marseille architecture-film festival; only a 3 Nov Martigues screening and a 19 Nov Tous Courts co-screening in Aix surfaced for 2026; main programme not found."
-  },
-  {
-   "name": "Festival JEST – Jamais d'Eux Sans Toi",
-   "from": "11-01",
-   "to": "11-30",
-   "cats": [
-    "music",
-    "festival"
-   ],
-   "url": "https://www.lafriche.org/agenda/",
-   "region": "marseille",
-   "note": "Friche / Cité de la Musique music festival; Cité de la Musique night 21 Nov 2026; two Friche nights on HelloAsso (Marquinn Mason & Stefan Ringer / Ganagobie / Goldie B; Tujiko Noriko / Blind to the Architects) with dates not readable on 2 Nov."
+   "url": "https://www.films-femmes-med.org/",
+   "note": "21st edition 5–13 Nov 2026 (guest of honour Julia Kassar); closing night 13 Nov, Artplexe. The 2026 grid was not reachable on the festival site; Les Variétés' film pages carry its screenings."
   },
   {
    "name": "Dreamachine Festival",
@@ -805,7 +800,40 @@
    ],
    "url": "https://13.agendaculturel.fr/festival/dreamachine-festival.html",
    "region": "marseille",
-   "note": "New Marseille queer electronic/club festival; 1st edition 12–21 Nov 2026 across La Cômerie, La Camaraderie, Le Dodu and other venues."
+   "note": "New Marseille queer electronic/club festival; 1st edition 12–21 Nov 2026 (La Cômerie, Le Dodu 14 Nov, Petit Cab 21 Nov and other venues)."
+  },
+  {
+   "name": "Image de Ville",
+   "from": "11-01",
+   "to": "11-30",
+   "cats": [
+    "cinema",
+    "talk"
+   ],
+   "url": "https://www.imagedeville.org/",
+   "note": "No 2026 festival programme on imagedeville.org as of 9 Nov 2026: only a 3 Nov Martigues screening and the 19 Nov Mois du doc screening with Tous Courts in Aix."
+  },
+  {
+   "name": "Festival JEST – Jamais d'Eux Sans Toi",
+   "from": "11-01",
+   "to": "11-30",
+   "cats": [
+    "music",
+    "festival"
+   ],
+   "url": "https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/",
+   "region": "marseille",
+   "note": "JEST #6 (AMI): 21 Nov 2026 at Cité de la Musique, then Friche la Belle de Mai 22, 25, 26, 27, 28 Nov; line-up at lafriche.org/evenements/jest-6-jamais-deux-sans-toi/."
+  },
+  {
+   "name": "Jazz sur la Ville",
+   "from": "11-01",
+   "to": "12-10",
+   "cats": [
+    "music"
+   ],
+   "url": "https://www.jazzsurlaville.org/",
+   "note": "2026 edition 2 Nov–6 Dec; last Marseille concert 2 Dec. Programme at jazzsurlaville.org/programmation-2026/."
   },
   {
    "name": "Phonurgia Nova",
@@ -814,7 +842,32 @@
    "cats": [
     "festival"
    ],
-   "url": "https://gmem.org/"
+   "url": "https://gmem.org/",
+   "note": "Phonurgia Nova Awards 13–14 Nov 2026 at the Friche (GMEM, Radio Grenouille & Euphonia)."
+  },
+  {
+   "name": "Rencontres du cinéma sud-américain",
+   "from": "11-05",
+   "to": "11-25",
+   "cats": [
+    "cinema",
+    "festival"
+   ],
+   "url": "https://cinesudaspas.org/",
+   "region": "marseille",
+   "note": "ASPAS festival, now in November: 28th edition 19–20 Nov 2026 at Les Variétés, 21–22 Nov at Le Gyptis; programme not yet published on 9 Nov."
+  },
+  {
+   "name": "Foire aux santons et aux crèches de Marseille",
+   "from": "11-10",
+   "to": "01-05",
+   "cats": [
+    "festival",
+    "family"
+   ],
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/foire-aux-santons-et-santonniers-a-marseille/",
+   "region": "marseille",
+   "note": "Santon-makers' fair on the Quai du Port; 224th edition 14 Nov 2026–3 Jan 2027, inauguration Sun 15 Nov 12h."
   },
   {
    "name": "Dansem",
@@ -824,16 +877,7 @@
     "dance"
    ],
    "url": "https://www.dansem.org/",
-   "note": "Officina's contemporary dance festival; dansem.org blocks fetching and no 2026 edition surfaced by search on 26 Oct or 2 Nov 2026 — may be skipping 2026."
-  },
-  {
-   "name": "Les Nuits de l'Alcazar / Marseille lit",
-   "from": "11-15",
-   "to": "12-15",
-   "cats": [
-    "talk"
-   ],
-   "url": ""
+   "note": "No 2026 edition found on 26 Oct, 2 Nov or 9 Nov 2026 (dansem.org blocks fetching; searches return only old directory entries)."
   },
   {
    "name": "Festival d'Histoire de Marseille",
@@ -846,7 +890,41 @@
    ],
    "url": "https://musees.marseille.fr/",
    "region": "marseille",
-   "note": "First edition 27–28 Nov 2026 at the Musée d'Histoire / Centre Bourse, free, opening two photography shows (Marseille, porte du monde ?; Nous, Marseillais de Bassens 2); talks programme not yet published."
+   "note": "First edition confirmed 27–28 Nov 2026 at the Musée d'Histoire (Centre Bourse), free, theme 'Marseille : Porte du Monde ?'; opens two photography shows (to 23 May 2027). Talks programme unpublished on 9 Nov."
+  },
+  {
+   "name": "Les Nuits de l'Alcazar / Marseille lit",
+   "from": "11-15",
+   "to": "12-15",
+   "cats": [
+    "talk"
+   ],
+   "url": "",
+   "note": "Nothing found for 2026 on 2 or 9 Nov."
+  },
+  {
+   "name": "Le Noël Marseillais – Marché de Noël",
+   "from": "11-20",
+   "to": "01-05",
+   "cats": [
+    "festival",
+    "family"
+   ],
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/animations-noel-marseille/",
+   "region": "marseille",
+   "note": "City Christmas market and programme; 28 Nov 2026–3 Jan 2027, illuminations 28 Nov, drone show 19 Dec; full programme unpublished on 9 Nov."
+  },
+  {
+   "name": "Festival Panorama (Scènes et Cinés, afield)",
+   "from": "11-20",
+   "to": "12-08",
+   "cats": [
+    "cinema",
+    "festival"
+   ],
+   "url": "https://www.scenesetcines.fr/",
+   "region": "afield",
+   "note": "Film festival in the Scènes et Cinés cinemas (Fos, Grans, Istres, Miramas, Port-Saint-Louis); listed 28 Nov–6 Dec 2026 by Les Écrans du Sud, not yet checked."
   },
   {
    "name": "art3f Marseille",
@@ -857,7 +935,7 @@
    ],
    "url": "https://www.art3f.fr/",
    "region": "marseille",
-   "note": "Commercial contemporary-art fair at Parc Chanot; 4–6 Dec 2026."
+   "note": "Commercial contemporary-art fair at Parc Chanot; 4–6 Dec 2026 (Fri 16–22h, Sat 10–20h, Sun 10–19h)."
   },
   {
    "name": "PriMed – Festival de la Méditerranée en images",
@@ -870,7 +948,20 @@
    ],
    "url": "https://primed.tv/",
    "region": "marseille",
-   "note": "Free Mediterranean documentary festival at Alcazar, Mucem, Artplexe; 2025 ran 29 Nov–6 Dec; 2026 programme still \"bientôt en ligne\" on 2 Nov 2026 (selection due at an early-November press conference) — re-check primed.tv."
+   "note": "30th edition confirmed 28 Nov–5 Dec 2026 at the Alcazar, Mairie 1&7, Mucem and Artplexe; 24 films, 22 free screenings; screening schedule still 'bientôt en ligne' on 9 Nov (primed.tv/marseille/projections/)."
+  },
+  {
+   "name": "Festival Tous en Sons",
+   "from": "11-24",
+   "to": "12-24",
+   "cats": [
+    "family",
+    "music",
+    "festival"
+   ],
+   "url": "https://tousensons.fr/",
+   "region": "marseille",
+   "note": "Young-audience music festival across Marseille venues; 8th edition 1–23 Dec 2026, 12 public shows."
   },
   {
    "name": "Festival Tous Courts (Aix, afield)",
@@ -881,7 +972,31 @@
    ],
    "url": "https://festivaltouscourts.com/",
    "region": "afield",
-   "note": "Aix short-film festival; 44th edition 1–5 Dec 2026."
+   "note": "44th edition: the festival homepage states 1–4 Dec 2026 (opening 1 Dec 20h15, closing 4 Dec 19h30); one talk is printed for 'vendredi 5'. Mois du doc screening with Image de Ville 19 Nov."
+  },
+  {
+   "name": "RISC – Rencontres Internationales Sciences & Cinémas",
+   "from": "11-25",
+   "to": "12-15",
+   "cats": [
+    "cinema",
+    "festival"
+   ],
+   "url": "http://festivalrisc.org/",
+   "region": "marseille",
+   "note": "Polly Maggoo's science-and-cinema film festival; 17th edition 8–12 Dec 2026, venues not confirmed (site not fetchable on 9 Nov)."
+  },
+  {
+   "name": "Les Calend'Arles / Drôles de Noëls (Arles, afield)",
+   "from": "11-25",
+   "to": "12-31",
+   "cats": [
+    "festival",
+    "family"
+   ],
+   "url": "https://www.myprovence.fr/agenda/festival/arles/les-calendarles",
+   "region": "afield",
+   "note": "Arles Christmas season 4–30 Dec 2026; Drôles de Noëls street-arts dates not published on 9 Nov."
   },
   {
    "name": "Trafic – salon de l'édition indépendante",
@@ -893,7 +1008,7 @@
    ],
    "url": "https://fracsud.org",
    "region": "marseille",
-   "note": "Art-publishing fair, 130+ publishers, zines and art schools at Frac Sud; Trafic #3 4–6 Dec 2026"
+   "note": "Art-publishing fair at Frac Sud; Trafic #3 4–6 Dec 2026 (Fri 18–22h, Sat–Sun 11–19h), free."
   }
  ]
 }

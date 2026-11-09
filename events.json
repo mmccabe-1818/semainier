@@ -284,7 +284,7 @@
    "end": "2026-12-06",
    "url": "https://p-a-c.fr/les-membres/fracsudcitedelartcontamporain/evenements/trafic-3-salon-de-l-edition-independante",
    "confidence": "high",
-   "note": "Third edition of the independent publishing fair focused on art (micro-publishing, zines, art schools); opening Friday 4 Dec 6-10pm, then Sat and Sun 11am-7pm, free entry.",
+   "note": "Third edition of the independent art-publishing fair (co-directed by Laura Morsch-Kihn and Muriel Enjalran): opening Fri 4 Dec 18–22h, Sat 5 and Sun 6 Dec 11–19h, free; children's workshops, and a Saturday-evening party with performances and DJ sets with SOMA.",
    "region": "marseille"
   },
   {
@@ -370,9 +370,9 @@
    "category": "exhibition",
    "start": "2026-11-26",
    "end": "2027-01-25",
-   "url": "https://13.agendaculturel.fr/exposition/marseille/le-mauvais-oeil-89-daisuke-ichiba.html",
-   "confidence": "medium",
-   "note": "Next Dernier Cri micro-edition show, devoted to Japanese artist Daisuke Ichiba; opens 26 Nov.",
+   "url": "https://www.lafriche.org/evenements/le-mauvais-oeil-89-daisuke-ichiba/",
+   "confidence": "high",
+   "note": "89th 'Mauvais œil' show at Le Dernier Cri's gallery: drawings by Tokyo artist Daisuke Ichiba (b. 1963), between manga, underground comics and dark poetry; free, Mon–Thu 10–12 and 14–17, Fri 10–18, Sat–Sun 14–17.",
    "region": "marseille"
   },
   {
@@ -438,8 +438,8 @@
    "start": "2026-11-10",
    "end": "2026-11-28",
    "url": "https://fotokino.org/en/agenda/sento-trip-kyoto-sketches-cesar-debargue/",
-   "confidence": "medium",
-   "note": "Drawings made in Kyoto by illustrator César Debargue (Villa Kujoyama resident); dates from listing, Fotokino page not readable.",
+   "confidence": "high",
+   "note": "Drawings made in Kyoto by illustrator César Debargue (Villa Kujoyama resident), Tue 10–Sat 28 Nov; launch evening with the artist Thu 12 Nov, 18h30–20h30.",
    "region": "marseille"
   },
   {
@@ -448,9 +448,9 @@
    "category": "exhibition",
    "start": "2026-12-05",
    "end": "2027-02-20",
-   "url": "https://13.agendaculturel.fr/exposition/marseille/agenda-paul-cox.html",
-   "confidence": "medium",
-   "note": "Winter show by illustrator and designer Paul Cox, opening 5 Dec; details not yet on the Fotokino site.",
+   "url": "https://fotokino.org/en/agenda/agenda-paul-cox/",
+   "confidence": "high",
+   "note": "Exhibition by illustrator and designer Paul Cox, Sat 5 Dec 2026–Sat 20 Feb 2027; opening on Sat 5 Dec (time not given in Fotokino's agenda).",
    "region": "marseille"
   },
   {
@@ -504,19 +504,19 @@
    "start": "2026-12-04",
    "end": "2026-12-06",
    "url": "https://13.agendaculturel.fr/exposition/marseille/art3f-marseille.html",
-   "confidence": "medium",
-   "note": "Commercial contemporary-art fair (galleries and independent artists) at Parc Chanot, Fri–Sun.",
+   "confidence": "high",
+   "note": "Commercial contemporary-art fair (galleries and independent artists; painting, sculpture, photography) at Parc Chanot: Fri 4 Dec 16–22h, Sat 5 Dec 10–20h, Sun 6 Dec 10–19h; €10, free for accompanied minors.",
    "region": "marseille"
   },
   {
    "title": "Amphibie par-ci, par-là",
    "venue": "Cabane Georgina",
    "category": "exhibition",
-   "start": "2026-10-26",
+   "start": "2026-03-28",
    "end": "2027-03-28",
-   "url": "https://13.agendaculturel.fr/exposition/marseille/amphibie-par-ci-par-la.html",
-   "confidence": "low",
-   "note": "Show at the Cabane Georgina art space (8e); start date and artists not confirmed.",
+   "url": "https://www.myprovence.fr/agenda/exposition/marseille/amphibie-par-ci-par-la",
+   "confidence": "medium",
+   "note": "14th chapter of the 'Saga de la Cabane Georgina' (2 chemin du Mauvais Pas, 8e): about 50 artists including Gilles Barbier, Gérard Fromanger, Julia Gat and Matthias Olmeta, around the Marseille tarot; free, some periods open access and others by appointment (hours on the venue's social media).",
    "region": "marseille"
   },
   {
@@ -571,8 +571,8 @@
    "start": "2026-08-29",
    "end": "2026-11-21",
    "url": "https://territoirespartages.com/2026/07/22/prochain-vernissage-samedi-29-aout-de-18-h-a-22h-a-loccasion-de-la-rentree-de-lart-contemporain-bel-ete-a-toutes-et-tous/",
-   "confidence": "medium",
-   "note": "Installation of wooden battens in two phases; PAC gives 21 Nov, 13.agendaculturel 31 Oct.",
+   "confidence": "high",
+   "note": "Malte Martin's exhibition in two parts, ACUPUNCTURE MIKADO then MIKADO II – Les refuges des lucioles (second vernissage was Fri 9 Oct, 18h–22h). Wed–Sat 14h–18h.",
    "region": "marseille"
   },
   {
@@ -670,8 +670,8 @@
    "start": "2026-08-29",
    "end": "2026-11-26",
    "url": "https://art-o-rama.fr/in-town-2/",
-   "confidence": "low",
-   "note": "104 rue Paradis (6e); dates only from the Art-o-rama In Town listing.",
+   "confidence": "medium",
+   "note": "Guillaume Bresson shows Untitled (2026) at 1fa9f.space, 104 rue Paradis (6e); opened 29 Aug during Art-o-rama with a dance performance directed by Myrto Georgiadi (Oráma Atelier). No regular opening hours published.",
    "region": "marseille"
   },
   {
@@ -681,8 +681,8 @@
    "start": "2026-09-12",
    "end": "2026-12-20",
    "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/mister-freeze-marseille-15eme-fr-6659647/",
-   "confidence": "low",
-   "note": "Graffiti and street art exhibition of established and emerging urban artists across more than 1,500 m² of walls in the former La Tulipe soap factory (5 bd Romieu, 15th arr.); open Sat 11am-10pm and Sun 11am-8pm, €5; earlier listings gave 1 Nov as the closing date, the tourist-office page says 20 Dec.",
+   "confidence": "medium",
+   "note": "First Marseille edition of the Mister Freeze graffiti and street-art festival, made with local artists Nyota and Braga: murals and installations on more than 1,500 m² of walls in the former La Tulipe soap factory (5 bd Romieu, 15e); Sat 11am–10pm and Sun 11am–8pm, €5.",
    "region": "marseille"
   },
   {
@@ -715,7 +715,6 @@
    "category": "family",
    "start": "2026-11-13",
    "end": "2026-11-14",
-   "time": "19:00",
    "url": "https://theatre-lacriee.com/programmation/evenements/morphe",
    "confidence": "high",
    "note": "Simon Falguières's piece for ages 6+, played by a hearing actor and a deaf actress with LSF, follows a father telling his daughter a fable about the creation of the world in a country at war; public shows Fri 13 Nov 19h and Sat 14 Nov 11h and 15h (Festival En Ribambelle).",
@@ -727,7 +726,6 @@
    "category": "family",
    "start": "2026-11-14",
    "end": "2026-11-15",
-   "time": "10:00",
    "url": "https://theatre-lacriee.com/programmation/evenements/ces-nains-portent-quoi",
    "confidence": "high",
    "note": "Object-theatre piece by Virginie Gaillard and Maud Hufnagel for ages 18 months+ (30 min) in which dwarfs gradually reveal the objects they carry; public shows Sat 14 and Sun 15 Nov at 10h and 16h (school shows 10–13 Nov), all listed as sold out.",
@@ -843,11 +841,11 @@
    "title": "À te regarder",
    "venue": "Aller vers – lieux partenaires (Les Théâtres)",
    "category": "theatre",
-   "start": "2026-11-17",
+   "start": "2026-11-18",
    "end": "2026-11-28",
    "url": "https://www.lestheatres.net/fr/a/6060-a-te-regarder",
-   "confidence": "medium",
-   "note": "Clémentine Baert's piece À te regarder tours neighbourhood venues in Les Théâtres' Aller vers programme 17–28 Nov; venues and times are on the event page.",
+   "confidence": "high",
+   "note": "Musical 'bal populaire' on desire and youth, written and directed by Clémentine Baert with four actor-musicians (Théâtre Gymnase-Bernardines production); free, about 1 h, from age 8. In Marseille: Théâtre du HangArt, Fri 27 Nov 14:30 and 19:30; other dates in Septèmes-les-Vallons (18 Nov 18:00), Fuveau (20 Nov 19:30), Trets (21 Nov 19:00), Jouques (25 Nov 15:00) and Aix-en-Provence (28 Nov 16:00).",
    "region": "marseille"
   },
   {
@@ -915,21 +913,22 @@
    "category": "theatre",
    "start": "2026-11-18",
    "end": "2026-11-19",
-   "url": "https://13.agendaculturel.fr/theatre/marseille/mon-frere.html",
-   "confidence": "medium",
-   "note": "François Gremaud and his brother Christian Gremaud perform a bilingual LSF/French piece on relations between deaf and hearing people, built from their life stories and bodily expression, at the ZEF (Merlan).",
-   "region": "marseille"
+   "url": "https://www.lezef.org/fr/saison/26-27/mon-frere-984",
+   "confidence": "high",
+   "note": "2026 creation written and staged by François Gremaud (2b company) with his brother Christian Gremaud, who is Deaf: bilingual French Sign Language and spoken French with surtitles, on sign language and Christian's life; 1h45, from age 15, Plateau du Merlan. LSF venue visit 18 Nov 18:00; tactile set visit 19 Nov 18:30.",
+   "region": "marseille",
+   "time": "20:00"
   },
   {
    "title": "Murmures",
    "venue": "Le ZEF",
    "category": "family",
-   "start": "2026-11-26",
+   "start": "2026-11-27",
    "end": "2026-11-27",
    "time": "19:30",
-   "url": "https://13.agendaculturel.fr/jeune-public/marseille/murmures.html",
+   "url": "https://www.lezef.org/fr/saison/26-27/murmures-985",
    "confidence": "high",
-   "note": "Nathalie Pernette (Compagnie Pernette) leads children aged 6+ into an imaginary forest in this sensory dance piece with music by Franck Gervais, at the ZEF (Merlan) at 19h30.",
+   "note": "Dance for families by Nathalie Pernette (Compagnie Pernette), two dancers in an imaginary forest of plants, animals and creatures; from age 6, 50 min, Plateau du Merlan, part of the festival Petits Pas de Danse. Only public performance Fri 27 Nov 19:30 (26 and 27 Nov at 14:30 are school sessions).",
    "region": "marseille"
   },
   {
@@ -938,21 +937,22 @@
    "category": "dance",
    "start": "2026-12-01",
    "end": "2026-12-01",
-   "url": "https://13.agendaculturel.fr/danse/marseille/lullaby-shot.html",
-   "confidence": "medium",
-   "note": "Choreographer Leïla Ka presents Lullaby Shot, a contemporary dance piece, at the ZEF (Merlan), opening the venue's Printemps de la danse urban-dance season.",
-   "region": "marseille"
+   "url": "https://www.lezef.org/fr/saison/26-27/lullaby-shot-986",
+   "confidence": "high",
+   "note": "Dance piece for eight dancers by Leïla Ka (Compagnie Leïla Ka) to an electronic soundtrack; Plateau du Merlan.",
+   "region": "marseille",
+   "time": "20:00"
   },
   {
    "title": "Costumes de scènes",
    "venue": "KLAP Maison pour la danse",
    "category": "exhibition",
-   "start": "2026-11-02",
-   "end": "2026-11-02",
+   "start": "2026-11-09",
+   "end": "2026-11-09",
    "time": "18:00",
    "url": "https://www.kelemenis.fr/fr/les-expositions/1748/costumes-de-scenes",
-   "confidence": "medium",
-   "note": "Costume exhibition by Michel Kelemenis, first of four parts celebrating the company's 40th season; opening Monday 2 Nov at 6pm (exhibition duration not specified).",
+   "confidence": "low",
+   "note": "Costume exhibition by Michel Kelemenis, first of four parts for the company's 40th season; KLAP's page now gives the opening as Monday 9 Nov at 6pm (it showed 26 Oct, then 2 Nov, in earlier weeks) and no closing date.",
    "region": "marseille"
   },
   {
@@ -1058,9 +1058,9 @@
    "start": "2026-11-13",
    "end": "2026-11-13",
    "time": "20:00",
-   "url": "https://lyrica-massilia.over-blog.com/2026/10/marseille-concerts-trois-evenements-en-novembre.html",
-   "confidence": "medium",
-   "note": "Pianist Sophia Liu plays Tchaikovsky's Dumka and extracts from The Seasons, Chopin's Polonaise Op. 53, Ballade No. 1 and Scherzo No. 3, and Balakirev's Islamey for Marseille Concerts (20–45 €).",
+   "url": "https://www.marseilleconcerts.com/event-details/sophia-liu",
+   "confidence": "high",
+   "note": "Piano recital by Sophia Liu for Marseille Concerts: Tchaikovsky (Dumka op. 59, extracts from The Seasons), Chopin (Polonaise op. 53, Nocturne op. 9 no. 3, Rondo op. 16, Ballade no. 1, Scherzo no. 3) and Balakirev's Islamey.",
    "region": "marseille"
   },
   {
@@ -1143,7 +1143,7 @@
    "end": "2026-11-14",
    "time": "09:15",
    "url": "https://gmem.org/saison/phonurgia-nova-awards-2026",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "30th edition of the radio and sound creation competition: public listening sessions (Pierre Schaeffer discovery prizes, sound fiction, tribute to Yann Paranthoën on the 13th; Art sonore prize and awards on the 14th).",
    "region": "marseille"
   },
@@ -1281,9 +1281,9 @@
    "category": "family",
    "start": "2026-11-25",
    "end": "2026-11-28",
-   "url": "https://13.agendaculturel.fr/jeune-public/marseille/gerda-et-les-perseverances-du-coeur.html",
-   "confidence": "medium",
-   "note": "Adaptation of Andersen's The Snow Queen following Gerda's quest, for ages 5+, at the Badaboum 25–28 Nov.",
+   "url": "https://www.badaboum-theatre.com/gerda-et-les-perseverances-du-coeur/",
+   "confidence": "high",
+   "note": "Solo object-and-puppet theatre after Andersen's La Reine des Neiges, by Compagnie Mana Théâtre (text and staging Julie Rossignol and Lise Lenne, performed by Lise Lenne); from age 5. Session times on the theatre's ticketing page.",
    "region": "marseille"
   },
   {
@@ -1292,9 +1292,9 @@
    "category": "family",
    "start": "2026-12-05",
    "end": "2026-12-23",
-   "url": "https://13.agendaculturel.fr/jeune-public/marseille/noel-pour-un-loup.html",
-   "confidence": "medium",
-   "note": "A young wolf goes among humans to discover the secret of Christmas magic, the Badaboum's December young-audience show from 5 Dec.",
+   "url": "https://www.badaboum-theatre.com/noel-pour-un-loup/",
+   "confidence": "high",
+   "note": "New creation by Compagnie Badaboum Théâtre, written and directed by Magali Fremin Du Sartel: a family of wolves watches the town's Christmas from a mountain cabin; set built as a giant book; from age 3. Session times on the theatre's ticketing page.",
    "region": "marseille"
   },
   {
@@ -1303,10 +1303,11 @@
    "category": "dance",
    "start": "2026-11-19",
    "end": "2026-11-19",
-   "url": "https://13.agendaculturel.fr/danse/marseille/tutu-1.html",
-   "confidence": "medium",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/tutu/",
+   "confidence": "high",
    "note": "Chicos Mambo's comic dance revue Tutu, parodying ballet and other dance styles, for ages 5+ at the Cepac Silo (from 41 €).",
-   "region": "marseille"
+   "region": "marseille",
+   "time": "20:00"
   },
   {
    "title": "Casse-Noisette, ballet féerique",
@@ -1314,9 +1315,9 @@
    "category": "dance",
    "start": "2026-11-29",
    "end": "2026-11-29",
-   "url": "https://13.agendaculturel.fr/danse/marseille/casse-noisette-ballet-feerique.html",
-   "confidence": "medium",
-   "note": "The British Festival Ballet dances Tchaikovsky's Nutcracker at the Cepac Silo (from 45 €).",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/casse-noisette-2/",
+   "confidence": "high",
+   "note": "Tchaikovsky's ballet by the British Festival Ballet (choreography after Marius Petipa), presented by ARG Project, without live orchestra; two sessions Sun 29 Nov, 13:30 and 17:30; about 2 h with interval.",
    "region": "marseille"
   },
   {
@@ -1326,8 +1327,8 @@
    "start": "2026-11-20",
    "end": "2026-11-22",
    "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/la-cantatrice-chauve-marseille-6eme-en-6640283/",
-   "confidence": "low",
-   "note": "Ionesco's La Cantatrice chauve played 20–22 Nov at the Théâtre du Carré Rond (rue des Trois Rois); company and times not given in the listing.",
+   "confidence": "high",
+   "note": "Ionesco's play directed by Dominique Lamour; three performances, 20–22 Nov.",
    "region": "marseille"
   },
   {
@@ -1564,8 +1565,8 @@
    "start": "2026-11-11",
    "end": "2026-11-11",
    "url": "https://www.frequence-sud.fr/art-109015-still_fresh_marseille",
-   "confidence": "medium",
-   "note": "Rapper Still Fresh on tour; not re-confirmed (no longer on the Espace Julien agenda on 2 Nov).",
+   "confidence": "low",
+   "note": "Rapper Still Fresh on tour; not re-confirmed: absent from the Espace Julien agenda on 2 and 9 Nov and the tourist-office listing has been withdrawn, no cancellation notice found.",
    "region": "marseille"
   },
   {
@@ -1708,7 +1709,7 @@
    "end": "2026-11-14",
    "time": "23:00",
    "url": "https://www.lafriche.org/evenements/vitess-to-grand-v-%f0%9d%98%88%f0%9d%98%ad%f0%9d%98%ad-%f0%9d%98%93%f0%9d%98%aa%f0%9d%98%b7%f0%9d%98%a6-%f0%9d%98%93%f0%9d%98%b0%f0%9d%98%af%f0%9d%98%a8/",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "Club night at Cabaret Aléatoire, 11pm-5am, tickets via Shotgun.",
    "region": "marseille"
   },
@@ -1718,10 +1719,11 @@
    "category": "music",
    "start": "2026-11-20",
    "end": "2026-11-20",
-   "url": "https://songkick.com/concerts/43422035-mark-reeve-at-cabaret-aleatoire",
-   "confidence": "medium",
+   "url": "https://www.technoairlines.com/event/club-cabaret-agoya-invite-mark-reeve-cabaret-aleatoire-2026-11-20",
+   "confidence": "high",
    "note": "Techno night headlined by British DJ-producer Mark Reeve.",
-   "region": "marseille"
+   "region": "marseille",
+   "time": "23:00"
   },
   {
    "title": "Bachar Mar-Khalifé joue Christophe",
@@ -1765,9 +1767,10 @@
    "start": "2026-11-25",
    "end": "2026-11-25",
    "url": "https://www.songkick.com/concerts/43280802-laurent-voulzy-at-le-cepac-silo",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "Laurent Voulzy in concert on his current tour.",
-   "region": "marseille"
+   "region": "marseille",
+   "time": "20:30"
   },
   {
    "title": "Souad Massi",
@@ -1784,13 +1787,14 @@
   {
    "title": "Ronja + Vincent Peirani",
    "venue": "Le Silo",
-   "category": "music",
+   "category": "family",
    "start": "2026-12-04",
    "end": "2026-12-04",
-   "url": "https://13.agendaculturel.fr/concert/marseille/ronja-vincent-peirani.html",
-   "confidence": "medium",
-   "note": "Singer Ronja with accordionist Vincent Peirani, billed as a festival date at the Cepac Silo.",
-   "region": "marseille"
+   "url": "https://tousensons.fr/spectacle/ronja/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: jazz show adapted by accordionist Vincent Peirani from Astrid Lindgren's novel Ronja, with Serena Fisseau, Sanseverino, the trios Jockers and Journal Intime and two choirs (Conservatoire de Marseille children, Aix-Marseille Université students); from age 6, 60 min.",
+   "region": "marseille",
+   "time": "20:00"
   },
   {
    "title": "Josman – DPC Tour",
@@ -1820,10 +1824,11 @@
    "category": "music",
    "start": "2026-12-02",
    "end": "2026-12-03",
-   "url": "https://13.agendaculturel.fr/concert/marseille/orelsan-tournee-1.html",
-   "confidence": "medium",
+   "url": "https://www.jds.fr/marseille/concerts/rap/orelsan-tournee-1448326_A",
+   "confidence": "high",
    "note": "Rapper Orelsan plays two nights at Le Dôme on his arena tour.",
-   "region": "marseille"
+   "region": "marseille",
+   "time": "19:30"
   },
   {
    "title": "The Walking Bass – Halloween : Vladimir Cauchemar, Mandragora, Yoshiko",
@@ -1912,10 +1917,10 @@
    "category": "music",
    "start": "2026-11-21",
    "end": "2026-11-21",
-   "time": "19:00",
-   "url": "https://jazzsurlaville.org/evenement/raul-midon/",
-   "confidence": "medium",
-   "note": "Kansas City-born singer-guitarist Krystle Warren, drawing on jazz, blues, folk and country, for Jazz sur la Ville; infoconcert still lists Raul Midón for this slot.",
+   "time": "20:00",
+   "url": "https://lameson.com/evenements/krystle-warren/",
+   "confidence": "high",
+   "note": "Jazz sur la Ville: Kansas City singer-guitarist Krystle Warren solo (voice and guitar; blues, country, folk). Doors 19:00, concert 20:00.",
    "region": "marseille"
   },
   {
@@ -2200,7 +2205,7 @@
    "start": "2026-11-25",
    "end": "2026-11-25",
    "time": "19:30",
-   "url": "https://www.videodrome2.fr/coeurs-sombres-cycle-cinema/",
+   "url": "https://www.videodrome2.fr/coeurs-sombres-olivia-de-jacqueline-audry/",
    "confidence": "high",
    "note": "Jacqueline Audry's 1951 'Olivia' in the long-running 'Cœurs sombres' cycle (30 Sep 2026 – 20 Jan 2027).",
    "region": "marseille"
@@ -2320,8 +2325,8 @@
    "end": "2026-11-12",
    "time": "18:00",
    "url": "https://www.lafriche.org/evenements/ports-dattache-football-supporters-et-identites-dans-les-villes-portuaires/",
-   "confidence": "medium",
-   "note": "Talk on football supporters and identity in port cities; carried over from last week's listing (Friche agenda beyond 9 Nov not reachable this run).",
+   "confidence": "high",
+   "note": "'Conférence augmentée' (18:00-19:45) by Campus AFD and INA on how football shapes the identities of port cities, from Marseille to Naples; free on reservation.",
    "region": "marseille"
   },
   {
@@ -2331,7 +2336,7 @@
    "start": "2026-11-12",
    "end": "2026-11-21",
    "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/dreamachine-festival-marseille-1er-fr-6851822/",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "First edition of a queer festival of electronic music, club and performance: six events in six venues on 12, 13, 14, 15, 20 and 21 Nov, €5-15, tickets via HelloAsso.",
    "region": "marseille"
   },
@@ -2353,10 +2358,10 @@
    "category": "festival",
    "start": "2026-10-22",
    "end": "2027-01-17",
-   "time": "18:30",
-   "url": "https://www.lafriche.org/evenements/39e-festival-les-instants-video-jour-1/",
+   "time": "14:00",
+   "url": "https://www.lafriche.org/evenements/ce-que-nous-voyons-nous-regarde/",
    "confidence": "medium",
-   "note": "39th edition of the video-art festival: opening days at the Friche la Belle de Mai (22–25 Oct), then screenings and exhibitions at Vidéodrome 2 and partner venues until 17 January.",
+   "note": "Video-art and digital-poetry festival; the festival days ran 22–25 Oct, and its exhibition 'Ce que nous voyons nous regarde' remains open at the Friche in the afternoons, 14:00–19:00.",
    "region": "marseille"
   },
   {
@@ -2475,7 +2480,7 @@
    "start": "2026-11-20",
    "end": "2026-11-21",
    "url": "https://luma.org/en/arles/whats-on/lucid-intervals-cells",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "Two-evening film programme in LUMA's 'Lucid Intervals' cinema series; this edition is titled 'Cells'.",
    "region": "afield"
   },
@@ -2571,10 +2576,10 @@
    "town": "Avignon",
    "category": "exhibition",
    "start": "2026-09-23",
-   "end": "2027-02-28",
+   "end": "2027-01-03",
    "url": "https://collectionlambert.com/exposition/recollection/",
-   "confidence": "low",
-   "note": "Two collection displays opened 23 September devoted to Richard Tuttle and Richard Long; closing date not published on the site.",
+   "confidence": "medium",
+   "note": "Two collection displays devoted to Richard Tuttle and Richard Long, recalling Yvon Lambert's early support for American and British artists; the museum's page gives only the 23 September opening, the Vaucluse tourism listing gives 3 January 2027 as the end.",
    "region": "afield"
   },
   {
@@ -2644,9 +2649,9 @@
    "category": "exhibition",
    "start": "2026-07-03",
    "end": "2026-11-15",
-   "url": "https://avignon-tourisme.com/en/offres/relatum-lee-ufan-at-the-palais-des-papes-avignon-en-6564415/",
+   "url": "https://palais-des-papes.com/event/relatum-lee-ufan-au-palais-des-papes/",
    "confidence": "high",
-   "note": "Lee Ufan's Relatum sculptures installed in the Palais des Papes; final fortnight, closes 15 November (dates confirmed by two regional listings).",
+   "note": "Lee Ufan at the Palais des Papes: a slate installation of over 60 tonnes in the Grande Chapelle, three new works in other rooms and large canvases in the Grand Tinel; last day 15 November.",
    "region": "afield"
   },
   {
@@ -2680,7 +2685,7 @@
    "category": "exhibition",
    "start": "2026-11-07",
    "end": "2027-03-28",
-   "url": "https://www.myprovence.fr/ca-s-agite-dans-le-local/a-moi-la-culture/top/arles/arles-cet-automne-3-expos-glisser-dans-votre-agenda",
+   "url": "https://www.myprovence.fr/agenda/exposition/arles/le-musee-arlesien-de-la-photographie-nouvel-accrochage-des",
    "confidence": "medium",
    "note": "New hang of the museum's photography collection (over 200 prints by some fifty photographers) with Jacqueline Salmon's Arles skies and Roman crypts in the Galerie gothique.",
    "region": "afield"
@@ -2731,7 +2736,7 @@
    "end": "2026-11-24",
    "time": "20:00",
    "url": "https://www.lestheatres.net/fr/a/6115-stabat-mater-pergolese",
-   "confidence": "medium",
+   "confidence": "high",
    "note": "Il Pomo d'Oro with Cameron Shahbazi and Madison Nonoa in Pergolesi's Stabat Mater.",
    "region": "afield"
   },
@@ -2742,9 +2747,9 @@
    "category": "exhibition",
    "start": "2026-10-08",
    "end": "2026-11-27",
-   "url": "http://www.fontaine-obscure.com",
+   "url": "https://www.myprovence.fr/agenda/exposition/aix-en-provence/photaix-festival-photographique-daix-en-provence",
    "confidence": "medium",
-   "note": "Photography festival run by La Fontaine Obscure across Aix venues (Fondation Vasarely, Hôtel de ville and others).",
+   "note": "26th edition, guest country Hungary: 'Regards Croisés' pairs Hungarian and French photographers at La Fontaine Obscure, free, daily to 27 Nov; a retrospective of 40 years of Regards Croisés is presented at the Hôtel de Ville on 18 Nov at 17:30.",
    "region": "afield"
   },
   {
@@ -2825,7 +2830,7 @@
    "venue": "3 bis F – Centre d'arts contemporains",
    "town": "Aix-en-Provence",
    "category": "exhibition",
-   "start": "2026-10-30",
+   "start": "2026-10-31",
    "end": "2027-03-20",
    "url": "https://p-a-c.fr/les-membres/3-bis-f/evenements/sacha-rey-la-responsabilite-des-reves",
    "confidence": "medium",
@@ -2875,8 +2880,8 @@
    "category": "exhibition",
    "start": "2026-10-10",
    "end": "2026-11-28",
-   "url": "https://www.frequence-sud.fr/art-109009-la_biennale_des_imaginaires_numeriques_revient_en_grand_cet_automne_bouches_du_rhone",
-   "confidence": "medium",
+   "url": "https://p-a-c.fr/les-membres/mac-arteum-musee-d-art-contemporain/evenements/la-saison-du-dessin",
+   "confidence": "high",
    "note": "Exhibition at ARTEUM in the Chroniques biennale network.",
    "region": "afield"
   },
@@ -2886,9 +2891,9 @@
    "town": "Aix-en-Provence",
    "category": "festival",
    "start": "2026-12-01",
-   "end": "2026-12-05",
+   "end": "2026-12-04",
    "url": "https://festivaltouscourts.com/",
-   "confidence": "high",
+   "confidence": "medium",
    "note": "69 short films in the 44th international and 12th experimental competitions, cartes blanches, Films en Région and a short-film market, at Le Mazarin, Le Cézanne, Amphithéâtre de la Manufacture, Institut de l'Image and Onepoint.",
    "region": "afield"
   },
@@ -2911,7 +2916,7 @@
    "end": "2027-01-03",
    "url": "https://collectionlambert.com/exposition/festival-cest-pas-du-luxe/",
    "note": "Exhibition presented as part of the festival C'est pas du Luxe !, on view until 3 January 2027.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3021,9 +3026,9 @@
    "category": "talk",
    "start": "2026-11-14",
    "end": "2026-11-14",
-   "url": "https://www.caumont-centredart.com/fr/conferences",
+   "url": "https://www.caumont-centredart.com/en/photographer-library-cartier-bresson-and-his-writers",
    "note": "Lecture in the cycle accompanying the Henri Cartier-Bresson exhibition, on the photographer's relationships with writers.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3032,9 +3037,9 @@
    "category": "talk",
    "start": "2026-12-12",
    "end": "2026-12-12",
-   "url": "https://www.caumont-centredart.com/fr/conferences",
+   "url": "https://www.caumont-centredart.com/en/what-can-photography-do-photography-art-history-and-staging",
    "note": "Second lecture in the cycle accompanying the Henri Cartier-Bresson exhibition.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3046,7 +3051,7 @@
    "time": "19:00",
    "url": "https://www.helloasso.com/associations/fondation-vasarely/evenements/conference-de-bernard-blistene-4",
    "note": "Talk on the Groupe de Recherche d'Art Visuel announced on the Fondation's homepage for 26 November at 19:00; the ticketing link names Bernard Blistène as speaker.",
-   "confidence": "low",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3079,7 +3084,7 @@
    "end": "2026-11-14",
    "url": "https://www.lestheatres.net/fr/a/6111-tableaux-d-une-exposition",
    "note": "Orchestre national Avignon-Provence with clarinettist Pierre Génisson, conducted by Satoshi Yoneda.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3091,7 +3096,7 @@
    "time": "20:00",
    "url": "https://www.lestheatres.net/fr/a/6114-karaoke",
    "note": "Musical show by Raphaël directed by Cyril Teste.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3102,7 +3107,7 @@
    "end": "2026-11-28",
    "url": "https://www.lestheatres.net/fr/a/6116-les-gaulois",
    "note": "Text by Marion Aubert, with Olivier Martin-Salvan and Thomas Blanchard.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3113,7 +3118,7 @@
    "end": "2026-11-28",
    "url": "https://www.lestheatres.net/fr/a/6118-le-carnaval-des-animaux",
    "note": "Choreographic piece by Émilie Lalande (Compagnie (1)Promptu) based on Saint-Saëns.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3124,7 +3129,7 @@
    "end": "2026-12-01",
    "url": "https://www.lestheatres.net/fr/a/6119-maria-de-buenos-aires",
    "note": "Tango-operita by Astor Piazzolla and Horacio Ferrer with accordionist William Sabatier.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3136,7 +3141,7 @@
    "time": "20:00",
    "url": "https://www.lestheatres.net/fr/a/6121-la-traviata",
    "note": "Verdi by Le Cercle de l'Harmonie conducted by Jérémie Rhorer.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3147,7 +3152,7 @@
    "end": "2026-12-05",
    "url": "https://www.lestheatres.net/fr/a/6122-ca-va-ca-va",
    "note": "One-woman comedy show by Camille Chamoux.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3156,10 +3161,11 @@
    "category": "cinema",
    "start": "2026-11-19",
    "end": "2026-11-19",
-   "url": "https://festivaltouscourts.com/",
-   "note": "Pre-festival screening and debate organised with the Image de Ville festival at the Institut de l'Image (57 rue Émile Tavan), Thursday 19 November.",
-   "confidence": "low",
-   "region": "afield"
+   "url": "https://festivaltouscourts.com/mois-du-doc-2026/",
+   "note": "Screening of documentary short films organised by Festival Tous Courts with Image de Ville for the Mois du doc, at the Institut de l'Image (57 rue Émile Tavan).",
+   "confidence": "high",
+   "region": "afield",
+   "time": "19:00"
   },
   {
    "title": "Tous Courts — Films en Région",
@@ -3277,7 +3283,7 @@
    "time": "20:30",
    "url": "https://unidivers.fr/event/lilly-wood-and-the-prick-lusine-scenes-et-cines-istres-2026-11-12/",
    "note": "Concert by the French folk-pop duo at L'Usine (route de Fos).",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3286,10 +3292,11 @@
    "category": "music",
    "start": "2026-11-20",
    "end": "2026-11-20",
-   "url": "https://unidivers.fr/event/svinkels-family-et-friends-lusine-scenes-et-cines-istres-2026-11-20/",
-   "note": "Hip-hop night around the Paris group Svinkels and guests at L'Usine; time not confirmed.",
-   "confidence": "low",
-   "region": "afield"
+   "url": "https://www.frequence-sud.fr/art-112803-svinkels_family___friends___guest_istres",
+   "note": "French rap trio Svinkels (Gérard Baste, Mr Xavier, DJ Pone) with guests on their 'Tour d'Honneur'.",
+   "confidence": "high",
+   "region": "afield",
+   "time": "20:30"
   },
   {
    "title": "Fatoumata Diawara",
@@ -3300,7 +3307,7 @@
    "time": "20:30",
    "url": "https://unidivers.fr/event/fatoumata-diawara-lusine-scenes-et-cines-istres-2026-12-04/",
    "note": "Concert by the Malian singer-guitarist at L'Usine (route de Fos).",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3320,9 +3327,9 @@
    "category": "theatre",
    "start": "2026-11-13",
    "end": "2026-11-14",
-   "url": "https://www.objectifsud.fr/gard/arles/culture-nouvelle-saison-au-theatre-darles-le-besoin-detre-ensemble-existe-encore-164219.php",
-   "note": "Emmanuel Noblet's stage adaptation of Tanguy Viel's novel: a man confesses a murder to a judge who must rule on his own conviction.",
-   "confidence": "low",
+   "url": "https://www.theatre-arles.com/evenement/article-353-du-code-penal/",
+   "note": "Stage adaptation of Tanguy Viel's novel, directed by Emmanuel Noblet.",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3331,9 +3338,9 @@
    "category": "theatre",
    "start": "2026-11-18",
    "end": "2026-11-19",
-   "url": "https://www.objectifsud.fr/gard/arles/culture-nouvelle-saison-au-theatre-darles-le-besoin-detre-ensemble-existe-encore-164219.php",
-   "note": "Rachida Brakni plays a mother on the edge of infanticide in Louise Vignaud's staging, after its Marseille run at the Bernardines.",
-   "confidence": "low",
+   "url": "https://www.theatre-arles.com/evenement/medees/",
+   "note": "Theatre piece on the Medea figure directed by Louise Vignaud; a related screening of 'À perdre la raison' follows on 20 Nov at the Méjan cinemas.",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3342,9 +3349,9 @@
    "category": "theatre",
    "start": "2026-12-08",
    "end": "2026-12-09",
-   "url": "https://www.objectifsud.fr/gard/arles/culture-nouvelle-saison-au-theatre-darles-le-besoin-detre-ensemble-existe-encore-164219.php",
-   "note": "Philippe Car and his Agence de Voyages Imaginaires rework Molière's Don Juan, two performances.",
-   "confidence": "low",
+   "url": "https://www.theatre-arles.com/evenement/don-juan-un-coeur-a-aimer-la-terre-entiere/",
+   "note": "Molière's Don Juan staged by Agence de Voyages Imaginaires / Cie Philippe Car.",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3354,8 +3361,8 @@
    "start": "2026-11-20",
    "end": "2027-01-30",
    "url": "https://p-a-c.fr/les-membres/double-v-gallery/evenements/under-pressure",
-   "note": "New exhibition at the gallery (28 rue Saint-Jacques, 6th arr.), 20 Nov 2026 to 30 Jan 2027, announced in the PAC network agenda; opening Thursday 19 Nov at 6pm.",
-   "confidence": "medium",
+   "note": "Group show with Maty Biayenda, Elvire Bonduelle, B.D. Graft, Alice Guittard, Thomas Mailaender, Francis Picabia, Maximilien Pellet, Pace Taylor, Sophie Vallance Cantor and Arsène Welkin at 28 rue Saint-Jacques (6e). Vernissage Thu 19 Nov, 18h. Free.",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3367,18 +3374,18 @@
    "time": "18:00",
    "url": "https://p-a-c.fr/les-membres/double-v-gallery/evenements/under-pressure",
    "note": "Opening of the exhibition Under Pressure at the gallery, Thursday 19 Nov at 6pm (PAC agenda).",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "marseille"
   },
   {
    "title": "Ruminations – Daria Krotova",
    "venue": "Le 33 (fonds Carta)",
    "category": "exhibition",
-   "start": "2026-11-19",
+   "start": "2026-11-20",
    "end": "2027-01-21",
    "url": "https://p-a-c.fr/les-membres/le-33/evenements/ruminations",
-   "note": "Exhibition by Daria Krotova at 33 (Carta collection), 19 Nov 2026 to 21 Jan 2027; opening 19 Nov at 6pm (PAC agenda).",
-   "confidence": "medium",
+   "note": "Installation of sculptures and drawings by Daria Krotova, taking William Blake's illustrations for Milton's Paradise Lost as its starting point; organic forms spread through the space. Vernissage Thu 19 Nov, 18h–21h. Free, visits by appointment only (33 rue Saint-Jacques, 6e).",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3389,8 +3396,8 @@
    "end": "2026-11-19",
    "time": "18:00",
    "url": "https://p-a-c.fr/les-membres/le-33/evenements/ruminations",
-   "note": "Opening of the exhibition Ruminations by Daria Krotova, Thursday 19 Nov at 6pm (PAC agenda).",
-   "confidence": "medium",
+   "note": "Opening of Daria Krotova's installation of sculptures and drawings based on William Blake's illustrations for Paradise Lost; 18h–21h, free.",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3422,8 +3429,8 @@
    "start": "2026-12-04",
    "end": "2027-01-08",
    "url": "https://p-a-c.fr/les-membres/espace-d-exposition-gt/evenements/noelisation-12",
-   "note": "12th edition of the Espace GT year-end exhibition, held off-site at Atelier Séruse, 4 Dec 2026 to 8 Jan 2027 (PAC agenda).",
-   "confidence": "low",
+   "note": "Espace GT's annual end-of-year group exhibition, held off-site at Atelier Séruse (25 rue d'Isoard, 1er), curated by Antje Poppinga. No vernissage date published; opens Fri 4 Dec. Thu–Sat 15h–19h.",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3467,8 +3474,8 @@
    "start": "2026-11-27",
    "end": "2026-11-28",
    "url": "https://www.frequence-sud.fr/art-114183-festival_d_histoire_de_marseille__une_premiere_edition_gratuite_au_musee_d_histoire_marseille",
-   "note": "Free first edition, 27 and 28 Nov 2026 at Centre Bourse, with the opening of the photo exhibitions Marseille, porte du monde ? and Nous, Marseillais de Bassens 2 and a guided tour on the 28th; meetings programme to be announced.",
-   "confidence": "low",
+   "note": "Free first edition ('avant-première') on the theme 'Marseille : Porte du Monde ?', the city seen through migration, Fri 27 and Sat 28 Nov at Centre Bourse; opens the photo exhibitions Marseille, porte du monde ? and Nous, Marseillais de Bassens 2, with a guided tour on Sat 28; detailed programme of talks not yet published.",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3478,7 +3485,7 @@
    "start": "2026-11-20",
    "end": "2026-12-04",
    "url": "https://p-a-c.fr/les-membres/centre-d-arts-plastiques-fernand-leger/evenements/un-entre-deux-31e-salon-d-automne",
-   "note": "31st autumn salon of the Port-de-Bouc visual arts centre, 20 Nov to 4 Dec 2026; opening 20 Nov at 6pm.",
+   "note": "31st autumn salon of the Centre d'arts plastiques Fernand Léger. Vernissage Fri 20 Nov, 18h. Free, Mon–Fri 14h–17h30.",
    "confidence": "medium",
    "region": "afield"
   },
@@ -3593,10 +3600,9 @@
    "venue": "Théâtre National de La Criée",
    "category": "theatre",
    "start": "2026-12-08",
-   "end": "2026-12-11",
-   "time": "20:00",
+   "end": "2026-12-19",
    "url": "https://theatre-lacriee.com/programmation/evenements/un-moment-suspendu-criee-2",
-   "note": "Text and direction by Pauline Sales for La Criée's Jeune Troupe: Reine tries to launch korfball in Marseille and forms a team with three young adults; salle Ouranos, 7pm on Wednesday 9th, then at the Astronef on 18-19 Dec.",
+   "note": "Play written and directed by Pauline Sales (La Criée / Cie À l'Envi): Reine, a young woman with an unexplained past, tries to start a korfball team in Marseille and three young adults join her. 8–11 Dec at La Criée, then 18–19 Dec at 20h at the Théâtre de l'Astronef (hors les murs).",
    "confidence": "high",
    "region": "marseille"
   },
@@ -3642,7 +3648,6 @@
    "category": "family",
    "start": "2026-12-05",
    "end": "2026-12-05",
-   "time": "10:00",
    "url": "https://www.theatremassalia.com/spectacles/%C3%A0-quoi-r%C3%AAvent-les-m%C3%A9duses",
    "note": "Dance for toddlers from age 2 (25 min) by Compagnie en attendant…: a man asleep on a bed of blank pages sees the sheets slide and take on colour; sessions at 10am and 4pm at the Petit Plateau, sold out.",
    "confidence": "high",
@@ -3667,8 +3672,8 @@
    "end": "2026-11-25",
    "time": "20:00",
    "url": "https://gmem.org/saison/mai",
-   "note": "Mai Mai Mai evening programmed with Karakoz in the GMEM season, at the Petit Cab at La Friche.",
-   "confidence": "medium",
+   "note": "Italian musician Mai Mai Mai presents Karakoz, with BE ON duo armor&murmur opening; a night of the JEST #6 festival (AMI).",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3703,8 +3708,8 @@
    "end": "2026-11-14",
    "time": "20:30",
    "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/cendrillon-marseille-15eme-en-6690795/",
-   "note": "Theatre performance at 8:30pm at Théâtre de la Gare (17 av. de Roquefavour, 13015), full price €15; company not specified.",
-   "confidence": "low",
+   "note": "Joël Pommerat's Cendrillon performed by Compagnie La Locomotrice, directed by Hélène Costaglioli; all audiences.",
+   "confidence": "high",
    "region": "marseille"
   },
   {
@@ -3734,10 +3739,10 @@
    "venue": "Grand Théâtre de Provence",
    "category": "dance",
    "start": "2026-12-10",
-   "end": "2026-12-11",
-   "url": "https://www.ballet-de-marseille.com/activites/apres-moi-le-deluge",
+   "end": "2026-12-12",
+   "url": "https://www.lestheatres.net/fr/a/6124-apres-moi-le-deluge",
    "note": "2026 creation by (LA)HORDE for the Ballet National de Marseille, presented in Aix-en-Provence after La Louvière and Antwerp.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -3989,7 +3994,7 @@
    "time": "20:30",
    "url": "https://jazzsurlaville.org/evenement/keziah-jones/",
    "note": "Keziah Jones on his Alive & Kicking tour at 6MIC, evening associated with Jazz sur la Ville; listed time 8:30pm.",
-   "confidence": "medium",
+   "confidence": "high",
    "region": "afield"
   },
   {
@@ -4454,10 +4459,11 @@
    "category": "music",
    "start": "2026-12-12",
    "end": "2026-12-12",
-   "url": "https://songkick.com/concerts/43123600-mazzika-orchestra-at-le-cepac-silo",
-   "note": "The Mazzika Orchestra, an Arabic music orchestra, at Cepac Silo.",
-   "confidence": "medium",
-   "region": "marseille"
+   "url": "https://www.jds.fr/marseille/concerts/legendes-arabes-by-mazzika-orchestra-1444200_A",
+   "note": "'Légendes Arabes': the Mazzika Orchestra plays classics of Arabic song.",
+   "confidence": "high",
+   "region": "marseille",
+   "time": "20:00"
   },
   {
    "title": "De l'autre côté du ciel (jeune public)",
@@ -4626,12 +4632,1446 @@
    "note": "Image de Ville session of the film En-quête d'un lieu at cinéma La Cascade in Martigues; year not specified in the agenda.",
    "confidence": "low",
    "region": "afield"
+  },
+  {
+   "title": "Défense d'effacer",
+   "venue": "MAV PACA – Maison de l'Architecture et de la Ville",
+   "category": "exhibition",
+   "start": "2026-11-02",
+   "end": "2026-12-18",
+   "url": "https://www.myprovence.fr/agenda/exposition/marseille/defense-deffacer",
+   "confidence": "high",
+   "note": "Exhibition-investigation on ephemeral urban posters, banners and graffiti (housing rights, anti-gentrification), reprinted and recomposed; co-produced with doctoral researcher Angéline Capon (ensa-m); Mon–Fri 9am–1pm and 2–5pm, free. Vernissage was Wed 4 Nov, 18h30.",
+   "region": "marseille"
+  },
+  {
+   "title": "Open studio 2026#3",
+   "venue": "Triangle-Astérides, Friche la Belle de Mai",
+   "category": "exhibition",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "16:00",
+   "url": "https://p-a-c.fr/les-membres/triangle-asterides/evenements/open-studio-2026-3",
+   "confidence": "medium",
+   "note": "Open studios of the Triangle-Astérides residents at the Friche, 16:00–20:00, free; residents listed by PAC include artist Maria Alcaide and curator Apolo de Carvalho.",
+   "region": "marseille"
+  },
+  {
+   "title": "What does it mean to be free ?",
+   "venue": "Centre Photographique Marseille",
+   "category": "talk",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "time": "18:00",
+   "url": "https://p-a-c.fr/les-membres/centre-photographique-marseille/evenements/what-does-it-mean-to-be-free",
+   "confidence": "medium",
+   "note": "Meeting and book signing, 6–8pm, during the Paul Reas exhibition (PAC network listing; guest not named there).",
+   "region": "marseille"
+  },
+  {
+   "title": "Sentô Trip – lancement avec César Debargue",
+   "venue": "Studio Fotokino",
+   "category": "talk",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "18:30",
+   "url": "https://fotokino.org/en/agenda/sento-trip-lancement-avec-cesar-debargue/",
+   "confidence": "high",
+   "note": "Launch evening with illustrator César Debargue for 'Sentô Trip', 6.30–8.30pm, alongside his exhibition Sentō trip / Kyoto Sketches (10–28 Nov).",
+   "region": "marseille"
+  },
+  {
+   "title": "Au fil de la Durance – lancement avec Aliénor Rives et Clothilde Staës",
+   "venue": "Studio Fotokino",
+   "category": "talk",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "time": "18:30",
+   "url": "https://fotokino.org/en/agenda/au-fil-de-la-durance-lancement-avec-alienor-rives-et-clothilde-staes/",
+   "confidence": "medium",
+   "note": "Launch evening for « Au fil de la Durance » with Aliénor Rives and Clothilde Staës, 6.30–8.30pm (Fotokino agenda).",
+   "region": "marseille"
+  },
+  {
+   "title": "Learning From Plan-de-Campagne – Marcher en territoire marchand / Table-ronde",
+   "venue": "Studio Fotokino",
+   "category": "talk",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "url": "https://fotokino.org/en/agenda/learning-from-plan-de-campagne-table-ronde/",
+   "confidence": "medium",
+   "note": "Fotokino day on the Plan-de-Campagne retail zone: a walk, « Marcher en territoire marchand », 10am–2.30pm, then a round table 4.30–6.30pm.",
+   "region": "marseille"
+  },
+  {
+   "title": "Musées suspendus, anticipatoires et à-venir",
+   "venue": "Mucem",
+   "category": "talk",
+   "start": "2026-11-12",
+   "end": "2026-11-13",
+   "url": "https://p-a-c.fr/les-membres/mucem/evenements/musees-suspendus-anticipatoires-et-a-venir",
+   "confidence": "medium",
+   "note": "Two-day conference at the Mucem, 12–13 Nov (PAC network listing).",
+   "region": "marseille"
+  },
+  {
+   "title": "Travail et migrations au temps de la désindustrialisation",
+   "venue": "Mucem",
+   "category": "talk",
+   "start": "2026-11-09",
+   "end": "2026-11-09",
+   "time": "09:00",
+   "url": "https://p-a-c.fr/les-membres/mucem/evenements/travail-et-migrations-au-temps-de-la-desindustrialisation",
+   "confidence": "medium",
+   "note": "Day of round tables at the Mucem on labour and migration in the era of deindustrialisation, 9am–4pm (PAC network listing).",
+   "region": "marseille"
+  },
+  {
+   "title": "Herculine, la vie des hommes infâmes – Patrick Chambon",
+   "venue": "Galerie La Nave Va",
+   "category": "exhibition",
+   "start": "2026-11-06",
+   "end": "2026-11-28",
+   "url": "https://p-a-c.fr/les-membres/galerie-la-nave-va/evenements/herculine-la-vie-des-hommes-infames",
+   "confidence": "high",
+   "note": "Patrick Chambon's original plates (pierre noire, Conté charcoal, India ink) for his book on Herculine Barbin, published with Foucault's La vie des hommes infâmes (Les mondes renversés, Oct 2026); curated by Pierric Paulian. Vernissage and signing were Fri 6 Nov, 18h–22h. Wed–Sat 14h–19h, 16 bd National, free.",
+   "region": "marseille"
+  },
+  {
+   "title": "130 messages et une colère",
+   "venue": "La Compagnie, lieu de création",
+   "category": "exhibition",
+   "start": "2026-11-18",
+   "end": "2026-12-19",
+   "url": "https://p-a-c.fr/les-membres/la-compagnie-lieu-de-creation/evenements/130-messages-et-une-colere-exposition-des-ateliers-de-la-compagnie",
+   "confidence": "high",
+   "note": "Group exhibition of work from La Compagnie's year-round workshops with Belsunce residents, on manual skill and unrecognised everyday work; participants include Cathryn Boch, Dalila Mahdjoub, Raed Issa and Paul-Emmanuel Odin. No vernissage date published; opens Wed 18 Nov. Wed–Sat 14h–19h, 19 rue Francis de Pressensé.",
+   "region": "marseille"
+  },
+  {
+   "title": "Dominique Angel – J.C. Ruggirello",
+   "venue": "Galerie Béa-Ba",
+   "category": "exhibition",
+   "start": "2026-11-12",
+   "end": "2026-12-19",
+   "url": "https://www.galeriebeaba.com/en-cours",
+   "confidence": "high",
+   "note": "Two-person show of recent sculpture by Dominique Angel (flat polychrome sculpture projects) and guest J.C. Ruggirello (Galerie Papillon, Paris). Vernissage Thu 12 Nov, 18h–20h30, with the artists. Thu–Sat 14h30–18h30, 25 rue Consolat.",
+   "region": "marseille"
+  },
+  {
+   "title": "Le Château des Carpathes",
+   "venue": "Théâtre National de La Criée",
+   "category": "theatre",
+   "start": "2026-12-16",
+   "end": "2026-12-19",
+   "url": "https://theatre-lacriee.com/programmation/evenements/le-chateau-des-carpathes",
+   "confidence": "high",
+   "note": "Musical-theatre adaptation of Jules Verne's novel, adapted and directed by Émilie Capliez (Comédie de Colmar), with singing and jazz; from age 12. Wed 16 at 19h (sold out), Thu 17 and Fri 18 at 20h (Fri audio-described), Sat 19 at 16h; Salle Déméter.",
+   "region": "marseille"
+  },
+  {
+   "title": "Dame Neige",
+   "venue": "Théâtre National de La Criée",
+   "category": "family",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "url": "https://theatre-lacriee.com/programmation/evenements/dame-neige",
+   "confidence": "high",
+   "note": "40-minute storytelling show by Aurélie Lejeune (folk tales, rhymes and songs from several countries) for ages 3 to 6, with La Baleine qui dit « Vagues ». Two sessions, 15h30 and 16h30, Salle Ouranos; both listed as sold out, same-day tickets possible on site.",
+   "region": "marseille"
+  },
+  {
+   "title": "Scènes de corps et d'esprit",
+   "venue": "Théâtre de l'Odéon",
+   "category": "theatre",
+   "start": "2026-12-14",
+   "end": "2026-12-15",
+   "time": "20:00",
+   "url": "https://www.lestheatres.net/fr/a/6126-scenes-de-corps-et-d-esprit",
+   "confidence": "high",
+   "note": "One-woman comedy show by Antonia de Rendinger, presented by the Théâtre du Gymnase hors les murs at the Odéon.",
+   "region": "marseille"
+  },
+  {
+   "title": "Heppines is cheap",
+   "venue": "Le ZEF",
+   "category": "theatre",
+   "start": "2026-12-17",
+   "end": "2026-12-17",
+   "time": "16:00",
+   "url": "https://www.lezef.org/fr/saison/26-27/heppines-is-cheap-1022",
+   "confidence": "high",
+   "note": "Karaoke-format performance by Franco-Indonesian artist Angélique Zaini (Compagnie du 7e étage) about living with a dual cultural identity; 50 min, from age 10, free on reservation, at the ZEF's Gare Franche site (residency open-door session).",
+   "region": "marseille"
+  },
+  {
+   "title": "En apparence",
+   "venue": "Théâtre Massalia, Friche la Belle de Mai",
+   "category": "family",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "url": "https://www.theatremassalia.com/spectacles/en-apparence",
+   "confidence": "high",
+   "note": "Staged concert by Compagnie Illimitée (songs and direction Tony Melvil, staging Marie Levavasseur) on self-image, with four performers; from age 6. Sat 12 Dec at 15h and 19h, Grand Plateau (school sessions Fri 11).",
+   "region": "marseille"
+  },
+  {
+   "title": "Tomber sans bruit",
+   "venue": "Friche la Belle de Mai – Petit Plateau (GMEM)",
+   "category": "classical",
+   "start": "2026-12-15",
+   "end": "2026-12-15",
+   "time": "19:00",
+   "url": "https://en.gmem.org/saison/tomber-sans-bruit",
+   "confidence": "high",
+   "note": "Music-theatre piece by Élise Dabrowski and Éric Broitmann (live electronics), with trombonist Christiane Bopp, built from sound and video archives on the collapse of the clothing group Vivarte; directed by Jean-Benoît Nison. GMEM Modulations series, €8/€6.",
+   "region": "marseille"
+  },
+  {
+   "title": "Les Fourberies de Scapin",
+   "venue": "Théâtre du Carré Rond",
+   "category": "theatre",
+   "start": "2026-12-12",
+   "end": "2026-12-20",
+   "url": "https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/les-fourberies-de-scapin-marseille-6eme-en-6640309/",
+   "confidence": "medium",
+   "note": "Molière's comedy directed by Michel Adjriou with a cast of nine; listed as daily 12–20 Dec, individual performance times not published on the tourist-office page (theatre site: lecarrerond.fr).",
+   "region": "marseille"
+  },
+  {
+   "title": "Tintamarres – Carte blanche Dimitri Coppe",
+   "venue": "Cité de la Musique",
+   "category": "music",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "time": "18:30",
+   "url": "https://www.citemusique-marseille.com/evenement/tintamarres-20/",
+   "confidence": "high",
+   "note": "Electroacoustic evening with acousmatic composer Dimitri Coppe: talk at 18:30, spatialised concert at 20:30, Auditorium; free entry.",
+   "region": "marseille"
+  },
+  {
+   "title": "Kourou Fia",
+   "venue": "Cité de la Musique",
+   "category": "music",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "20:00",
+   "url": "https://www.citemusique-marseille.com/evenement/kourou-fia/",
+   "confidence": "low",
+   "note": "Guinean kora player Kourou Fia with saxophonist Robby Marshall, release concert for the album COKORA; the venue's season list gives Thu 10 Dec, 20:00, but the event page itself still reads Sat 17 Oct.",
+   "region": "marseille"
+  },
+  {
+   "title": "Ghibli, le vent de la nouveauté",
+   "venue": "Cité de la Musique – La Magalone",
+   "category": "classical",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "20:00",
+   "url": "https://www.citemusique-marseille.com/evenement/ghibli-le-vent-de-la-nouveaute/",
+   "confidence": "high",
+   "note": "Joe Hisaishi's music for Studio Ghibli films (Totoro, Princesse Mononoké, Le Voyage de Chihiro) arranged for voice, piano, two flutes and cello, played by Cité de la Musique teachers with singer Tania Zolty; at La Magalone, bd Michelet (9e).",
+   "region": "marseille"
+  },
+  {
+   "title": "Salah Zaïdi & invités",
+   "venue": "Cité de la Musique",
+   "category": "music",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "20:00",
+   "url": "https://www.citemusique-marseille.com/evenement/salah-zaidi-invites/",
+   "confidence": "high",
+   "note": "End-of-residency concert: guitarist-singer Salah Zaïdi mixes electric guitar, maqâm and blues with Sufi-inspired texts, with Meriem Zaidi and Léa Noygues (vocals), Charly Guerin (drums) and Lucas Zemmour (bass).",
+   "region": "marseille"
+  },
+  {
+   "title": "Morgane Le Cuff – Cette nuit une chouette m'a dit…",
+   "venue": "Cité de la Musique",
+   "category": "family",
+   "start": "2026-12-17",
+   "end": "2026-12-17",
+   "time": "18:30",
+   "url": "https://www.citemusique-marseille.com/evenement/morgane-le-cuff-festival-tous-en-sons/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: Morgane Le Cuff (Cie Jules & Joséphine) presents 'Cette nuit une chouette m'a dit…', premiered during the festival; Auditorium.",
+   "region": "marseille"
+  },
+  {
+   "title": "Claptrap + Dourdou",
+   "venue": "Le Molotov",
+   "category": "music",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "time": "19:00",
+   "url": "https://lemolotov.com/events/claptrap-dourdou/",
+   "confidence": "high",
+   "note": "Double bill of Claptrap (baroque post-pop, acoustic instruments with electronic effects) and Dourdou (experimental Occitan music); 8–10 €.",
+   "region": "marseille"
+  },
+  {
+   "title": "Los Fastidios",
+   "venue": "Le Molotov",
+   "category": "music",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "time": "20:00",
+   "url": "https://lemolotov.com/events/los-fastidios-3/",
+   "confidence": "high",
+   "note": "Street punk and 2 Tone ska band from Verona, active since 1991; 12 € presale, 15 € on the door.",
+   "region": "marseille"
+  },
+  {
+   "title": "When Venus Weeps + Lifeboats + Guests",
+   "venue": "Le Molotov",
+   "category": "music",
+   "start": "2026-12-17",
+   "end": "2026-12-17",
+   "time": "20:00",
+   "url": "https://lemolotov.com/events/when-venus-weeps-lifeboats-guests/",
+   "confidence": "high",
+   "note": "Metalcore / alt-metal / hardcore punk bill with When Venus Weeps and Lifeboats (genres as tagged in the Molotov agenda).",
+   "region": "marseille"
+  },
+  {
+   "title": "2L",
+   "venue": "Le Dodu",
+   "category": "music",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": "19:00",
+   "url": "https://lemolotov.com/events/2l/",
+   "confidence": "high",
+   "note": "Rap concert by 2L at Le Dodu, listed in the Molotov agenda.",
+   "region": "marseille"
+  },
+  {
+   "title": "Origins invite BSLS Marseille",
+   "venue": "Cabaret Aléatoire",
+   "category": "music",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "23:00",
+   "url": "https://www.lafriche.org/evenements/origins-invite-bsls-marseille/",
+   "confidence": "high",
+   "note": "Club night by the Origins party series hosting the BSLS collective, 23:00–05:00.",
+   "region": "marseille"
+  },
+  {
+   "title": "Club Cabaret : Paroxysm invite Lewis Fautzi",
+   "venue": "Cabaret Aléatoire",
+   "category": "music",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "23:00",
+   "url": "https://www.technoairlines.com/event/club-cabaret-paroxysm-invite-lewis-fautzi-cabaret-aleatoire-2026-11-27",
+   "confidence": "medium",
+   "note": "Friday Club Cabaret techno night: the Paroxysm collective hosts Portuguese DJ-producer Lewis Fautzi, 23:00–05:00.",
+   "region": "marseille"
+  },
+  {
+   "title": "Dakeez à Marseille",
+   "venue": "Cabaret Aléatoire",
+   "category": "music",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": "20:30",
+   "url": "https://www.lafriche.org/evenements/dakeez-marseille/",
+   "confidence": "high",
+   "note": "Concert by Dakeez at the Cabaret Aléatoire, 20:30–23:00 (early-evening concert slot, not a club night).",
+   "region": "marseille"
+  },
+  {
+   "title": "TOTAL 90 XXL – JOKESONYOU, Britney Speed, ADB + guests",
+   "venue": "Cabaret Aléatoire",
+   "category": "music",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "23:00",
+   "url": "https://www.technoairlines.com/event/total-90-xxl-jokesonyou-britney-speed-adb-guests-cabaret-aleatoire-2026-12-11",
+   "confidence": "low",
+   "note": "Club night of the Total 90 party series with JOKESONYOU, Britney Speed and ADB; listed by one club aggregator only (checked 30 Sep), not yet on the Friche agenda.",
+   "region": "marseille"
+  },
+  {
+   "title": "Club Infiné invite Nathan Fake Live + Guests",
+   "venue": "Petit Cab, Friche la Belle de Mai",
+   "category": "music",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "23:00",
+   "url": "https://www.lafriche.org/evenements/club-infine-invite-nathan-fake-live-guests/",
+   "confidence": "high",
+   "note": "Label night of the French electronic label InFiné with a live set by British producer Nathan Fake plus guests; Friche agenda gives 23:00–05:00, the club listing 23:30.",
+   "region": "marseille"
+  },
+  {
+   "title": "Mad Rey B2B Mezigue : All Night Long",
+   "venue": "Petit Cab, Friche la Belle de Mai",
+   "category": "music",
+   "start": "2026-12-18",
+   "end": "2026-12-18",
+   "time": "23:30",
+   "url": "https://www.lafriche.org/evenements/mad-rey-b2b-mezigue-all-night-long/",
+   "confidence": "high",
+   "note": "All-night back-to-back DJ set by French house producers Mad Rey and Mezigue, 23:30–04:30.",
+   "region": "marseille"
+  },
+  {
+   "title": "Dj Schnake : All Night Long",
+   "venue": "Petit Cab, Friche la Belle de Mai",
+   "category": "music",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "time": "23:30",
+   "url": "https://www.lafriche.org/evenements/dj-schnake-all-night-long-petit-cab/",
+   "confidence": "high",
+   "note": "All-night DJ set by Dj Schnake at the Petit Cab, presented by EXTRA, 23:30–04:30.",
+   "region": "marseille"
+  },
+  {
+   "title": "Camille Yembe",
+   "venue": "Le Makeda",
+   "category": "music",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/camille-yembe-marseille-5eme-fr-6592001/",
+   "confidence": "medium",
+   "note": "Concert by singer-songwriter Camille Yembe, 20:00–22:30 (tourist-office listing).",
+   "region": "marseille"
+  },
+  {
+   "title": "Myra",
+   "venue": "Le Makeda",
+   "category": "music",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "url": "https://www.songkick.com/fr/concerts/43332523-myra-at-le-makeda",
+   "confidence": "medium",
+   "note": "Concert by Myra at Le Makeda, from the Songkick listing; no start time given.",
+   "region": "marseille"
+  },
+  {
+   "title": "Geordie Greep",
+   "venue": "Le Makeda",
+   "category": "music",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/geordie-greep-marseille-5eme-fr-6690801/",
+   "confidence": "high",
+   "note": "Former black midi frontman Geordie Greep plays his solo debut album The New Sound (alternative pop with jazz, funk and experimental rock); 20:00–22:30, organised by La Responsabilité des Rêves (Espace Julien).",
+   "region": "marseille"
+  },
+  {
+   "title": "Theo Juice and the Sexy Music Live Band",
+   "venue": "Le Makeda",
+   "category": "music",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "19:30",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/theo-juice-and-the-sexy-music-live-band-marseille-5eme-en-6690832/",
+   "confidence": "medium",
+   "note": "Live-band concert by Theo Juice and the Sexy Music Live Band, 19:30–22:30 (tourist-office listing).",
+   "region": "marseille"
+  },
+  {
+   "title": "Nous étions une armée",
+   "venue": "Le Makeda",
+   "category": "music",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/nous-etions-une-armee-marseille-5eme-en-6346771/",
+   "confidence": "medium",
+   "note": "Concert by the duo Nous étions une armée (tourist-office listing).",
+   "region": "marseille"
+  },
+  {
+   "title": "Les Fatals Picards",
+   "venue": "Espace Julien",
+   "category": "music",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/les-fatals-picards-marseille-6eme-en-6407038/",
+   "confidence": "low",
+   "note": "Concert by the band Les Fatals Picards, listed by the tourist office; the Espace Julien agenda read on 9 Nov shows nothing on 12 Dec.",
+   "region": "marseille"
+  },
+  {
+   "title": "Spiderman into the spider-verse en concert",
+   "venue": "Le Silo",
+   "category": "music",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "url": "https://www.jds.fr/marseille/concerts/spiderman-into-the-spider-verse-en-concert-1421209_A",
+   "confidence": "medium",
+   "note": "Film-concert: the animated film Spider-Man: Into the Spider-Verse screened with its score played live; time not given in the listing.",
+   "region": "marseille"
+  },
+  {
+   "title": "Hiba Tawaji invite Ibrahim Maalouf",
+   "venue": "Le Silo",
+   "category": "music",
+   "start": "2026-12-15",
+   "end": "2026-12-15",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/hiba-tawaji-invite-ibrahim-maalouf-marseille-2eme-en-6107361/",
+   "confidence": "high",
+   "note": "Lebanese singer Hiba Tawaji in concert with trumpeter Ibrahim Maalouf as guest.",
+   "region": "marseille"
+  },
+  {
+   "title": "Benjamin Biolay",
+   "venue": "Le Silo",
+   "category": "music",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/benjamin-biolay-marseille-2eme-en-6142562/",
+   "confidence": "high",
+   "note": "Tour date of French singer-songwriter Benjamin Biolay (chanson).",
+   "region": "marseille"
+  },
+  {
+   "title": "Festival Tous en Sons ! 2026",
+   "venue": "Mucem, La Criée, Opéra, Le Silo, Cité de la Musique and other venues",
+   "category": "festival",
+   "start": "2026-12-01",
+   "end": "2026-12-23",
+   "url": "https://tousensons.fr/",
+   "confidence": "high",
+   "note": "8th edition of the young-audience music festival: 12 public shows, 1–23 Dec, in ten Marseille venues (La Criée, Le Silo, Opéra, Mucem, Cité de la Musique, Théâtre Massalia and others) and in Lourmarin, La Tour-d'Aigues, Venelles and Pertuis; opens with Le Carnaval des animaux at La Criée on 1 Dec.",
+   "region": "marseille"
+  },
+  {
+   "title": "30e PriMed – Festival de la Méditerranée en images",
+   "venue": "Bibliothèque de l'Alcazar, Mairie 1&7, Mucem, Artplexe Canebière",
+   "category": "festival",
+   "start": "2026-11-28",
+   "end": "2026-12-05",
+   "url": "https://primed.tv/",
+   "confidence": "high",
+   "note": "30th edition of the CMCA's Mediterranean documentary and reportage festival: 24 films selected from 607 entries, 11 French premieres, 22 free public screenings with directors; jury chaired by Delphine Minoui. Screening schedule not yet online on 9 Nov.",
+   "region": "marseille"
+  },
+  {
+   "title": "PriMed – projection-débat : Iran, Israël et la bombe",
+   "venue": "Mucem",
+   "category": "cinema",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "time": "20:00",
+   "url": "https://primed.tv/marseille/rencontres-conferences-et-debats/",
+   "confidence": "high",
+   "note": "PriMed screening of the documentary Iran, Israël et la bombe followed by a debate with reporter Delphine Minoui (jury president) and directors Miyuki Droz Aramaki and Sylvain Lepetit.",
+   "region": "marseille"
+  },
+  {
+   "title": "Les Procès du siècle #6 – À notre humanité !",
+   "venue": "Mucem",
+   "category": "talk",
+   "start": "2026-11-16",
+   "end": "2026-12-14",
+   "time": "19:00",
+   "url": "https://mucem.org/en/temps-fort/trials-of-the-century-to-our-humanity/",
+   "confidence": "high",
+   "note": "Sixth season of the Mucem's Monday-evening mock-trial debates (auditorium, 19:00–20:30, free): 16 Nov communication and debate, 23 Nov media pluralism, 7 Dec human trafficking and slavery, 14 Dec « IA, on n'arrête (pas) le progrès »; hosted by Nora Hamadi and François Saltiel; the season continues to 15 Mar 2027.",
+   "region": "marseille"
+  },
+  {
+   "title": "Ciné-Dimanche : Vers un avenir radieux",
+   "venue": "Mucem",
+   "category": "cinema",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "15:00",
+   "url": "https://mucem.org/en/evenement/a-sunday-in-rome-toward-a-bright-future/",
+   "confidence": "high",
+   "note": "Monthly Sunday screening in the Mucem auditorium ('A Sunday in Rome'): Nanni Moretti's Vers un avenir radieux, introduced and followed by a discussion with a film critic or specialist.",
+   "region": "marseille"
+  },
+  {
+   "title": "Ciné-Dimanche : Persepolis",
+   "venue": "Mucem",
+   "category": "cinema",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "time": "15:00",
+   "url": "https://mucem.org/en/evenement/a-sunday-in-tehran-persepolis/",
+   "confidence": "high",
+   "note": "Monthly Sunday screening in the Mucem auditorium ('A Sunday in Tehran'): the animated film Persepolis by Marjane Satrapi and Vincent Paronnaud, introduced and followed by a discussion.",
+   "region": "marseille"
+  },
+  {
+   "title": "Rencontre avec Florence Miailhe – Films Femmes Méditerranée 2026",
+   "venue": "Les Variétés",
+   "category": "cinema",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "time": "19:30",
+   "url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/M1BC1O/rencontre-avec-florence-miailhe-films-femmes-mediterranee-2026.html",
+   "confidence": "high",
+   "note": "Films Femmes Méditerranée programme of animated shorts by Florence Miailhe (Schéhérazade, Au premier dimanche d'août, Hammam, Les Oiseaux blancs, les oiseaux noirs, Papillon; 1h30), followed by a conversation with the director.",
+   "region": "marseille"
+  },
+  {
+   "title": "JEST #6 : Jamais d'Eux Sans Toi",
+   "venue": "Friche la Belle de Mai, Cité de la Musique",
+   "category": "festival",
+   "start": "2026-11-21",
+   "end": "2026-11-28",
+   "url": "https://www.lafriche.org/evenements/jest-6-jamais-deux-sans-toi/",
+   "confidence": "high",
+   "note": "AMI's festival of experimental and adventurous music, 6th edition: 21 Nov at Cité de la Musique (Kaito Winse, The Sea Around Us); at the Friche 22 Nov 18:00 Compagnie Déraciné + Mildacoro; 25 Nov 20:00 armor&murmur + Mai Mai Mai; 26 Nov 20:30 (Petit Plateau) Goutte2Mere + Delphine Joussein; 27 Nov 20:30 Lucien Balconi + Peter Kernel + Céline Inthegarage; 28 Nov 20:30 Saïph + Matchume Zango & Le Motel + Flore & Ehua.",
+   "region": "marseille"
+  },
+  {
+   "title": "Il est où le bonheur ?",
+   "venue": "Friche la Belle de Mai",
+   "category": "talk",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "15:00",
+   "url": "https://www.lafriche.org/evenements/il-est-ou-le-bonheur/",
+   "confidence": "high",
+   "note": "Half-day of collective reflection (15:00-18:00, LaboFriche) by Mad Mars and the Agence française de développement on measuring progress by well-being: three parts covering regions that measure success differently, the BAM (Bonheur à Marseille) approach with collective workshops, and how to continue; no individual speakers named; registration via HelloAsso.",
+   "region": "marseille"
+  },
+  {
+   "title": "J'crains dégun",
+   "venue": "Friche la Belle de Mai",
+   "category": "festival",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "14:00",
+   "url": "https://www.lafriche.org/evenements/jcrains-degun-4/",
+   "confidence": "high",
+   "note": "Day for the elimination of violence against women and gender minorities (14:00-midnight) with talks, dance and workshops, organised by CIDFF Phocéen, Planning Familial 13 and Solidarité femmes 13; free on reservation.",
+   "region": "marseille"
+  },
+  {
+   "title": "Pour la joie. Une ode à la résistance poétique et politique",
+   "venue": "Friche la Belle de Mai",
+   "category": "talk",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "18:00",
+   "url": "https://www.lafriche.org/evenements/pour-la-joie-une-ode-a-la-resistance-poetique-et-politique/",
+   "confidence": "high",
+   "note": "Joint talk (18:00-20:00) with Kiyémis and Myriam Rabah-Konaté on a collective book arguing that joy, celebration and creation belong at the heart of emancipation struggles; organised by the Librairie de la Friche, Les Liens qui Libèrent and J'crains Dégun; free.",
+   "region": "marseille"
+  },
+  {
+   "title": "224e Foire aux santons et aux crèches de Marseille",
+   "venue": "Quai du Port, Vieux-Port",
+   "category": "festival",
+   "start": "2026-11-14",
+   "end": "2027-01-03",
+   "time": "10:00",
+   "url": "https://www.myprovence.fr/agenda/foire-salon/marseille/224e-foire-aux-santons-et-aux-creches-de-marseille",
+   "confidence": "high",
+   "note": "Provençal santon-makers' fair held since 1803, free entry, daily from 10:00 to 19:00 (20:00 Fri–Sat per myprovence); official inauguration Sun 15 Nov at 12:00 after the santonniers' mass at 10:30 at Saint-Ferréol les Augustins.",
+   "region": "marseille"
+  },
+  {
+   "title": "Le Noël Marseillais – Marché de Noël",
+   "venue": "Quai de la Fraternité, Vieux-Port",
+   "category": "festival",
+   "start": "2026-11-28",
+   "end": "2027-01-03",
+   "time": "10:30",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/animations-noel-marseille/",
+   "confidence": "medium",
+   "note": "City Christmas market, daily 10:30–20:00 (21:00 Fri–Sat), free. Sat 28 Nov: illuminations switch-on and aerial show Nexus by Compagnie Zenit in front of the Hôtel de Ville; Sat 12 Dec: surprise concert at the Hôtel de Ville, pedestrianised centre, luge run and ice rink open at the J4 (to 3 Jan); Sat 19 Dec: drone show and fireworks over the Vieux-Port. Full programme still to be published on 4 Nov.",
+   "region": "marseille"
+  },
+  {
+   "title": "Rencontres du cinéma sud-américain",
+   "venue": "Les Variétés, Le Gyptis",
+   "category": "festival",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "url": "https://cinesudaspas.org/",
+   "confidence": "high",
+   "note": "28th edition of ASPAS's South American film festival: 19-20 Nov at Les Variétés and 21-22 Nov at Le Gyptis; the edition revisits films that marked the festival's history; detailed programme not yet on the festival site on 9 Nov.",
+   "region": "marseille"
+  },
+  {
+   "title": "RISC – Rencontres Internationales Sciences & Cinémas",
+   "venue": "Marseille (venues to be confirmed)",
+   "category": "festival",
+   "start": "2026-12-08",
+   "end": "2026-12-12",
+   "url": "http://festivalrisc.org/",
+   "confidence": "medium",
+   "note": "17th edition of the science-and-cinema film festival organised by the association Polly Maggoo, 8–12 Dec 2026; venues and programme not yet confirmed.",
+   "region": "marseille"
+  },
+  {
+   "title": "Eclipse",
+   "venue": "Théâtre d'Arles",
+   "town": "Arles",
+   "category": "theatre",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "url": "https://www.theatre-arles.com/evenement/eclipse/",
+   "confidence": "high",
+   "note": "Juggling piece by Léo Rousselet.",
+   "region": "afield"
+  },
+  {
+   "title": "Tales of Superstition and Magic III",
+   "venue": "LUMA Arles, Parc des Ateliers",
+   "town": "Arles",
+   "category": "talk",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "url": "https://luma.org/en/arles/whats-on/symposium-tales-of-superstition-and-magic-2026",
+   "confidence": "high",
+   "note": "Three-day symposium, third edition of LUMA's series on superstition and magic; free upon booking.",
+   "region": "afield"
+  },
+  {
+   "title": "La Noce d'Alfonse",
+   "venue": "Grand Théâtre de Provence",
+   "town": "Aix-en-Provence",
+   "category": "theatre",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "url": "https://www.lestheatres.net/fr/a/6123-la-noce-d-alfonse",
+   "confidence": "high",
+   "note": "Circus show by the Quebec company Cirque Alfonse.",
+   "region": "afield"
+  },
+  {
+   "title": "Bach, Oratorio de Noël",
+   "venue": "Grand Théâtre de Provence",
+   "town": "Aix-en-Provence",
+   "category": "classical",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "url": "https://www.lestheatres.net/fr/a/6127-bach-oratorio-de-noel",
+   "confidence": "high",
+   "note": "Bach's Christmas Oratorio by the Orchestre national de France and Chœur de Radio France, conducted by Trevor Pinnock.",
+   "region": "afield"
+  },
+  {
+   "title": "Fantaisies sur Walt Disney",
+   "venue": "Grand Théâtre de Provence",
+   "town": "Aix-en-Provence",
+   "category": "classical",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "url": "https://www.lestheatres.net/fr/a/6128-fantaisies-sur-walt-disney",
+   "confidence": "high",
+   "note": "Pianist Jean-François Zygel improvises on themes from Walt Disney films.",
+   "region": "afield"
+  },
+  {
+   "title": "Le Cartable rouge",
+   "venue": "Théâtre du Jeu de Paume",
+   "town": "Aix-en-Provence",
+   "category": "family",
+   "start": "2026-12-15",
+   "end": "2026-12-15",
+   "url": "https://www.lestheatres.net/fr/a/6125-le-cartable-rouge",
+   "confidence": "high",
+   "note": "Family theatre piece by Compagnie Dune (Mickaël Bourse); also at Théâtre d'Arles on 1 Dec.",
+   "region": "afield"
+  },
+  {
+   "title": "Paul Lay Trio — Rhapsodie in Blue",
+   "venue": "L'Usine – Scènes et Cinés",
+   "town": "Istres",
+   "category": "music",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "time": "20:00",
+   "url": "https://www.frequence-sud.fr/art-112760-paul_lay_trio_istres",
+   "confidence": "high",
+   "note": "Jazz pianist Paul Lay's trio reworks Gershwin's Rhapsody in Blue alongside pieces by Bach; about 1h15.",
+   "region": "afield"
+  },
+  {
+   "title": "Crossover — Ballet national de Marseille",
+   "venue": "Pavillon Noir",
+   "town": "Aix-en-Provence",
+   "category": "dance",
+   "start": "2026-12-16",
+   "end": "2026-12-17",
+   "time": "20:00",
+   "url": "https://preljocaj.org/en/spectacle/bnm-crossover/",
+   "confidence": "high",
+   "note": "Eight Ballet national de Marseille dancers, direction (LA)HORDE, in a one-hour triple bill pairing pieces by Fran Diaz, Rafaela Sahyoun, Armin Hokmi, Cécilia Bengolea, (LA)HORDE and Angelin Preljocaj (Le Parc).",
+   "region": "afield"
+  },
+  {
+   "title": "Sur les traces de Vasarely",
+   "venue": "Fondation Vasarely",
+   "town": "Aix-en-Provence",
+   "category": "exhibition",
+   "start": "2026-11-06",
+   "end": "2026-12-16",
+   "url": "https://www.fondationvasarely.org/expositions/",
+   "confidence": "medium",
+   "note": "Szabina Gollowitzer, Maud Nivet and students of the University of Pécs Faculty of Fine Arts reinterpret Vasarely's legacy after cross-border residencies between Pécs and Aix; curated by Valéria Fekete. Vernissage was Fri 6 Nov, 18h.",
+   "region": "afield"
+  },
+  {
+   "title": "Tous Courts — Objets Singuliers",
+   "venue": "Cinémas Le Mazarin & Le Cézanne, Amphithéâtre de la Manufacture, Institut de l'image",
+   "town": "Aix-en-Provence",
+   "category": "cinema",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "time": "13:30",
+   "url": "https://festivaltouscourts.com/festival-2026/objets-singuliers-2026/",
+   "confidence": "high",
+   "note": "'Objets Singuliers' short-film programme of the 44th Festival Tous Courts.",
+   "region": "afield"
+  },
+  {
+   "title": "Tous Courts — Et si on en parlait",
+   "venue": "Cinémas Le Mazarin & Le Cézanne, Amphithéâtre de la Manufacture, Institut de l'image",
+   "town": "Aix-en-Provence",
+   "category": "talk",
+   "start": "2026-12-03",
+   "end": "2026-12-05",
+   "time": "19:00",
+   "url": "https://festivaltouscourts.com/festival-2026/et-si-on-en-parlait-2026/",
+   "confidence": "medium",
+   "note": "Festival discussions at 19:00: short-film distribution (3 Dec), documentary writing (4 Dec) and film professions (printed as « vendredi 5 », although the festival's stated dates are 1–4 Dec).",
+   "region": "afield"
+  },
+  {
+   "title": "Rammstein on the Beach — Duo Jatekok",
+   "venue": "Opéra Grand Avignon",
+   "town": "Avignon",
+   "category": "classical",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "20:00",
+   "url": "https://www.operagrandavignon.fr/rammstein-beach",
+   "confidence": "high",
+   "note": "Concert by the piano duo Jatekok, known for their two-piano arrangements of Rammstein songs.",
+   "region": "afield"
+  },
+  {
+   "title": "Makbeth",
+   "venue": "Opéra Grand Avignon",
+   "town": "Avignon",
+   "category": "theatre",
+   "start": "2026-11-19",
+   "end": "2026-11-20",
+   "time": "20:00",
+   "url": "https://www.operagrandavignon.fr/makbeth",
+   "confidence": "high",
+   "note": "Munstrum Théâtre's staging after Shakespeare's Macbeth.",
+   "region": "afield"
+  },
+  {
+   "title": "Prométhée",
+   "venue": "Opéra Grand Avignon",
+   "town": "Avignon",
+   "category": "dance",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "url": "https://www.operagrandavignon.fr/promethee-0",
+   "confidence": "high",
+   "note": "One-hour ballet by Martin Harriague for the Ballet de l'Opéra Grand Avignon, to Beethoven's Creatures of Prometheus and music by Fabien Cali, with the Orchestre national Avignon-Provence under Swann van Rechem; Sat 20:00, Sun 16:00.",
+   "region": "afield"
+  },
+  {
+   "title": "Alela Diane",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "url": "https://songkick.com/concerts/43154021-alela-diane-at-6mic",
+   "confidence": "medium",
+   "note": "American folk singer-songwriter Alela Diane; the listing bills her with French blues-soul singer Charles Pasi.",
+   "region": "afield"
+  },
+  {
+   "title": "Thomas Fersen",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "url": "https://songkick.com/concerts/43327452-thomas-fersen-at-6mic",
+   "confidence": "medium",
+   "note": "French chanson singer-songwriter Thomas Fersen.",
+   "region": "afield"
+  },
+  {
+   "title": "FFF",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "url": "https://songkick.com/concerts/42956691-fff-at-6mic",
+   "confidence": "medium",
+   "note": "French funk-rock band FFF (Fédération Française de Fonck).",
+   "region": "afield"
+  },
+  {
+   "title": "Benjamin Biolay",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "url": "https://songkick.com/concerts/42843577-benjamin-biolay-at-6mic",
+   "confidence": "medium",
+   "note": "French singer-songwriter Benjamin Biolay.",
+   "region": "afield"
+  },
+  {
+   "title": "Perturbator",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "url": "https://songkick.com/concerts/43414521-perturbator-at-6mic",
+   "confidence": "medium",
+   "note": "French synthwave / dark electronic producer Perturbator.",
+   "region": "afield"
+  },
+  {
+   "title": "The Stranglers",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "url": "https://songkick.com/concerts/42870317-stranglers-at-6mic",
+   "confidence": "medium",
+   "note": "British rock band The Stranglers.",
+   "region": "afield"
+  },
+  {
+   "title": "Tété",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "url": "https://songkick.com/concerts/43330333-tete-at-6mic",
+   "confidence": "medium",
+   "note": "French folk-pop singer-songwriter and guitarist Tété.",
+   "region": "afield"
+  },
+  {
+   "title": "Cœur de pirate",
+   "venue": "6MIC",
+   "town": "Aix-en-Provence",
+   "category": "music",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "url": "https://songkick.com/concerts/42907296-coeur-de-pirate-at-6mic",
+   "confidence": "medium",
+   "note": "Québec singer-songwriter and pianist Cœur de pirate.",
+   "region": "afield"
+  },
+  {
+   "title": "Ben l'Oncle Soul",
+   "venue": "L'Usine – Scènes et Cinés",
+   "town": "Istres",
+   "category": "music",
+   "start": "2026-11-19",
+   "end": "2026-11-19",
+   "time": "20:30",
+   "url": "https://www.jds.fr/marseille/concerts/chanson-francaise/ben-l-oncle-soul-tournee-1467555_A",
+   "confidence": "medium",
+   "note": "French soul singer Ben l'Oncle Soul on tour.",
+   "region": "afield"
+  },
+  {
+   "title": "Soen — Reliance Tour 2026",
+   "venue": "L'Usine – Scènes et Cinés",
+   "town": "Istres",
+   "category": "music",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "time": "20:30",
+   "url": "https://www.jds.fr/marseille/concerts/rock/soen-reliance-tour-2026-1490269_A",
+   "confidence": "medium",
+   "note": "Swedish progressive metal band Soen on their Reliance tour.",
+   "region": "afield"
+  },
+  {
+   "title": "Acid Arab Live",
+   "venue": "Cargo de Nuit",
+   "town": "Arles",
+   "category": "music",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "21:00",
+   "url": "https://www.jds.fr/arles/concerts/pop-folk/acid-arab-live-1837357_A",
+   "confidence": "medium",
+   "note": "Live set by the French electronic group Acid Arab, who mix club music with North African and Middle Eastern sounds.",
+   "region": "afield"
+  },
+  {
+   "title": "Les Calend'Arles",
+   "venue": "Centre-ville",
+   "town": "Arles",
+   "category": "festival",
+   "start": "2026-12-04",
+   "end": "2026-12-30",
+   "url": "https://www.myprovence.fr/agenda/festival/arles/les-calendarles",
+   "confidence": "medium",
+   "note": "City of Arles Christmas season programme, daily from 4 to 30 December; the detailed programme (including the Drôles de Noëls street-arts days) was still awaiting validation on the listing.",
+   "region": "afield"
+  },
+  {
+   "title": "Charles Burratti – Portraits et paysages urbains",
+   "venue": "Tattoo Art Club",
+   "category": "exhibition",
+   "start": "2026-10-31",
+   "end": "2026-11-28",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/exposition-evenement-charles-burratti-portraits-et-paysages-urbains-marseille-6eme-fr-6880098/",
+   "confidence": "medium",
+   "note": "First exhibition devoted solely to Charles Burratti: portraits of celebrities, relatives and anonymous sitters, and urban landscapes; free, Mon, Tue, Thu, Fri 14h–18h, Sat–Sun 13h–19h. The address in the 6e differs by source (51 rue Edmond Rostand or 59 rue du Docteur Escat).",
+   "region": "marseille"
+  },
+  {
+   "title": "Desseins récalcitrants",
+   "venue": "Médiathèque René Char (Polaris hors-les-murs)",
+   "town": "Istres",
+   "category": "exhibition",
+   "start": "2026-10-27",
+   "end": "2026-12-12",
+   "url": "https://p-a-c.fr/les-membres/polaris-centre-d-art-metropole-aix-marseille-provence/evenements/desseins-recalcitrants",
+   "confidence": "high",
+   "note": "Group show on forms of resistance in art, organised by Polaris centre d'art for La Saison du dessin 2026: 19 artists including Taysir Batniji, Nicolas Daubanes, Fred Deux, Myriam Mechita, Ernest Pignon-Ernest, Bernard Rancillac and Jacques Villeglé. Free; Tue, Wed, Fri 9h–18h30, Sat 9h–12h and 14h–18h30.",
+   "region": "afield"
+  },
+  {
+   "title": "Métanoïa – Fabrice Domenet",
+   "venue": "Galerie Parallax",
+   "town": "Aix-en-Provence",
+   "category": "exhibition",
+   "start": "2026-10-06",
+   "end": "2026-11-21",
+   "url": "https://p-a-c.fr/les-membres/parallax/evenements/metanoia",
+   "confidence": "medium",
+   "note": "Exhibition by Fabrice Domenet at Galerie Parallax, 6 Oct–21 Nov (PAC network listing).",
+   "region": "afield"
+  },
+  {
+   "title": "Éclats d'âmes",
+   "venue": "Bonisson Art Center",
+   "town": "Rognes",
+   "category": "exhibition",
+   "start": "2026-10-03",
+   "end": "2027-01-31",
+   "url": "https://p-a-c.fr/les-membres/bonisson-art-center/evenements/eclats-d-ames",
+   "confidence": "medium",
+   "note": "Exhibition at the Bonisson Art Center, 3 Oct 2026–31 Jan 2027 (PAC network listing).",
+   "region": "afield"
+  },
+  {
+   "title": "Black Afterlight – Mawena Yehouessi",
+   "venue": "3 bis F – Centre d'arts contemporains",
+   "town": "Aix-en-Provence",
+   "category": "theatre",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "19:00",
+   "url": "https://p-a-c.fr/les-membres/3-bis-f/evenements/mawena-yehouessi-black-afterlight",
+   "confidence": "medium",
+   "note": "Performance with installation and video by Mawena Yehouessi, 19h–20h, in the Biennale des Imaginaires Numériques programme.",
+   "region": "afield"
+  },
+  {
+   "title": "Hypermer – Nina Santes",
+   "venue": "3 bis F – Centre d'arts contemporains",
+   "town": "Aix-en-Provence",
+   "category": "family",
+   "start": "2026-12-01",
+   "end": "2026-12-01",
+   "time": "18:00",
+   "url": "https://p-a-c.fr/les-membres/3-bis-f/evenements/nina-santes-hypermer",
+   "confidence": "medium",
+   "note": "Show by Nina Santes for young audiences (PAC network listing).",
+   "region": "afield"
+  },
+  {
+   "title": "Submission — le portrait de Saint Agathe – Bryana Fritz",
+   "venue": "3 bis F – Centre d'arts contemporains",
+   "town": "Aix-en-Provence",
+   "category": "theatre",
+   "start": "2026-12-18",
+   "end": "2026-12-18",
+   "time": "19:00",
+   "url": "https://p-a-c.fr/les-membres/3-bis-f/evenements/bryana-fritz-submission-submission-le-portrait-de-saint-agathe",
+   "confidence": "low",
+   "note": "Performance by Bryana Fritz at 19h; the PAC agenda gives Fri 18 Dec, the 3 bis F member page Sat 19 Dec.",
+   "region": "afield"
+  },
+  {
+   "title": "Café Zimmermann",
+   "venue": "Opéra Grand Avignon – Auditorium du Grand Avignon",
+   "town": "Avignon",
+   "category": "classical",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.operagrandavignon.fr/cafe-zimmermann",
+   "confidence": "medium",
+   "note": "Baroque music concert by the ensemble Café Zimmermann in the Opéra Grand Avignon season, at the Auditorium du Grand Avignon; from 10 €.",
+   "region": "afield"
+  },
+  {
+   "title": "GuérillIA. Mener la bataille culturelle de l'intelligence artificielle",
+   "venue": "Friche la Belle de Mai",
+   "category": "talk",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "time": "18:00",
+   "url": "https://www.lafriche.org/evenements/guerillia-mener-la-bataille-culturelle-de-lintelligence-artificielle/",
+   "confidence": "high",
+   "note": "Talk with author Christophe Payet about his essay urging people to take on AI in the face of the tech giants; organised by FIVIA, Chroniques and the Librairie de la Friche; free.",
+   "region": "marseille"
+  },
+  {
+   "title": "#Plus20 – Marseille, ville coopérative ?",
+   "venue": "Friche la Belle de Mai",
+   "category": "talk",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "14:00",
+   "url": "https://www.lafriche.org/evenements/plus20-marseille-ville-cooperative/",
+   "confidence": "high",
+   "note": "9th edition of the annual event by the organisation combo, this year on cooperation in Marseille; 14:00-21:00, free on registration.",
+   "region": "marseille"
+  },
+  {
+   "title": "Pulsations ! Entrez dans la danse",
+   "venue": "Mucem",
+   "category": "dance",
+   "start": "2026-11-14",
+   "end": "2027-03-13",
+   "time": "14:30",
+   "url": "https://mucem.org/en/temps-fort/pulsations-enter-the-dance/",
+   "confidence": "high",
+   "note": "Saturday-afternoon introductory dance workshops for beginners (14:30-17:00), developed with Les Suds, Arles and with the Ballet national de Marseille: Gaga (14 Nov), coupé-décalé (21 Nov), Tunisian traditional dance (28 Nov), contemporary with Nawal Aït Benalla (5 Dec), contemporary and Georgian traditions with Natia Chikvaidze (12 Dec), dabké with Mohanad Smama (19 Dec); series continues to 13 Mar 2027.",
+   "region": "marseille"
+  },
+  {
+   "title": "CinéFID – Chants fantômes",
+   "venue": "FIDMarseille",
+   "category": "cinema",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "time": "20:00",
+   "url": "https://fidmarseille.org/en/agenda/cinefid-chants-fantomes",
+   "confidence": "high",
+   "note": "CinéFID screening of Chants fantômes by Nouria Behloul (2025, 59 min), a film-poem of visual and sound fragments on the absences left by colonialism, shown in the French Competition at the last FIDMarseille; 4 euros, booking by email advised.",
+   "region": "marseille"
+  },
+  {
+   "title": "Les filles désir",
+   "venue": "Le ZEF",
+   "category": "cinema",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "20:00",
+   "url": "https://www.lezef.org/fr/saison/26-27/les-filles-desir-983",
+   "confidence": "high",
+   "note": "Screening of Prïncia Car's first feature (1h33, co-written with Léna Mardi, made with young non-professional actors from Marseille's northern districts) at the Plateau du Merlan, as part of the 21st Films Femmes Méditerranée; followed by a discussion with the film's team.",
+   "region": "marseille"
+  },
+  {
+   "title": "Je veux bien – séance spéciale",
+   "venue": "Les Variétés",
+   "category": "cinema",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "time": "19:45",
+   "url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/MW92IK/je-veux-bien.html",
+   "confidence": "high",
+   "note": "One-off 'séance spéciale' of the documentary by Boris Claret, Isabelle Dario and Vincent Glenn (1h11) on the December 2023 'Plein emploi' law tying RSA benefits to 15 hours of weekly activity; the page names no guests.",
+   "region": "marseille"
+  },
+  {
+   "title": "Mères à perpétuité – séance spéciale",
+   "venue": "Les Variétés",
+   "category": "cinema",
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "time": "19:45",
+   "url": "https://lesvarietes-marseille.com/FR/fiche-film-cinema/M2EYUS/meres-a-perpetuite.html",
+   "confidence": "medium",
+   "note": "'Séance spéciale' of Sofia Fisher's documentary (1h08, with Laure Calamy credited) on how mothers come to kill their children in France; the page names no guests. Date from the cinema's upcoming list, 19:45 from the film page.",
+   "region": "marseille"
+  },
+  {
+   "title": "FIDMarseille x Collection Lambert #6 – Zorn III",
+   "venue": "Collection Lambert",
+   "town": "Avignon",
+   "category": "cinema",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "time": "19:00",
+   "url": "https://fidmarseille.org/en/agenda/fidmarseille-x-collection-lambert-6",
+   "confidence": "medium",
+   "note": "Sixth FIDMarseille screening at the Collection Lambert: Zorn III by Mathieu Amalric (FIDMarseille calendar).",
+   "region": "afield"
+  },
+  {
+   "title": "Même Pas Peur !",
+   "venue": "Espace musical Hypérion",
+   "category": "family",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "time": "18:30",
+   "url": "https://tousensons.fr/spectacle/meme-pas-peur/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: 2026 co-production by Cie Clandestine (Marie Salemi), premiered during the festival; also 2 Dec in Lourmarin and 18 Dec in La Tour-d'Aigues.",
+   "region": "marseille"
+  },
+  {
+   "title": "Pelagos",
+   "venue": "Espace culturel Busserine",
+   "category": "family",
+   "start": "2026-12-09",
+   "end": "2026-12-09",
+   "time": "14:40",
+   "url": "https://tousensons.fr/spectacle/pelagos/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: young-audience music show by Cie Da Pacem (Pierre-Adrien Charpy); start time 14h40 as printed in the festival programme.",
+   "region": "marseille"
+  },
+  {
+   "title": "DAS [Débit d'Absorption Spécifique]",
+   "venue": "PIC Télémaque",
+   "category": "family",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "time": "15:30",
+   "url": "https://tousensons.fr/spectacle/das-debit-dabsorption-specifique/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: 2026 creation by composer Sébastien Béranger, at the Ensemble Télémaque's venue in L'Estaque.",
+   "region": "marseille"
+  },
+  {
+   "title": "Le Bal des Gourmand·es",
+   "venue": "Mucem",
+   "category": "family",
+   "start": "2026-12-16",
+   "end": "2026-12-16",
+   "time": "15:00",
+   "url": "https://tousensons.fr/spectacle/le-bal-des-gourmand%c2%b7es/",
+   "confidence": "high",
+   "note": "Festival Tous en Sons !: 2026 creation by Élodie Rama, first performance in the region, in the Mucem Forum; booking details still being finalised on the festival site.",
+   "region": "marseille"
+  },
+  {
+   "title": "Legendary Rock Voices",
+   "venue": "Le Dôme",
+   "category": "music",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "time": "20:00",
+   "url": "https://www.jds.fr/marseille/concerts/pop-folk/legendary-rock-voices-1494253_A",
+   "confidence": "medium",
+   "note": "Touring symphonic rock concert.",
+   "region": "marseille"
+  },
+  {
+   "title": "Disney en Concert – Suivez vos rêves",
+   "venue": "Le Dôme",
+   "category": "music",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "time": "20:00",
+   "url": "https://www.jds.fr/marseille/spectacles/cinema/disney-en-concert-suivez-vos-reves-1244956_A",
+   "confidence": "medium",
+   "note": "Touring arena concert of Disney film songs.",
+   "region": "marseille"
+  },
+  {
+   "title": "PLK",
+   "venue": "Le Dôme",
+   "category": "music",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": "20:00",
+   "url": "https://www.jds.fr/marseille/concerts/rap/plk-tournee-1229681_A",
+   "confidence": "medium",
+   "note": "Rap concert by PLK, arena tour date.",
+   "region": "marseille"
+  },
+  {
+   "title": "Feu! Chatterton",
+   "venue": "Le Dôme",
+   "category": "music",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "time": "20:00",
+   "url": "https://www.jds.fr/marseille/concerts/chanson-francaise/feu-chatterton-tournee-1154417_A",
+   "confidence": "medium",
+   "note": "Concert by the French rock band Feu! Chatterton, arena tour date.",
+   "region": "marseille"
+  },
+  {
+   "title": "Casse-Noisette – Ballet & Orchestre",
+   "venue": "Le Dôme",
+   "category": "dance",
+   "start": "2026-12-18",
+   "end": "2026-12-18",
+   "time": "20:00",
+   "url": "https://www.jds.fr/marseille/spectacles/danse/casse-noisette-ballet-et-orchestre-paris-et-tournee-2026-2027-1236019_A",
+   "confidence": "medium",
+   "note": "Touring production of Tchaikovsky's ballet with live orchestra (2026-27 tour); distinct from the British Festival Ballet's Casse-Noisette at Le Silo on 29 Nov.",
+   "region": "marseille"
+  },
+  {
+   "title": "KINOKO",
+   "venue": "Badaboum Théâtre",
+   "category": "family",
+   "start": "2026-12-09",
+   "end": "2026-12-16",
+   "url": "https://www.badaboum-theatre.com/kinoko/",
+   "confidence": "high",
+   "note": "Pop-up object theatre with music for toddlers (4 months to 6 years) by Paul Anders, Compagnie Tourniflex; 30 min, followed by time to handle the materials. Session times on the theatre's ticketing page.",
+   "region": "marseille"
+  },
+  {
+   "title": "Drag Race France Live",
+   "venue": "Le Silo",
+   "category": "theatre",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "20:00",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/drag-race-live-france/",
+   "confidence": "high",
+   "note": "Touring stage show of the TV programme Drag Race France (listed by the venue as a musical); marked sold out on the venue site.",
+   "region": "marseille"
+  },
+  {
+   "title": "Mary Candies",
+   "venue": "Le Silo",
+   "category": "family",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "15:00",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/mary-candies/",
+   "confidence": "high",
+   "note": "Young-audience show, Sunday 15:00 (listed by the venue under Jeune Public).",
+   "region": "marseille"
+  },
+  {
+   "title": "Danse avec les stars",
+   "venue": "Le Silo",
+   "category": "dance",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "time": "20:00",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/danse-avec-les-stars/",
+   "confidence": "high",
+   "note": "Touring stage version of the TV dance competition.",
+   "region": "marseille"
+  },
+  {
+   "title": "Madame Arthur ensorcelle Disney",
+   "venue": "Le Silo",
+   "category": "music",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "time": "20:00",
+   "url": "https://www.cepacsilo-marseille.fr/evenement/madame-arthur-ensorcelle-disney/",
+   "confidence": "high",
+   "note": "The Paris drag cabaret Madame Arthur's show of Disney songs (listed by the venue as 'Spectacle').",
+   "region": "marseille"
+  },
+  {
+   "title": "La Repompa",
+   "venue": "La Meson",
+   "category": "music",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "time": "20:00",
+   "url": "https://lameson.com/evenements/la-repompa/",
+   "confidence": "high",
+   "note": "Flamenco tablao: dancer Raquel Heredia 'La Repompa' (Málaga) with singers Cristo Cortes and Jesús de la Manuela and guitarist Manuel Gómez. Doors 19:00, show 20:00.",
+   "region": "marseille"
+  },
+  {
+   "title": "Ana Pérez",
+   "venue": "La Meson",
+   "category": "music",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "20:00",
+   "url": "https://lameson.com/evenements/ana-perez/",
+   "confidence": "high",
+   "note": "Flamenco tablao: dancer Ana Pérez with singers Emilio Cortés and Cristo Cortés and guitarist Manuel Gomez. Doors 19:00, show 20:00.",
+   "region": "marseille"
+  },
+  {
+   "title": "Nobodylikesbidie / Jaymee",
+   "venue": "L'Affranchi",
+   "category": "music",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/nobodylikesbidie-jaymee-marseille-11eme-en-6434967/",
+   "confidence": "medium",
+   "note": "Rap / R&B double bill of Nobodylikesbidie and Jaymee at the Saint-Marcel hip-hop venue.",
+   "region": "marseille"
+  },
+  {
+   "title": "Zinée",
+   "venue": "L'Affranchi",
+   "category": "music",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/zinee-marseille-11eme-en-6434817/",
+   "confidence": "medium",
+   "note": "Rap concert by Zinée (listing tags: rap, R&B, soul); 20:00 start not confirmed by the listing.",
+   "region": "marseille"
+  },
+  {
+   "title": "AJNA",
+   "venue": "L'Affranchi",
+   "category": "music",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "time": "20:00",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/ajna-marseille-11eme-fr-6690824/",
+   "confidence": "high",
+   "note": "Rap / R&B concert by Ajna, presenting the new project Antidote after Boys & Basement (2023) and Goldmaker (2024).",
+   "region": "marseille"
+  },
+  {
+   "title": "Festival Voix des Suds 2026",
+   "venue": "Abbaye Saint-Victor",
+   "category": "festival",
+   "start": "2026-10-18",
+   "end": "2026-11-22",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/festival-voix-des-suds-2026-marseille-7eme-en-6690805/",
+   "confidence": "medium",
+   "note": "Autumn concert series of sacred, secular and jazz vocal music organised by Les Amis de Saint-Victor in the abbey. Remaining dates: Sat 14 Nov 20:30 'Chants Sacrés d'Arménie', Sat 21 Nov 20:30 'Si Victor m'était conté', Sun 22 Nov 17:00 'Poulenc, la voix humaine' (titles as matched to dates on the tourist-office listing).",
+   "region": "marseille"
   }
  ],
  "changelog": [
-  "+151 added: Under Pressure (Double V Gallery), Ruminations – Daria Krotova (Le 33 (fonds Carta)), Group Show #1 — Les cœurs brisé·es ont la couleur des fleurs qu'on ne cueille pas (MadmaX), Rendez-vous manqués ? (MAAOA, Centre de la Vieille Charité), Carte blanche à Jean-Philippe Collard (Foyer de l'Opéra de Marseille), Fleurette (Théâtre de l'Odéon), Un moment suspendu (Théâtre National de La Criée), Les Résistantes (Théâtre National de La Criée), Quand la ville se lève (Théâtre Joliette), This Will Destroy You + Cahill//Costello + Bord du Monde (Le Molotov), Lynda Lemay et Jean-Félix Lalanne (Le Silo), Je suis le fantôme de mon propre opéra (MO.CO), and 139 more",
-  "49 expired",
-  "7 dates changed: Un coin de paradis — Groupe Grenade / Josette Baïz (2026-11-03–2026-11-04 → 2026-11-03–2026-11-05); Mister Freeze (2026-09-12–2026-11-01 → 2026-09-12–2026-12-20); Défi Dino Dessins (2026-10-26–2027-04-11 → 2026-09-29–2027-04-11); Les statues de l'escalier de la Gare Saint-Charles (2026-07-02–2027-01-03 → 2025-07-02–2027-01-03); Fêlures – Quentin Destieu (2026-10-15–2026-11-15 → 2026-10-15–2026-11-14); Costumes de scènes (2026-10-26–2026-10-26 → 2026-11-02–2026-11-02); Dreamachine Festival – 1re édition (2026-11-12–2026-11-14 → 2026-11-12–2026-11-21)"
+  "+120 added: 30e PriMed – Festival de la Méditerranée en images (Bibliothèque de l'Alcazar, Mairie 1&7, Mucem, Artplexe Canebière), Festival Tous en Sons ! 2026 (Mucem, La Criée, Opéra, Le Silo, Cité de la Musique and other venues), JEST #6 : Jamais d'Eux Sans Toi (Friche la Belle de Mai, Cité de la Musique), 224e Foire aux santons et aux crèches de Marseille (Quai du Port, Vieux-Port), Les Procès du siècle #6 – À notre humanité ! (Mucem), Dominique Angel – J.C. Ruggirello (Galerie Béa-Ba), 130 messages et une colère (La Compagnie, lieu de création), Défense d'effacer (MAV PACA – Maison de l'Architecture et de la Ville), Le Château des Carpathes (Théâtre National de La Criée), Rencontres du cinéma sud-américain (Les Variétés, Le Gyptis), Pulsations ! Entrez dans la danse (Mucem), Feu! Chatterton (Le Dôme), and 108 more",
+  "54 expired",
+  "10 dates changed: Amphibie par-ci, par-là (2026-10-26–2027-03-28 → 2026-03-28–2027-03-28); À te regarder (2026-11-17–2026-11-28 → 2026-11-18–2026-11-28); Murmures (2026-11-26–2026-11-27 → 2026-11-27–2026-11-27); Costumes de scènes (2026-11-02–2026-11-02 → 2026-11-09–2026-11-09); Dans les collections : Richard Tuttle, La délicatesse du monde / Richard Long, Au-delà du paysage (2026-09-23–2027-02-28 → 2026-09-23–2027-01-03); La responsabilité des rêves – Sacha Rey (2026-10-30–2027-03-20 → 2026-10-31–2027-03-20); Festival Tous Courts – 44e édition (2026-12-01–2026-12-05 → 2026-12-01–2026-12-04); Ruminations – Daria Krotova (2026-11-19–2027-01-21 → 2026-11-20–2027-01-21); Un moment suspendu (2026-12-08–2026-12-11 → 2026-12-08–2026-12-19); Après moi, le déluge (2026-12-10–2026-12-11 → 2026-12-10–2026-12-12)"
  ],
  "sources": [
   {
@@ -4777,7 +6217,59 @@
   {
    "name": "Les Théâtres – Aix (GTP, Jeu de Paume)",
    "url": "https://www.lestheatres.net/fr/saison?page=2"
+  },
+  {
+   "name": "Festival Tous en Sons",
+   "url": "https://tousensons.fr/programme-tous-en-sons-8-2026-tout-public/"
+  },
+  {
+   "name": "PriMed",
+   "url": "https://primed.tv/"
+  },
+  {
+   "name": "Cinéma Les Variétés",
+   "url": "https://lesvarietes-marseille.com/FR/12/prochainement-cinema-les-varietes-marseille.html"
+  },
+  {
+   "name": "Les Écrans du Sud – festivals",
+   "url": "https://seances-speciales.fr/les-festivals-seances-speciales/"
+  },
+  {
+   "name": "Le Cepac Silo",
+   "url": "https://www.cepacsilo-marseille.fr/"
+  },
+  {
+   "name": "La Meson",
+   "url": "https://lameson.com/agenda/"
+  },
+  {
+   "name": "Badaboum Théâtre",
+   "url": "https://www.badaboum-theatre.com/saison-2026-27-spectacles-enfants-marseille/"
+  },
+  {
+   "name": "Le ZEF",
+   "url": "https://www.lezef.org/"
+  },
+  {
+   "name": "Théâtre Massalia",
+   "url": "https://www.theatremassalia.com/la-saison"
+  },
+  {
+   "name": "Marseille Concerts",
+   "url": "https://www.marseilleconcerts.com/programmation"
+  },
+  {
+   "name": "Opéra Grand Avignon",
+   "url": "https://www.operagrandavignon.fr/agenda"
+  },
+  {
+   "name": "6MIC (Songkick calendar)",
+   "url": "https://songkick.com/venues/4369031-6mic/calendar"
+  },
+  {
+   "name": "Le Noël Marseillais – Office de Tourisme",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/animations-noel-marseille/"
   }
  ],
- "collected": "2026-11-02"
+ "collected": "2026-11-09"
 }

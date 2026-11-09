@@ -1,9 +1,9 @@
 {
- "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed. Galleries: the PAC agenda search page lists every member event; fetch it first, then the gallery pages for vernissage dates and next shows. NOTE (2026-10-26): WebFetch only accepts URLs that a WebSearch has surfaced in the same session; search '<venue> programme <mois> 2026' first, then fetch. musees.marseille.fr, unidivers.fr and lupop.fr refuse fetching.",
+ "_comment": "Fixed roster fetched every Monday. type: venue | aggregator. cats: which categories the page expects from it. Add a line here when something was missed. Galleries: the PAC agenda search page lists every member event; fetch it first, then the gallery pages for vernissage dates and next shows. NOTE (2026-10-26): WebFetch only accepts URLs that a WebSearch has surfaced in the same session; search '<venue> programme <mois> 2026' first, then fetch. musees.marseille.fr, unidivers.fr and lupop.fr refuse fetching. NOTE (2026-11-09): what works for fetching is a WebSearch with allowed_domains set to the site's own domain, then WebFetch of a URL that search returned; URLs taken from this file or from inside a fetched page are usually refused. A run has about 200 web searches in total, shared by all subagents: give each agent a share (about 30) and do the completeness sweep first.",
  "sources": [
   {
    "name": "Mucem – programme",
-   "url": "https://www.mucem.org/programme",
+   "url": "https://mucem.org/en/agenda/",
    "type": "venue",
    "cats": [
     "exhibition",
@@ -11,15 +11,16 @@
     "cinema",
     "music"
    ],
-   "note": "2026-11-02: /programme still returns a 2017 cache; mucem.org/en/agenda renders no listings; no Nov–Dec 2026 talks/cinema found by search either. Try the monthly programme PDF or WebSearch \"mucem <mois> 2026 rencontre\"."
+   "note": "2026-11-09: mucem.org/en/agenda/ now renders the temps forts; each temps-fort page lists its sessions with dates, times and own URLs (Procès du siècle, Ciné-Dimanche, Pulsations). One-off events are still loaded by script: search mucem.org by event name, or use the PAC agenda and myprovence listings."
   },
   {
    "name": "Mucem – expositions",
-   "url": "https://www.mucem.org/programme/exposition",
+   "url": "https://mucem.org/en/exhibitions/",
    "type": "venue",
    "cats": [
     "exhibition"
-   ]
+   ],
+   "note": "2026-11-09: mucem.org/en/exhibitions/ is fetchable and lists current and upcoming shows to Dec 2027 (next opening: PaySans, 10 Feb 2027)."
   },
   {
    "name": "Musées de Marseille – expositions",
@@ -49,7 +50,7 @@
   },
   {
    "name": "Friche la Belle de Mai – agenda",
-   "url": "https://www.lafriche.org/agenda/",
+   "url": "https://www.lafriche.org/agenda?categorie=rencontre",
    "type": "venue",
    "cats": [
     "exhibition",
@@ -59,7 +60,7 @@
     "festival",
     "talk"
    ],
-   "note": "2026-11-02: ?page=3 and ?page=4 both return the same 2–16 Nov range; nothing after 16 Nov captured. Try the month filter or the venue sub-pages."
+   "note": "2026-11-09: Use the category filters WITHOUT a trailing slash: /agenda?categorie=musique-son (to 19 Dec), rencontre (to 27 Nov), theatre, danse, exposition (to 23 Nov), litterature-edition, performance, numerique. The plain agenda stops two weeks out and its 'next' button has no URL. cinema-video returned nothing."
   },
   {
    "name": "Frac Sud",
@@ -67,7 +68,8 @@
    "type": "venue",
    "cats": [
     "exhibition"
-   ]
+   ],
+   "note": "2026-11-09: fracsud.org returned client errors; only Trafic #3 (4–6 Dec) is listed after 15 Nov (PAC agenda, tourist office). Next exhibition 30 Jan 2027."
   },
   {
    "name": "Marseille Expos / PAC – agenda du réseau",
@@ -75,7 +77,8 @@
    "type": "aggregator",
    "cats": [
     "exhibition"
-   ]
+   ],
+   "note": "2026-11-09: Fetch p-a-c.fr/agenda first, then p-a-c.fr/agenda/recherche: one page lists every event of all 69 members (Marseille, Aix, Istres, Port-de-Bouc, Rognes, Martigues) with vernissage times and event-page links."
   },
   {
    "name": "Triangle-Astérides",
@@ -95,12 +98,13 @@
   },
   {
    "name": "Fotokino",
-   "url": "https://www.fotokino.org/",
+   "url": "https://fotokino.org/en/",
    "type": "venue",
    "cats": [
     "exhibition",
     "family"
-   ]
+   ],
+   "note": "2026-11-09: fotokino.org/en/ is fetchable and lists all dated events with own-page links."
   },
   {
    "name": "La Compagnie",
@@ -144,42 +148,45 @@
   },
   {
    "name": "Théâtre National de La Criée",
-   "url": "https://theatre-lacriee.com/programmation",
-   "type": "venue",
-   "cats": [
-    "theatre",
-    "dance",
-    "family"
-   ]
-  },
-  {
-   "name": "Les Théâtres – Gymnase, Bernardines, GTP",
-   "url": "https://www.lestheatres.net/fr/saison",
-   "type": "venue",
-   "cats": [
-    "theatre",
-    "dance",
-    "classical"
-   ]
-  },
-  {
-   "name": "ZEF – scène nationale",
-   "url": "https://www.lezef.org/",
+   "url": "https://theatre-lacriee.com/programmation/spectacles",
    "type": "venue",
    "cats": [
     "theatre",
     "dance",
     "family"
    ],
-   "note": "2026-11-02: season page is JS-rendered (anchors only); use WebSearch \"Le ZEF <mois> 2026\" and the Marseille Tourisme agenda instead."
+   "note": "2026-11-09: /programmation was refused; /programmation/spectacles covers the whole autumn on one page."
+  },
+  {
+   "name": "Les Théâtres – Gymnase, Bernardines, GTP",
+   "url": "https://www.lestheatres.net/fr/saison/?v=gymnase",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "dance",
+    "classical"
+   ],
+   "note": "2026-11-09: Per-house filters give each house on one page: ?v=gymnase, ?v=bernardines, ?v=aller-vers (touring free shows)."
+  },
+  {
+   "name": "ZEF – scène nationale",
+   "url": "https://www.lezef.org/fr/saison/26-27/mon-frere-984",
+   "type": "venue",
+   "cats": [
+    "theatre",
+    "dance",
+    "family"
+   ],
+   "note": "2026-11-09: Homepage is JS-rendered, but show pages lezef.org/fr/saison/26-27/<slug>-<id> render and carry previous/next-show links (ids 983–986, 1022 this autumn); they flag school-only sessions."
   },
   {
    "name": "Théâtre Joliette",
-   "url": "https://www.theatrejoliette.fr/programmation",
+   "url": "https://www.theatrejoliette.fr/calendrier",
    "type": "venue",
    "cats": [
     "theatre"
-   ]
+   ],
+   "note": "2026-11-09: /calendrier gives per-performance dates and times."
   },
   {
    "name": "Théâtre de l'Œuvre",
@@ -192,19 +199,21 @@
   },
   {
    "name": "KLAP Maison pour la danse",
-   "url": "https://www.kelemenis.fr/fr/les-spectacles",
+   "url": "https://www.kelemenis.fr/fr/agenda",
    "type": "venue",
    "cats": [
     "dance"
-   ]
+   ],
+   "note": "2026-11-09: /fr/agenda is a dated list with times (it also carries the company's tour dates elsewhere)."
   },
   {
    "name": "Ballet National de Marseille",
-   "url": "https://www.ballet-de-marseille.com/",
+   "url": "https://www.ballet-de-marseille.com/agenda",
    "type": "venue",
    "cats": [
     "dance"
-   ]
+   ],
+   "note": "2026-11-09: /agenda lists home and tour dates; no Marseille performance 9 Nov–20 Dec 2026 (Aix only)."
   },
   {
    "name": "Opéra de Marseille / Odéon",
@@ -213,16 +222,18 @@
    "cats": [
     "opera",
     "classical"
-   ]
+   ],
+   "note": "2026-11-09: Listing is paginated from ?page=0; ?page=1 covers 12 Dec to end of January."
   },
   {
    "name": "GMEM",
-   "url": "https://gmem.org/saison",
+   "url": "https://en.gmem.org/",
    "type": "venue",
    "cats": [
     "classical",
     "music"
-   ]
+   ],
+   "note": "2026-11-09: en.gmem.org lists all upcoming events with dates, times, rooms and links."
   },
   {
    "name": "Montévidéo",
@@ -235,12 +246,13 @@
   },
   {
    "name": "Cité de la Musique de Marseille",
-   "url": "https://www.citemusique-marseille.com/agenda/",
+   "url": "https://www.citemusique-marseille.com/concerts-spectacles/",
    "type": "venue",
    "cats": [
     "music",
     "talk"
-   ]
+   ],
+   "note": "2026-11-09: /agenda/ is refused; /concerts-spectacles/ lists Nov–Dec on one page."
   },
   {
    "name": "Cabaret Aléatoire",
@@ -248,7 +260,8 @@
    "type": "venue",
    "cats": [
     "music"
-   ]
+   ],
+   "note": "2026-11-09: Own site is a JS ticketing widget; use the Friche music filter (lafriche.org/agenda?categorie=musique-son) and technoairlines.com/club/cabaret-aleatoire-marseille for line-ups."
   },
   {
    "name": "Le Molotov",
@@ -256,7 +269,8 @@
    "type": "venue",
    "cats": [
     "music"
-   ]
+   ],
+   "note": "2026-11-09: /agenda/ covers Molotov and Le Dodu to 20 Dec with own-page links; /events/ shows past events."
   },
   {
    "name": "Espace Julien / Makeda",
@@ -265,15 +279,17 @@
    "cats": [
     "music",
     "talk"
-   ]
+   ],
+   "note": "2026-11-09: Agenda is fetchable (second page ?page=1) and covers Café Julien and co-productions; Le Makeda has its own programme on lemakeda.com (JS-rendered): use tourist-office or myprovence event pages."
   },
   {
    "name": "Le Silo",
-   "url": "https://www.silo-marseille.fr/",
+   "url": "https://www.cepacsilo-marseille.fr/",
    "type": "venue",
    "cats": [
     "music"
-   ]
+   ],
+   "note": "2026-11-09: Own site is cepacsilo-marseille.fr (event pages give session times and companies; /evenements/page/N/); jds.fr venue page is a good second source."
   },
   {
    "name": "Vidéodrome 2",
@@ -281,15 +297,17 @@
    "type": "venue",
    "cats": [
     "cinema"
-   ]
+   ],
+   "note": "2026-11-09: /accueil/cinema-marseille/ read in full on 9 Nov: programme published to 28 Nov only."
   },
   {
    "name": "Cinéma Les Variétés",
-   "url": "https://www.cinemetroart.com/",
+   "url": "https://lesvarietes-marseille.com/FR/12/prochainement-cinema-les-varietes-marseille.html",
    "type": "venue",
    "cats": [
     "cinema"
-   ]
+   ],
+   "note": "2026-11-09: cinemetroart.com is superseded by lesvarietes-marseille.com: 'Prochainement' lists avant-premières, special and festival screenings with a page per film (times on the film pages); festivals page at /FR/90/festival-cinema-varietes-marseille.html."
   },
   {
    "name": "Le Gyptis",
@@ -297,7 +315,8 @@
    "type": "venue",
    "cats": [
     "cinema"
-   ]
+   ],
+   "note": "2026-11-09: No special screenings found via the Friche (cinema-video filter empty); not reached on its own site."
   },
   {
    "name": "Alhambra Cinémarseille",
@@ -305,15 +324,17 @@
    "type": "venue",
    "cats": [
     "cinema"
-   ]
+   ],
+   "note": "2026-11-09: Not reached again (provenance refusals, search budget)."
   },
   {
    "name": "FIDMarseille – agenda",
-   "url": "https://fidmarseille.org/agenda",
+   "url": "https://fidmarseille.org/en/calendar",
    "type": "venue",
    "cats": [
     "cinema"
-   ]
+   ],
+   "note": "2026-11-09: fidmarseille.org/en/calendar is fetchable (CinéFID screenings, Collection Lambert series in Avignon)."
   },
   {
    "name": "Bibliothèque de l'Alcazar – agenda",
@@ -321,15 +342,17 @@
    "type": "venue",
    "cats": [
     "talk"
-   ]
+   ],
+   "note": "2026-11-09: Still nothing for Nov–Dec 2026: only the Sept–Oct 'Conférences et rencontres à l'Alcazar' listings surfaced. Search myprovence / marseille-tourisme for the bimonthly listing."
   },
   {
    "name": "Jazz sur la Ville",
-   "url": "https://www.jazzsurlaville.org/",
+   "url": "https://jazzsurlaville.org/programmation-2026/",
    "type": "aggregator",
    "cats": [
     "music"
-   ]
+   ],
+   "note": "2026-11-09: Programme page is jazzsurlaville.org/programmation-2026/ (no www). 2026: 2 Nov–6 Dec; last Marseille date 2 Dec."
   },
   {
    "name": "Marseille Tourisme – agenda",
@@ -337,7 +360,8 @@
    "type": "aggregator",
    "cats": [
     "all"
-   ]
+   ],
+   "note": "2026-11-09: The agenda index shows undated teasers only; use individual event pages via search, and the exhibitions round-up /vivez-marseille-blog/le-blog-marseille-a-la-carte/les-expositions-du-moment/ (updated 27 Oct 2026)."
   },
   {
    "name": "Agenda culturel 13 – Marseille",
@@ -345,7 +369,8 @@
    "type": "aggregator",
    "cats": [
     "all"
-   ]
+   ],
+   "note": "2026-11-09: Search results work but page fetches failed (client error) on 9 Nov; use result titles only."
   },
   {
    "name": "Ventilo – journal et agenda",
@@ -353,16 +378,17 @@
    "type": "aggregator",
    "cats": [
     "all"
-   ]
+   ],
+   "note": "2026-11-09: Renders no dated listings; not usable as a sweep source."
   },
   {
-   "name": "Zibeline",
-   "url": "https://www.journalzibeline.fr/",
+   "name": "Zébuline (ex-Zibeline)",
+   "url": "https://journalzebuline.fr/",
    "type": "aggregator",
    "cats": [
     "all"
    ],
-   "note": "DEAD? (2026-11-02): journalzibeline.fr now serves a home/garden lifestyle site with no cultural content; skip until it returns."
+   "note": "2026-11-09: journalzibeline.fr is dead; the successor is journalzebuline.fr (Journal Zébuline), active with festival previews but no agenda section."
   },
   {
    "name": "Lupop – expositions 13",
@@ -397,7 +423,8 @@
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-09: Exhibition pages were refused twice on 9 Nov; 'L'héritage cézannien' run dates still unknown."
   },
   {
    "name": "Caumont Centre d'Art",
@@ -415,7 +442,8 @@
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-09: Homepage carries the dated monthly agenda; /expositions/ carries run dates (no per-exhibition pages)."
   },
   {
    "name": "Pavillon Noir / Ballet Preljocaj",
@@ -428,12 +456,13 @@
   },
   {
    "name": "Collection Lambert",
-   "url": "https://collectionlambert.com/",
+   "url": "https://collectionlambert.com/expositions/en-cours/",
    "type": "venue",
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-09: Only /expositions/en-cours/ renders to the fetcher."
   },
   {
    "name": "Château La Coste",
@@ -479,7 +508,8 @@
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-09: Closed for winter since 1 Nov 2026."
   },
   {
    "name": "PAC – agenda search (all member events)",
@@ -587,7 +617,8 @@
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: zoeme.net errors; fallback p-a-c.fr/les-membres/galerie-librairie-zoeme. Nothing listed after 10 Oct 2026."
   },
   {
    "name": "MadmaX",
@@ -596,7 +627,8 @@
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: Group Show #1 confirmed 13 Nov–19 Dec on the homepage; no vernissage date, artists or hours published."
   },
   {
    "name": "Apartamento Contemporary Art",
@@ -614,7 +646,8 @@
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: Redirect loop on 9 Nov; page never returned."
   },
   {
    "name": "Galerie Béatrice Soulié",
@@ -636,12 +669,13 @@
   },
   {
    "name": "SOMA",
-   "url": "https://soma-art.org/",
+   "url": "https://soma-art.org/agenda_soma/",
    "type": "venue",
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: Dated agenda is at soma-art.org/agenda_soma/ (no year or times printed)."
   },
   {
    "name": "TANK Art Space",
@@ -650,7 +684,8 @@
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: Looks dead: most recent dated item is from 2020."
   },
   {
    "name": "Galerie Objets Inanimés",
@@ -681,12 +716,13 @@
   },
   {
    "name": "Le Couvent",
-   "url": "https://le-couvent.org/",
+   "url": "https://le-couvent.org/agenda",
    "type": "venue",
    "cats": [
     "exhibition"
    ],
-   "group": "gallery"
+   "group": "gallery",
+   "note": "2026-11-09: Agenda at le-couvent.org/agenda; chapel exhibitions run May–October only."
   },
   {
    "name": "Art-o-rama – In Town (gallery shows around the fair)",
@@ -699,35 +735,39 @@
   },
   {
    "name": "Théâtre Massalia",
-   "url": "https://www.theatremassalia.com/",
+   "url": "https://www.theatremassalia.com/la-saison",
    "type": "venue",
    "cats": [
     "family"
-   ]
+   ],
+   "note": "2026-11-09: /la-saison lists the season with links to /spectacles/<slug> pages (times, room, ages)."
   },
   {
    "name": "Badaboum Théâtre",
-   "url": "https://www.badaboum-theatre.com/",
+   "url": "https://www.badaboum-theatre.com/saison-2026-27-spectacles-enfants-marseille/",
    "type": "venue",
    "cats": [
     "family"
-   ]
+   ],
+   "note": "2026-11-09: Season page lists all shows with own pages; session times are on the ticketing site."
   },
   {
    "name": "Marseille Concerts",
-   "url": "https://www.marseilleconcerts.com/",
+   "url": "https://www.marseilleconcerts.com/programmation",
    "type": "venue",
    "cats": [
     "classical"
-   ]
+   ],
+   "note": "2026-11-09: /programmation gives dates and venues; each concert has /event-details/<slug> with time and programme."
   },
   {
    "name": "Le Dôme",
-   "url": "https://www.ledome-marseille.com/",
+   "url": "https://www.jds.fr/marseille/salle-de-concert-spectacle/dome-marseille-14842_L",
    "type": "venue",
    "cats": [
     "music"
-   ]
+   ],
+   "note": "2026-11-09: Own site not reached; jds.fr venue page lists all dates with start times."
   },
   {
    "name": "Cinéma La Baleine",
@@ -775,14 +815,14 @@
   },
   {
    "name": "Théâtre d'Arles",
-   "url": "https://www.theatre-arles.com/",
+   "url": "https://www.theatre-arles.com/saison-26-27/",
    "type": "venue",
    "region": "afield",
    "cats": [
     "theatre",
     "dance"
    ],
-   "note": "Added 2026-11-02: Nov–Dec 2026 season found only via a press article (objectifsud.fr); fetch the venue's own saison page."
+   "note": "2026-11-09: Own season page with a page per show (no times)."
   },
   {
    "name": "Scènes et Cinés – L'Usine, Istres",
@@ -793,7 +833,7 @@
     "music",
     "theatre"
    ],
-   "note": "Added 2026-11-02: concerts found via unidivers.fr listings; fetch the venue's agenda."
+   "note": "2026-11-09: Own site never reached; use jds.fr (https://www.jds.fr/marseille/istres-9108_V/agenda/musique-et-concerts-96_B) and infoconcert (https://www.infoconcert.com/salle/lusine-a-istres-4044/concerts)."
   },
   {
    "name": "Le Dodu (via Le Molotov agenda)",
@@ -806,7 +846,7 @@
   },
   {
    "name": "Les Théâtres – Aix (GTP, Jeu de Paume)",
-   "url": "https://www.lestheatres.net/fr/saison?page=2",
+   "url": "https://www.lestheatres.net/fr/saison/?v=grand-theatre",
    "type": "venue",
    "region": "afield",
    "cats": [
@@ -815,7 +855,181 @@
     "classical",
     "opera"
    ],
-   "note": "Added 2026-11-02: page 1 of the saison listing ran to 4 Dec; fetch ?page=2 onward for later dates."
+   "note": "2026-11-09: Per-venue listings: ?v=grand-theatre and ?v=jeu-de-paume (page 2: &current_page=2&nb_items_per_page=20)."
+  },
+  {
+   "name": "MAV PACA – Maison de l'Architecture et de la Ville",
+   "url": "https://mavpaca.fr/",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "talk"
+   ],
+   "note": "Added 2026-11-09: hosts Défense d'effacer to 18 Dec; domain from the myprovence listing, not yet fetched."
+  },
+  {
+   "name": "La Compagnie, lieu de création (PAC page)",
+   "url": "https://p-a-c.fr/les-membres/la-compagnie-lieu-de-creation",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery",
+   "note": "Added 2026-11-09: member page with current and coming shows."
+  },
+  {
+   "name": "Espace d'exposition GT (PAC page)",
+   "url": "https://p-a-c.fr/les-membres/espace-d-exposition-gt",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery",
+   "note": "Added 2026-11-09: Noëlisation and other GT shows."
+  },
+  {
+   "name": "Le Makeda",
+   "url": "https://www.lemakeda.com/evenements/categorie/concert/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "note": "Added 2026-11-09: own programme beyond the Espace Julien agenda; JS-rendered, use tourist-office / myprovence event pages."
+  },
+  {
+   "name": "La Meson",
+   "url": "https://lameson.com/agenda/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "note": "Added 2026-11-09: fetchable; event pages give doors and concert times and line-ups."
+  },
+  {
+   "name": "L'Affranchi (via Marseille Tourisme)",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/ajna-marseille-11eme-fr-6690824/",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "note": "Added 2026-11-09: the venue's rap concerts appear as '…-marseille-11eme-…' tourist-office pages; own site not found."
+  },
+  {
+   "name": "Dock des Suds (jds.fr)",
+   "url": "https://www.jds.fr/marseille/salle-de-concert/dock-des-suds-marseille-14847_L",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "note": "Added 2026-11-09: few dates, fetchable."
+  },
+  {
+   "name": "Festival Tous en Sons – programme",
+   "url": "https://tousensons.fr/programme-tous-en-sons-8-2026-tout-public/",
+   "type": "aggregator",
+   "cats": [
+    "family",
+    "music",
+    "festival"
+   ],
+   "note": "Added 2026-11-09: whole festival on one page with dates, times, venues and show links."
+  },
+  {
+   "name": "Les Écrans du Sud – festivals",
+   "url": "https://seances-speciales.fr/les-festivals-seances-speciales/",
+   "type": "aggregator",
+   "cats": [
+    "cinema",
+    "festival"
+   ],
+   "note": "Added 2026-11-09: dated list of all film festivals in the Bouches-du-Rhône."
+  },
+  {
+   "name": "PriMed – projections et rencontres",
+   "url": "https://primed.tv/marseille/projections/",
+   "type": "venue",
+   "cats": [
+    "cinema",
+    "talk"
+   ],
+   "note": "Added 2026-11-09: French pages carry the schedule; rencontres at /marseille/rencontres-conferences-et-debats/."
+  },
+  {
+   "name": "Le Noël Marseillais (Office de Tourisme)",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/animations-noel-marseille/",
+   "type": "aggregator",
+   "cats": [
+    "festival",
+    "family"
+   ],
+   "note": "Added 2026-11-09: city Christmas programme: market, santon fair, illuminations, shows."
+  },
+  {
+   "name": "Les Amis de Saint-Victor – Voix des Suds",
+   "url": "https://www.marseille-tourisme.com/en/vivez-marseille/events-in-marseille/festival-voix-des-suds-2026-marseille-7eme-en-6690805/",
+   "type": "venue",
+   "cats": [
+    "classical",
+    "festival"
+   ],
+   "note": "Added 2026-11-09: autumn concert series at the Abbaye Saint-Victor; own site www.amisdesaintvictor.com not yet opened."
+  },
+  {
+   "name": "Opéra Grand Avignon – agenda",
+   "url": "https://www.operagrandavignon.fr/agenda",
+   "type": "venue",
+   "cats": [
+    "opera",
+    "classical",
+    "dance",
+    "theatre"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-09: own agenda with event pages; only the first 9 results come back whatever ?page= is used, try the month filter."
+  },
+  {
+   "name": "6MIC Aix (Songkick calendar)",
+   "url": "https://songkick.com/venues/4369031-6mic/calendar",
+   "type": "venue",
+   "cats": [
+    "music"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-09: full dated concert list when the venue site is unreachable; no times."
+  },
+  {
+   "name": "3 bis F (PAC page)",
+   "url": "https://p-a-c.fr/les-membres/3-bis-f",
+   "type": "venue",
+   "cats": [
+    "exhibition",
+    "theatre"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-09: member page lists current and coming exhibitions and performances."
+  },
+  {
+   "name": "Arles agenda (jds.fr)",
+   "url": "https://www.jds.fr/arles/agenda/",
+   "type": "aggregator",
+   "cats": [
+    "music",
+    "theatre",
+    "exhibition",
+    "festival"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-09: includes Cargo de Nuit concerts and Arles Christmas events."
+  },
+  {
+   "name": "Vaucluse – expositions de l'année (provenceguide)",
+   "url": "https://www.provenceguide.com/expos-annee/",
+   "type": "aggregator",
+   "cats": [
+    "exhibition"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-09: one page with dates for the main Avignon/Vaucluse exhibitions."
   }
  ]
 }
