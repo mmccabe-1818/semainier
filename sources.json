@@ -11,7 +11,7 @@
     "cinema",
     "music"
    ],
-   "note": "2026-11-16: Best single page for Mucem one-offs is p-a-c.fr/les-membres/mucem (talks, Pulsations workshops, Ciné-Dimanche, with dates and times); mucem.org/evenement/<slug>/ pages fetch after an allowed_domains search; /temps-fort/vacances-gourmandes/ has the Christmas family programme. mucem.org/en/agenda/ itself was refused this week. | 2026-11-09: mucem.org/en/agenda/ now renders the temps forts; each temps-fort page lists its sessions with dates, times and own URLs (Procès du siècle, Ciné-Dimanche, Pulsations). One-off events are still loaded by script: search mucem.org by event name, or use the PAC agenda and myprovence listings."
+   "note": "2026-11-23: p-a-c.fr/les-membres/mucem fetched OK (Procès du siècle sessions to 14 Dec, Pulsations, Persepolis 20 Dec); nothing 21 Dec–8 Jan beyond the family programme. | 2026-11-16: Best single page for Mucem one-offs is p-a-c.fr/les-membres/mucem (talks, Pulsations workshops, Ciné-Dimanche, with dates and times); mucem.org/evenement/<slug>/ pages fetch after an allowed_domains search; /temps-fort/vacances-gourmandes/ has the Christmas family programme. mucem.org/en/agenda/ itself was refused this week. | 2026-11-09: mucem.org/en/agenda/ now renders the temps forts; each temps-fort page lists its sessions with dates, times and own URLs (Procès du siècle, Ciné-Dimanche, Pulsations). One-off events are still loaded by script: search mucem.org by event name, or use the PAC agenda and myprovence listings."
   },
   {
    "name": "Mucem – expositions",
@@ -20,7 +20,7 @@
    "cats": [
     "exhibition"
    ],
-   "note": "2026-11-16: Confirmed: no opening 16 Nov–27 Dec 2026 (Mossi closed 16 Nov; next PaySans 10 Feb 2027). Tourist-site hits for 'Cogitore Ferdinandea 10 déc' are the 2025–26 show. | 2026-11-09: mucem.org/en/exhibitions/ is fetchable and lists current and upcoming shows to Dec 2027 (next opening: PaySans, 10 Feb 2027)."
+   "note": "2026-11-23: Re-confirmed: no opening before PaySans 10 Feb 2027. | 2026-11-16: Confirmed: no opening 16 Nov–27 Dec 2026 (Mossi closed 16 Nov; next PaySans 10 Feb 2027). Tourist-site hits for 'Cogitore Ferdinandea 10 déc' are the 2025–26 show. | 2026-11-09: mucem.org/en/exhibitions/ is fetchable and lists current and upcoming shows to Dec 2027 (next opening: PaySans, 10 Feb 2027)."
   },
   {
    "name": "Musées de Marseille – expositions",
@@ -28,7 +28,8 @@
    "type": "venue",
    "cats": [
     "exhibition"
-   ]
+   ],
+   "note": "2026-11-23: The quarterly programme PDF (musees.marseille.fr/sites/default/files/…Prog' OCT-NOV-DEC 2026.pdf, surfaced by search) is the one fetchable museum resource: all shows and dated events. Search for the next quarter's PDF in January."
   },
   {
    "name": "Musées de Marseille – agenda",
@@ -61,7 +62,7 @@
     "festival",
     "talk"
    ],
-   "note": "2026-11-16: The exposition filter is stale (stops 5 Nov); musique-son filter now runs to 29 Jan 2027 and fetches directly; rencontre/theatre/danse filters not re-read this week. | 2026-11-09: Use the category filters WITHOUT a trailing slash: /agenda?categorie=musique-son (to 19 Dec), rencontre (to 27 Nov), theatre, danse, exposition (to 23 Nov), litterature-edition, performance, numerique. The plain agenda stops two weeks out and its 'next' button has no URL. cinema-video returned nothing."
+   "note": "2026-11-23: Plain /agenda/ shows only two weeks (to 7 Dec); exposition filter stale; musique-son filter runs to 29 Jan. rencontre/performance filters not re-read. | 2026-11-16: The exposition filter is stale (stops 5 Nov); musique-son filter now runs to 29 Jan 2027 and fetches directly; rencontre/theatre/danse filters not re-read this week. | 2026-11-09: Use the category filters WITHOUT a trailing slash: /agenda?categorie=musique-son (to 19 Dec), rencontre (to 27 Nov), theatre, danse, exposition (to 23 Nov), litterature-edition, performance, numerique. The plain agenda stops two weeks out and its 'next' button has no URL. cinema-video returned nothing."
   },
   {
    "name": "Frac Sud",
@@ -70,7 +71,7 @@
    "cats": [
     "exhibition"
    ],
-   "note": "2026-11-09: fracsud.org returned client errors; only Trafic #3 (4–6 Dec) is listed after 15 Nov (PAC agenda, tourist office). Next exhibition 30 Jan 2027."
+   "note": "2026-11-23: Homepage refused; fracsud.org/Trafic-3-2189 fetched after a site search. No exhibition announced after 15 Nov until 30 Jan 2027. | 2026-11-09: fracsud.org returned client errors; only Trafic #3 (4–6 Dec) is listed after 15 Nov (PAC agenda, tourist office). Next exhibition 30 Jan 2027."
   },
   {
    "name": "Marseille Expos / PAC – agenda du réseau",
@@ -79,7 +80,7 @@
    "cats": [
     "exhibition"
    ],
-   "note": "2026-11-16: p-a-c.fr/agenda/recherche fetches after a p-a-c.fr allowed_domains search and lists every member event to May 2027; member pages /les-membres/<slug> fetch too, but /evenements/<slug> pages are refused unless surfaced by a search. | 2026-11-09: Fetch p-a-c.fr/agenda first, then p-a-c.fr/agenda/recherche: one page lists every event of all 69 members (Marseille, Aix, Istres, Port-de-Bouc, Rognes, Martigues) with vernissage times and event-page links."
+   "note": "2026-11-23: /agenda/recherche fetched OK: 94 member events to Aug 2027; the main gallery source again. | 2026-11-16: p-a-c.fr/agenda/recherche fetches after a p-a-c.fr allowed_domains search and lists every member event to May 2027; member pages /les-membres/<slug> fetch too, but /evenements/<slug> pages are refused unless surfaced by a search. | 2026-11-09: Fetch p-a-c.fr/agenda first, then p-a-c.fr/agenda/recherche: one page lists every event of all 69 members (Marseille, Aix, Istres, Port-de-Bouc, Rognes, Martigues) with vernissage times and event-page links."
   },
   {
    "name": "Triangle-Astérides",
@@ -157,7 +158,7 @@
     "dance",
     "family"
    ],
-   "note": "2026-11-16: Fetch only after WebSearch allowed_domains ['theatre-lacriee.com']; Un moment suspendu has two pages (…-criee-2 for 8–11 Dec, …-astronef for 18–19 Dec). Talks/rencontres not checked. | 2026-11-09: /programmation was refused; /programmation/spectacles covers the whole autumn on one page."
+   "note": "2026-11-23: Fetched OK; nothing 20 Dec–4 Jan; L'École des femmes opens 5 Jan 2027. | 2026-11-16: Fetch only after WebSearch allowed_domains ['theatre-lacriee.com']; Un moment suspendu has two pages (…-criee-2 for 8–11 Dec, …-astronef for 18–19 Dec). Talks/rencontres not checked. | 2026-11-09: /programmation was refused; /programmation/spectacles covers the whole autumn on one page."
   },
   {
    "name": "Les Théâtres – Gymnase, Bernardines, GTP",
@@ -179,7 +180,7 @@
     "dance",
     "family"
    ],
-   "note": "2026-11-16: Chain in window: …-986 Lullaby Shot → …-1022 Heppines is cheap → …-1023 Atelier théâtre; id 995 is March 2027. | 2026-11-09: Homepage is JS-rendered, but show pages lezef.org/fr/saison/26-27/<slug>-<id> render and carry previous/next-show links (ids 983–986, 1022 this autumn); they flag school-only sessions."
+   "note": "2026-11-23: Chain continues …-1023 Atelier théâtre (9 Jan) → Bientôt le jour 12 Jan 2027; nothing new in December. | 2026-11-16: Chain in window: …-986 Lullaby Shot → …-1022 Heppines is cheap → …-1023 Atelier théâtre; id 995 is March 2027. | 2026-11-09: Homepage is JS-rendered, but show pages lezef.org/fr/saison/26-27/<slug>-<id> render and carry previous/next-show links (ids 983–986, 1022 this autumn); they flag school-only sessions."
   },
   {
    "name": "Théâtre Joliette",
@@ -206,7 +207,7 @@
    "cats": [
     "dance"
    ],
-   "note": "2026-11-16: /fr/agenda refused even after search; the English mirror /en/agenda/klap fetches (KLAP-only list). Costumes de scènes opening date has slid every week (26 Oct → 16 Nov); closing soirée 4 Jun 2027. Nothing after Braises (4 Dec) until 26 Jan 2027. | 2026-11-09: /fr/agenda is a dated list with times (it also carries the company's tour dates elsewhere)."
+   "note": "2026-11-23: Costumes de scènes opening settled: Mon 23 Nov 18:00 (own exhibition page /fr/les-expositions/1748/costumes-de-scenes). | 2026-11-16: /fr/agenda refused even after search; the English mirror /en/agenda/klap fetches (KLAP-only list). Costumes de scènes opening date has slid every week (26 Oct → 16 Nov); closing soirée 4 Jun 2027. Nothing after Braises (4 Dec) until 26 Jan 2027. | 2026-11-09: /fr/agenda is a dated list with times (it also carries the company's tour dates elsewhere)."
   },
   {
    "name": "Ballet National de Marseille",
@@ -225,7 +226,7 @@
     "opera",
     "classical"
    ],
-   "note": "2026-11-16: ?page=0 to 12 Dec, ?page=1 from 13 Dec; La Périchole opens 27 Dec 14:30. | 2026-11-09: Listing is paginated from ?page=0; ?page=1 covers 12 Dec to end of January."
+   "note": "2026-11-23: Nothing 14 Dec–10 Jan except La Périchole (27 Dec–5 Jan); Concerts du Nouvel An 10 Jan 2027. | 2026-11-16: ?page=0 to 12 Dec, ?page=1 from 13 Dec; La Périchole opens 27 Dec 14:30. | 2026-11-09: Listing is paginated from ?page=0; ?page=1 covers 12 Dec to end of January."
   },
   {
    "name": "GMEM",
@@ -235,7 +236,7 @@
     "classical",
     "music"
    ],
-   "note": "2026-11-16: Fetched directly by one agent, refused for another; lists Nov–Dec incl. Modulation #4 at the Opéra foyer 13 Dec. | 2026-11-09: en.gmem.org lists all upcoming events with dates, times, rooms and links."
+   "note": "2026-11-23: en.gmem.org fetched OK; VOID.SESSIONS 7 Jan 2027 is the next after 15 Dec. | 2026-11-16: Fetched directly by one agent, refused for another; lists Nov–Dec incl. Modulation #4 at the Opéra foyer 13 Dec. | 2026-11-09: en.gmem.org lists all upcoming events with dates, times, rooms and links."
   },
   {
    "name": "Montévidéo",
@@ -254,7 +255,7 @@
     "music",
     "talk"
    ],
-   "note": "2026-11-16: Fetch after allowed_domains search; includes La Magalone concerts and the Tous en Sons date (Morgane Le Cuff 17 Dec). Kourou Fia confirmed 10 Dec on its event page. | 2026-11-09: /agenda/ is refused; /concerts-spectacles/ lists Nov–Dec on one page."
+   "note": "2026-11-23: Fetched OK after search; next events after 13 Dec are 7–9 Jan 2027. | 2026-11-16: Fetch after allowed_domains search; includes La Magalone concerts and the Tous en Sons date (Morgane Le Cuff 17 Dec). Kourou Fia confirmed 10 Dec on its event page. | 2026-11-09: /agenda/ is refused; /concerts-spectacles/ lists Nov–Dec on one page."
   },
   {
    "name": "Cabaret Aléatoire",
@@ -272,7 +273,7 @@
    "cats": [
     "music"
    ],
-   "note": "2026-11-16: Agenda fetches after allowed_domains search; covers to 19 Dec, nothing yet for 20–27 Dec. | 2026-11-09: /agenda/ covers Molotov and Le Dodu to 20 Dec with own-page links; /events/ shows past events."
+   "note": "2026-11-23: Nothing 20 Dec–9 Jan; next 10 Jan 2027. | 2026-11-16: Agenda fetches after allowed_domains search; covers to 19 Dec, nothing yet for 20–27 Dec. | 2026-11-09: /agenda/ covers Molotov and Le Dodu to 20 Dec with own-page links; /events/ shows past events."
   },
   {
    "name": "Espace Julien / Makeda",
@@ -282,7 +283,7 @@
     "music",
     "talk"
    ],
-   "note": "2026-11-16: Page 1 now runs to 9 Jan 2027; also lists stand-up (out of scope). Les Fatals Picards 12 Dec confirmed. | 2026-11-09: Agenda is fetchable (second page ?page=1) and covers Café Julien and co-productions; Le Makeda has its own programme on lemakeda.com (JS-rendered): use tourist-office or myprovence event pages."
+   "note": "2026-11-23: Nothing new in window; Acid Arab 9 Jan 2027. | 2026-11-16: Page 1 now runs to 9 Jan 2027; also lists stand-up (out of scope). Les Fatals Picards 12 Dec confirmed. | 2026-11-09: Agenda is fetchable (second page ?page=1) and covers Café Julien and co-productions; Le Makeda has its own programme on lemakeda.com (JS-rendered): use tourist-office or myprovence event pages."
   },
   {
    "name": "Le Silo",
@@ -291,7 +292,7 @@
    "cats": [
     "music"
    ],
-   "note": "2026-11-16: /evenements/ and /evenements/page/2/ fetch directly; event pages give doors times and cancellations (Spider-Man 22 Nov annulé; Ronja 20:00 annulé, 14:30 kept). | 2026-11-09: Own site is cepacsilo-marseille.fr (event pages give session times and companies; /evenements/page/N/); jds.fr venue page is a good second source."
+   "note": "2026-11-23: Nothing 20 Dec–3 Jan; Lac des Cygnes 4 Jan, Mariza 9 Jan 2027. | 2026-11-16: /evenements/ and /evenements/page/2/ fetch directly; event pages give doors times and cancellations (Spider-Man 22 Nov annulé; Ronja 20:00 annulé, 14:30 kept). | 2026-11-09: Own site is cepacsilo-marseille.fr (event pages give session times and companies; /evenements/page/N/); jds.fr venue page is a good second source."
   },
   {
    "name": "Vidéodrome 2",
@@ -300,7 +301,7 @@
    "cats": [
     "cinema"
    ],
-   "note": "2026-11-16: Programme published to 8 Dec (Cœurs sombres cycle to 20 Jan); fetch after allowed_domains search. | 2026-11-09: /accueil/cinema-marseille/ read in full on 9 Nov: programme published to 28 Nov only."
+   "note": "2026-11-23: Programme published to 13 Dec; Trans Gaze festival 9–13 Dec and Miracle Kirghiz cycle 1–4 Dec added. | 2026-11-16: Programme published to 8 Dec (Cœurs sombres cycle to 20 Jan); fetch after allowed_domains search. | 2026-11-09: /accueil/cinema-marseille/ read in full on 9 Nov: programme published to 28 Nov only."
   },
   {
    "name": "Cinéma Les Variétés",
@@ -309,7 +310,7 @@
    "cats": [
     "cinema"
    ],
-   "note": "2026-11-16: 'Prochainement' list ends 4 Dec; film pages give the slot; no CinémAnimé listed. | 2026-11-09: cinemetroart.com is superseded by lesvarietes-marseille.com: 'Prochainement' lists avant-premières, special and festival screenings with a page per film (times on the film pages); festivals page at /FR/90/festival-cinema-varietes-marseille.html."
+   "note": "2026-11-23: Specials published to 9 Dec only. | 2026-11-16: 'Prochainement' list ends 4 Dec; film pages give the slot; no CinémAnimé listed. | 2026-11-09: cinemetroart.com is superseded by lesvarietes-marseille.com: 'Prochainement' lists avant-premières, special and festival screenings with a page per film (times on the film pages); festivals page at /FR/90/festival-cinema-varietes-marseille.html."
   },
   {
    "name": "Le Gyptis",
@@ -318,7 +319,7 @@
    "cats": [
     "cinema"
    ],
-   "note": "2026-11-16: Own site found: cinemalegyptis.org/seances-et-evenements/?type=evenement lists special screenings with dates, times and guests (~3 weeks, 'Voir les événements suivants' continues); film pages /films/<slug>/. | 2026-11-09: No special screenings found via the Friche (cinema-video filter empty); not reached on its own site."
+   "note": "2026-11-23: Events published to 12 Dec only. | 2026-11-16: Own site found: cinemalegyptis.org/seances-et-evenements/?type=evenement lists special screenings with dates, times and guests (~3 weeks, 'Voir les événements suivants' continues); film pages /films/<slug>/. | 2026-11-09: No special screenings found via the Friche (cinema-video filter empty); not reached on its own site."
   },
   {
    "name": "Alhambra Cinémarseille",
@@ -327,7 +328,7 @@
    "cats": [
     "cinema"
    ],
-   "note": "2026-11-16: alhambracine.com/evenement/ fetches after allowed_domains search but shows no dated event after 4 Nov; programme is a PDF (11 Nov–15 Dec). | 2026-11-09: Not reached again (provenance refusals, search budget)."
+   "note": "2026-11-23: No Nov–Dec 2026 PDF surfaced by search. | 2026-11-16: alhambracine.com/evenement/ fetches after allowed_domains search but shows no dated event after 4 Nov; programme is a PDF (11 Nov–15 Dec). | 2026-11-09: Not reached again (provenance refusals, search budget)."
   },
   {
    "name": "FIDMarseille – agenda",
@@ -345,7 +346,7 @@
    "cats": [
     "talk"
    ],
-   "note": "2026-11-16: Still nothing for Nov–Dec 2026 on myprovence/marseille-tourisme (only an 'Ateliers en novembre et décembre' page; 'Saison Méditerranée' hit redirects). | 2026-11-09: Still nothing for Nov–Dec 2026: only the Sept–Oct 'Conférences et rencontres à l'Alcazar' listings surfaced. Search myprovence / marseille-tourisme for the bimonthly listing."
+   "note": "2026-11-23: Still no Nov–Dec 2026 conference listing found. | 2026-11-16: Still nothing for Nov–Dec 2026 on myprovence/marseille-tourisme (only an 'Ateliers en novembre et décembre' page; 'Saison Méditerranée' hit redirects). | 2026-11-09: Still nothing for Nov–Dec 2026: only the Sept–Oct 'Conférences et rencontres à l'Alcazar' listings surfaced. Search myprovence / marseille-tourisme for the bimonthly listing."
   },
   {
    "name": "Jazz sur la Ville",
@@ -407,7 +408,8 @@
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-23: Delta (Paravel) now shown closing 10 Jan 2027."
   },
   {
    "name": "Fondation Vincent van Gogh Arles",
@@ -475,7 +477,8 @@
    "cats": [
     "exhibition"
    ],
-   "region": "afield"
+   "region": "afield",
+   "note": "2026-11-23: Marie de Villepin – Chimera (Pavillon Renzo Piano, to 22 Jan) added; González / Where Landscape end dates (17 vs 31 Jan) may be swapped in events.json — verify."
   },
   {
    "name": "Villa Noailles",
@@ -993,7 +996,7 @@
     "theatre"
    ],
    "region": "afield",
-   "note": "2026-11-16: /agenda refused, /occurences client error; individual event pages fetch when surfaced by an allowed_domains search. | Added 2026-11-09: own agenda with event pages; only the first 9 results come back whatever ?page= is used, try the month filter."
+   "note": "2026-11-23: Event pages fetch when surfaced (signe-offenbach: 31 Dec 20:00 and 3 Jan 15:00); /agenda and /occurences refused. | 2026-11-16: /agenda refused, /occurences client error; individual event pages fetch when surfaced by an allowed_domains search. | Added 2026-11-09: own agenda with event pages; only the first 9 results come back whatever ?page= is used, try the month filter."
   },
   {
    "name": "6MIC Aix (Songkick calendar)",
@@ -1051,7 +1054,7 @@
     "cinema"
    ],
    "region": "afield",
-   "note": "Added 2026-11-16: scène nationale; season page lists titles, dates and event links; calendar PDF /wp-content/uploads/2026/05/CHATOLIB-CALEN2627-WEB_OK.pdf has venues and times. Avoid /prochainement/ (mixed seasons, no years)."
+   "note": "2026-11-23: Season page fetched OK: La Tempête 9–12 Dec ANNULÉ; Skroll 10 Dec added; nothing 17 Dec–3 Jan. | Added 2026-11-16: scène nationale; season page lists titles, dates and event links; calendar PDF /wp-content/uploads/2026/05/CHATOLIB-CALEN2627-WEB_OK.pdf has venues and times. Avoid /prochainement/ (mixed seasons, no years)."
   },
   {
    "name": "Théâtre du Carré Rond",
@@ -1078,7 +1081,7 @@
    "cats": [
     "family"
    ],
-   "note": "Added 2026-11-16: très jeune public (69 rue Sainte-Cécile, 5e); Christmas festival page lists 14 shows with links to /spectacle/<slug>/ — fetch those for dates; marseille-tourisme agenda pages carry dates too."
+   "note": "2026-11-23: www.divadlo-theatre.fr festival page fetches (first try ROBOTS_UNREACHABLE) but lists titles only; dates come from marseille-tourisme / myprovence pages. | Added 2026-11-16: très jeune public (69 rue Sainte-Cécile, 5e); Christmas festival page lists 14 shows with links to /spectacle/<slug>/ — fetch those for dates; marseille-tourisme agenda pages carry dates too."
   },
   {
    "name": "Théâtre des Calanques",
@@ -1097,7 +1100,7 @@
    "cats": [
     "theatre"
    ],
-   "note": "Added 2026-11-16: refuses WebFetch (robots); only search-result titles usable."
+   "note": "2026-11-23: Nothing found for December 2026. | Added 2026-11-16: refuses WebFetch (robots); only search-result titles usable."
   },
   {
    "name": "Mucem – all events (PAC member page)",
@@ -1121,6 +1124,87 @@
     "family"
    ],
    "note": "Added 2026-11-16: small 4e/6e houses whose shows surface only as marseille-tourisme agenda pages; search '<venue> marseille-tourisme'."
+  },
+  {
+   "name": "Nendo Galerie (PAC member page)",
+   "url": "https://p-a-c.fr/les-membres/nendo-galerie",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "group": "gallery",
+   "note": "Added 2026-11-23: ceramics/sculpture gallery, 31 rue Sylvabelle (6e); Clément Petibon to 16 Jan 2027."
+  },
+  {
+   "name": "Pôle Chezanne (L'Estaque)",
+   "url": "https://www.myprovence.fr/agenda/exposition/marseille/quartiers-nord",
+   "type": "venue",
+   "cats": [
+    "exhibition"
+   ],
+   "note": "Added 2026-11-23: exhibition space at L'Estaque plage; surfaced via myprovence, no own site found."
+  },
+  {
+   "name": "Festival Sacrée Musique (frequence-sud)",
+   "url": "https://www.frequence-sud.fr/art-114004-chants_de_noel_a_la_bougie_marseille",
+   "type": "aggregator",
+   "cats": [
+    "music",
+    "classical"
+   ],
+   "note": "Added 2026-11-23: candlelit Christmas concerts in Marseille churches each December (Notre-Dame de la Garde 3 Dec, Saint-Vincent-de-Paul 10 Dec); frequence-sud articles carry dates and times."
+  },
+  {
+   "name": "Festival RISC – programme",
+   "url": "https://festivalrisc.org/programme-2026/",
+   "type": "venue",
+   "cats": [
+    "cinema",
+    "festival"
+   ],
+   "note": "Added 2026-11-23: December sessions with venues and times; per-session pages have date-based slugs; film titles published late."
+  },
+  {
+   "name": "Les Heures d'orgue de Saint-Victor",
+   "url": "https://www.marseille-tourisme.com/vivez-marseille-blog/agenda/les-heures-dorgue-de-saint-victor-marseille-7eme-fr-6096076/",
+   "type": "venue",
+   "cats": [
+    "classical"
+   ],
+   "note": "Added 2026-11-23: free monthly organ recitals at the Abbaye; whole season on one page."
+  },
+  {
+   "name": "Opéra de Toulon – calendrier",
+   "url": "https://www.operadetoulon.fr/fr/calendrier.htm",
+   "type": "venue",
+   "cats": [
+    "opera",
+    "classical"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-23: fetches cleanly; every date with time and event URL (Les Pêcheurs de perles 29 & 31 Dec)."
+  },
+  {
+   "name": "Arena du Pays d'Aix (Songkick calendar)",
+   "url": "https://www.songkick.com/venues/3790994-arena-du-pays-daix/calendar",
+   "type": "venue",
+   "cats": [
+    "music",
+    "dance"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-23: fetches cleanly; dates and cancellations for the Arena (no times)."
+  },
+  {
+   "name": "Noël à Aix (Aix tourism)",
+   "url": "https://www.aixenprovencetourism.com/en/events/christmas-in-aix-en-provence",
+   "type": "aggregator",
+   "cats": [
+    "festival",
+    "family"
+   ],
+   "region": "afield",
+   "note": "Added 2026-11-23: full dated Noël à Aix programme; fetches cleanly."
   }
  ]
 }
